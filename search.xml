@@ -4,6 +4,7 @@
     <title>Hello, I&#39;m CharonTree</title>
     <url>/p/64ba6bb7/</url>
     <content><![CDATA[<p>欢迎来到 CharonTree(@zrc4889) 的个人博客。</p>
+<span id="more"></span>
 <p>下面是一个我的简单的 JavaScript 实战。</p>
 <body onload="GetUserName()"/>
 

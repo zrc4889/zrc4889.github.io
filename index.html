@@ -379,41 +379,14 @@ mjx-container[display="true"] + br {
 
       
           <p>欢迎来到 CharonTree(@zrc4889) 的个人博客。</p>
-<p>下面是一个我的简单的 JavaScript 实战。</p>
-<body onload="GetUserName()"/>
-
-<script>
-
-function Submit()
-{
-    var key = document.getElementById("key").value;
-    // todo.. get the address by ajax..
-    location.href = "/get.html?redirect=" + key;
-}
-
-function SetUserName()
-{
-    var user = document.getElementById("user").value;
-    document.cookie = "";
-    document.cookie = "username=" + user;
-}
-
-function GetUserName()
-{
-    var x = document.cookie;
-    x = x.split('=')[1];
-    if (x == "CharonTree") x = x + " <span>[站长]<span>";
-    document.getElementById("username").innerHTML = x;
-}
-
-
-</script>
-
-<p>Link：<input id="key"></input> <button onclick="Submit()"> Submit </button></p>
-<p>User:  <input id="user"></input> <button onclick="SetUserName()"> Submit </button></p>
-<p><div id="username">
-</div></p>
-<button onclick="GetUserName()"> Get </button>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/p/64ba6bb7/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
