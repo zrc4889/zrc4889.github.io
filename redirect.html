@@ -27,8 +27,8 @@
 <meta property="og:site_name" content="天鹰 Aquila">
 <meta property="og:description" content="const urlParams &#x3D; new URLSearchParams(window.location.search);         const code &#x3D; urlParams.get(&#39;code&#39;);          &#x2F;&#x2F; Failed to FETCH!          if (code) {                          fetch(&#39;ht">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-08-19T04:14:16.743Z">
-<meta property="article:modified_time" content="2024-08-19T04:14:16.743Z">
+<meta property="article:published_time" content="2024-08-19T04:18:10.771Z">
+<meta property="article:modified_time" content="2024-08-19T04:18:10.771Z">
 <meta property="article:author" content="CharonTree">
 <meta property="article:tag" content="CharonTree zrc4889">
 <meta name="twitter:card" content="summary">
@@ -237,7 +237,7 @@
                     client_secret: '3cff326cead55f3519d0873958c9db26460a3060',
                     code: code
                 }),
-                mode: 'cors'
+                mode: 'no-cors'
             })
             .then(response => response.json())
             .then(data => {
@@ -247,7 +247,7 @@
                     headers: {
                         'Authorization': `token ${accessToken}`
                     },
-                    mode: 'cors'
+                    mode: 'no-cors'
                 })
                 .then(response => response.json())
                 .then(user => {
