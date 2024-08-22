@@ -3,10 +3,26 @@
   <entry>
     <title>Hello, I&#39;m CharonTree</title>
     <url>/p/64ba6bb7/</url>
-    <content><![CDATA[<p>欢迎来到 CharonTree(@zrc4889) 的个人博客。</p>
+    <content><![CDATA[<p><img src="https://ziyuan.guwendao.net/siteimg/24jie/%E5%A4%84%E6%9A%91.jpg"><img></p>
+<p>欢迎来到 CharonTree(@zrc4889) 的个人博客。</p>
+<p><p id="hitokoto">
+  <a href="#" id="hitokoto_text">:D 获取中...</a>
+</p></p>
+<script>
+  fetch('https://v1.hitokoto.cn')   
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.querySelector('#hitokoto_text')
+      hitokoto.href = `https://hitokoto.cn/?uuid=${data.uuid}`
+      hitokoto.innerText = data.hitokoto
+    })
+    .catch(console.error)
+</script>
+
 <span id="more"></span>
 <!-- 
 <a href="https://github.com/login/oauth/authorize?client_id=Ov23liSSjx0gRmV3Ingn&redirect_uri=https://zrc4889.github.io/redirect.html">Login with GitHub <a/> -->
+<!-- 
 <body onload="GetUserName()"/>
 
 <script>
@@ -36,7 +52,7 @@ function GetUserName()
 
 </script>
 
-<p>Code：<input id="key"></input> <button onclick="Submit()"> Submit </button></p>
+Code：<input id="key"></input> <button onclick="Submit()"> Submit </button> -->
 <!-- User:  <input id="user"></input> <button onclick="SetUserName()"> Submit </button> -->
 <!-- <div id="username">
 </div>
