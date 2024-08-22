@@ -59,6 +59,27 @@ Code：<input id="key"></input> <button onclick="Submit()"> Submit </button> -->
 <button onclick="GetUserName()"> Get </button> -->]]></content>
   </entry>
   <entry>
+    <title>博客探索的坎坷之路</title>
+    <url>/p/d40f79ae/</url>
+    <content><![CDATA[<p>这几天时常会因为捣鼓自己的博客以致于荒废了其他事务。</p>
+<p>事实上，这方面相关的技术确实是难度高且耗时大的。</p>
+<p>所以对于博客，我衷心建议大家<strong>专注于写作，而非花里胡哨的功能</strong></p>
+<p>有求必应，有需求再去添加功能。</p>
+<p>其实从小开始我也一贯如此。</p>
+<p>以前探索 Python 搭建聊天室，了解到网络编程，IIS 探索过。</p>
+<p>后来自己“速成” HTML、CSS、Javascript 手工写了一个网站（现在不知道还在不在），那已经是六年级的事情了。</p>
+<p>遇到一些数学难题也会所谓“追根溯源”。</p>
+<p>但是，按照“儒释道”的原理，人生中其实还有许许多多类似于此纷繁复杂的事情，需要我们“拿得起、放得下”。</p>
+<p>共勉。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>心路</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新计划</title>
     <url>/p/40c4accf/</url>
     <content><![CDATA[<p>大家好，我叫 CharonTree，很高兴和你做朋友！</p>
