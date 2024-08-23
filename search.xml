@@ -1,175 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2023年5月3日Blog</title>
-    <url>/p/d403639d/</url>
-    <content><![CDATA[<p>本周加更一次短的。这次博客是一次新的尝试。抛弃了以往前言正文尾声的模板式博客。开始学习 joy 大佬的博客。</p>
+    <title>闲谈 Atcoder Beginner Contest 300</title>
+    <url>/p/d7f2a536/</url>
+    <content><![CDATA[<p>同步发布于洛谷博客。</p>
 <span id="more"></span>
-<h2 id="复盘"><a href="#复盘" class="headerlink" title="复盘"></a>复盘</h2><p>本三月、四月大事记复盘。</p>
-<p>23.3.1 春三月</p>
-<p>23.3.12《下一棵树》，CharonTree 建立。</p>
-<p>23.3.21 春分</p>
-<p>23.4.5 清明，宅家很好玩。</p>
-<p>23.4.9 英语校内趣配音比赛。</p>
-<p>23.4.17 期中考试（19th）</p>
-<p>23 年五一，前三天集训，第四天出游，第五天写作业。</p>
-<h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><ul>
-<li>着手处理学习问题。重点建立完整学习体系。</li>
-</ul>
-<p>不管从 OI 角度，whk 角度，初升高角度以及 MO 角度，建立学习体系都是极其重要的。</p>
-<p>在 2023 年寒假中，那一本书给了我很大的启发。（2023 年寒假实际上是开启了一个新篇章，它在 23.3.12 正式地被完善，多元化，坚固的，不会被摧毁的，会吸收精华的。）</p>
-<p>如今我正在研究如何建立错题本体系。我们把一些人不堪的事情，一步一步做好，自然高一层。</p>
-<p>虽然可能没办法在期末考试前，已然还有两个月，但是感觉是不够的，至少花下半年。而且明年的境况还不得预测。</p>
-<p>至少现在有夏日加成，状态会更好点吧。</p>
-<ul>
-<li>决战今夏，延续精神。夏天是每一个中国孩子富有意义的一个季节。</li>
-</ul>
-<p>所有的所有，一切的一切都在夏天。但是这也引出一个致命的问题。如何建立自我完善自我修复的系统。一马平川的平原上谁都可以走的舒服，但在峡谷中只有勇者才能攀登。</p>
-<p>还有一些前两个月的话，暂且通过这种方式摆出来吧。</p>
-<ul>
-<li><p>时间不够效率来凑。</p>
-</li>
-<li><p>我们是朋友，不需要以“您”来称呼。</p>
-</li>
-<li><p>君子生非异也，善假于物也。</p>
-</li>
-<li><p>下一棵树。你可以做到的！CharonTree！</p>
-</li>
-<li><p>他给你留下什么了吗？什么都没有。但是我们是伟大的。</p>
-</li>
-<li><p>任何时候的前兆我们都无法预测，唯有当下做好诊断分析预防。才能避免误入歧途。</p>
-</li>
-<li><p>世界上没有全对的思想。</p>
-</li>
-<li><p>…</p>
-</li>
-</ul>
-<h2 id="祝福"><a href="#祝福" class="headerlink" title="祝福"></a>祝福</h2><p>明天是五四青年节。也是五一结束的第一天上学。愿我们有个美好的明天，美好的未来，有一片属于自己的海阔天空！</p>
-<p>敬礼：</p>
-<ul>
-<li><p>tree_one_</p>
-</li>
-<li><p>lzq</p>
-</li>
-<li><p>FOISC2022</p>
-</li>
-<li><p>2022.6.1《明天会更好》</p>
-</li>
-<li><p>2022.5.29 合照</p>
-</li>
-<li><p>2022.8.16 好友生日</p>
-</li>
-<li><p>2022.8.13 熬夜OI日</p>
-</li>
-<li><p>2022.9.18 CSP初赛日</p>
-</li>
-<li><p>2022.10.24 橙名日</p>
-</li>
-<li><p>2022.11.11 回归日！</p>
-</li>
-<li><p>2022.2~4 拯救时</p>
-</li>
-<li><p>2022.3 与 2022.4 两个失败的计划以及为5、6做下的铺垫。</p>
-</li>
-<li><p>致敬我的父母，我的书本，我的同学，我敬爱的老师，我所迷恋的相互鼓励者，还有CharonTree。</p>
-</li>
-</ul>
-<p>致敬 CharonTree！</p>
-]]></content>
+<h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><p>读入 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="4.42ex" height="2.059ex" role="img" focusable="false" viewBox="0 -716 1953.7 910"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(750,0)"><path data-c="2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path></g><g data-mml-node="mi" transform="translate(1194.7,0)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></g></g></g></svg></mjx-container>，数组里面查找一遍 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="6.18ex" height="1.805ex" role="img" focusable="false" viewBox="0 -716 2731.4 798"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(972.2,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(1972.4,0)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></g></g></g></svg></mjx-container>。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> _ = <span class="hljs-number">114514</span>;<br><span class="hljs-type">int</span> num[_];<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-comment">// start here..</span><br><br>    <span class="hljs-type">int</span> n, a, b;<br>    cin &gt;&gt; n &gt;&gt; a &gt;&gt; b;<br><br>    <span class="hljs-type">int</span> res = a + b;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>    {<br>        cin &gt;&gt; num[i];<br>    }<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>    {<br>        <span class="hljs-keyword">if</span> (num[i] == res)<br>        {<br>            cout &lt;&lt; i &lt;&lt; endl;<br>            <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>        }<br>    }<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></table></figure>
+<h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><p>赛时没做出来，看到大模拟头就晕。</p>
+<p>一眼数据范围，很小，直接大胆点用暴力。</p>
+<p>把矩阵 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.697ex" height="1.62ex" role="img" focusable="false" viewBox="0 -716 750 716"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g></g></g></svg></mjx-container> 所有的偏移情况处理出来，一一与 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.717ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 759 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></g></g></g></svg></mjx-container> 做对比。（时间爆炸，但是能过）</p>
+<p>还学到了一种特殊的 Flag 方式。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> _ = <span class="hljs-number">31</span>;<br><span class="hljs-type">int</span> n, m;<br><span class="hljs-type">char</span> a[_][_], b[_][_];<br><span class="hljs-type">char</span> t[_];<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">left_bound</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-built_in">memset</span>(t, <span class="hljs-number">0</span>, <span class="hljs-keyword">sizeof</span> t);<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>        t[j] = a[<span class="hljs-number">1</span>][j];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt; n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            a[i][j] = a[i + <span class="hljs-number">1</span>][j];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>        a[n][j] = t[j];<br>    <span class="hljs-keyword">return</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">up_bound</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-built_in">memset</span>(t, <span class="hljs-number">0</span>, <span class="hljs-keyword">sizeof</span> t);<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        t[i] = a[i][<span class="hljs-number">1</span>];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt; m; ++j)<br>            a[i][j] = a[i][j + <span class="hljs-number">1</span>];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        a[i][m] = t[i];<br>    <span class="hljs-keyword">return</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">judge</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            <span class="hljs-keyword">if</span> (a[i][j] != b[i][j])<br>                <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;<br>    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-comment">// start here..</span><br>    cin &gt;&gt; n &gt;&gt; m;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            cin &gt;&gt; a[i][j];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            cin &gt;&gt; b[i][j];<br><br>    <span class="hljs-type">int</span> ans = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>    {<br>        <span class="hljs-built_in">left_bound</span>();<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>        {<br>            <span class="hljs-built_in">up_bound</span>();<br>            <br>            ans |= <span class="hljs-built_in">judge</span>();<br>        }<br>    }<br><br>    cout &lt;&lt; (ans == <span class="hljs-number">1</span> ? <span class="hljs-string">"Yes"</span> : <span class="hljs-string">"No"</span>) &lt;&lt; endl;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></table></figure>
+<h3 id="KeyPoints"><a href="#KeyPoints" class="headerlink" title="KeyPoints"></a>KeyPoints</h3><p>Flag 的定义与使用。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> flag = <span class="hljs-number">0</span>; <span class="hljs-comment">// 定义一个 Flag，也可以是布尔。</span><br>...<br>   ...<br>   	flag |= <span class="hljs-built_in">check</span>(); <span class="hljs-comment">// 与条件做或运算，check 返回 bool</span><br>    <br>cout &lt;&lt; (flag == <span class="hljs-number">0</span> : <span class="hljs-string">""</span> : <span class="hljs-string">""</span>) &lt;&lt; endl; <span class="hljs-comment">// 对应三目的输出</span><br></code></pre></td></tr></table></figure>
+<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><p>细节很多的一道搜索题目。</p>
+<p>估计是我做的太复杂了，但是喜悦感是有的。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> _ = <span class="hljs-number">101</span>;<br><span class="hljs-type">char</span> a[_][_];<br><span class="hljs-type">bool</span> vis[_][_];<br><span class="hljs-type">int</span> s[_];<br><span class="hljs-type">int</span> n, m;<br><br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">check_map</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> i)</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">return</span> (<span class="hljs-number">1</span> &lt;= x - i &amp;&amp; x + i &lt;= n &amp;&amp; <span class="hljs-number">1</span> &lt;= y - i &amp;&amp; y + i &lt;= m);<br>}<br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">check_char</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> i)</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">return</span> (a[x + i][y + i] == <span class="hljs-string">'#'</span> &amp;&amp; a[x - i][y - i] == <span class="hljs-string">'#'</span> &amp;&amp; a[x + i][y - i] == <span class="hljs-string">'#'</span> &amp;&amp; a[x - i][y + i] == <span class="hljs-string">'#'</span>);<br>}<br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">check_vis</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> i)</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">return</span> (!vis[x + i][y + i] &amp;&amp; !vis[x - i][y - i] &amp;&amp; !vis[x + i][y - i] &amp;&amp; !vis[x - i][y + i]);<br>}<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">dfs</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y)</span></span><br><span class="hljs-function"></span>{<br>    queue&lt;pair&lt;<span class="hljs-type">int</span>, <span class="hljs-type">int</span>&gt;&gt; q;<br>    <span class="hljs-comment">// vis[x][y] = 1;</span><br>    <span class="hljs-type">int</span> lvl = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= <span class="hljs-number">101</span>; ++i)<br>    {<br>        <span class="hljs-comment">// 左上 x - i, y + i</span><br>        <span class="hljs-comment">// 右上 x + i, y + i</span><br>        <span class="hljs-comment">// 左下 x - i, y - i</span><br>        <span class="hljs-comment">// 右下 x + i, y - i</span><br>        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">check_map</span>(x, y, i) &amp;&amp; <span class="hljs-built_in">check_char</span>(x, y, i))<br>        {<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x - i, y - i));<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x + i, y - i));<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x + i, y + i));<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x - i, y + i));<br>        }<br>        <span class="hljs-keyword">else</span><br>            <span class="hljs-keyword">break</span>;<br>        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">check_map</span>(x, y, i) &amp;&amp; <span class="hljs-built_in">check_char</span>(x, y, i) &amp;&amp; <span class="hljs-built_in">check_vis</span>(x, y, i))<br>            lvl++;<br>        <span class="hljs-keyword">else</span><br>        {<br>            lvl = i - <span class="hljs-number">1</span>;<br>            <span class="hljs-keyword">break</span>;<br>        }<br>    }<br>    s[lvl]++;<br>    <span class="hljs-keyword">if</span> (lvl != <span class="hljs-number">0</span>)<br>        vis[x][y] = <span class="hljs-number">1</span>;<br>    <span class="hljs-keyword">while</span> (!q.<span class="hljs-built_in">empty</span>())<br>    {<br>        <span class="hljs-keyword">auto</span> tmp = q.<span class="hljs-built_in">front</span>();<br>        q.<span class="hljs-built_in">pop</span>();<br>        vis[tmp.first][tmp.second] = <span class="hljs-number">1</span>;<br>    }<br>    <span class="hljs-comment">// for (int i = 1; i &lt;= n; ++i)</span><br>    <span class="hljs-comment">// {</span><br>    <span class="hljs-comment">//     for (int j = 1; j &lt;= m; ++j)</span><br>    <span class="hljs-comment">//         cout &lt;&lt; vis[i][j] &lt;&lt; ' ';</span><br>    <span class="hljs-comment">//     cout &lt;&lt; endl;</span><br>    <span class="hljs-comment">// }</span><br>    <span class="hljs-comment">// cout &lt;&lt; endl;</span><br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-comment">// start here..</span><br><br>    cin &gt;&gt; n &gt;&gt; m;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            cin &gt;&gt; a[i][j];<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            <span class="hljs-keyword">if</span> (a[i][j] == <span class="hljs-string">'#'</span>)<br>            {<br>                <span class="hljs-comment">// if (i == 2 &amp;&amp; j == 2)</span><br>                <span class="hljs-built_in">dfs</span>(i, j);<br>            }<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= <span class="hljs-built_in">min</span>(n, m); ++i)<br>        cout &lt;&lt; s[i] &lt;&lt; <span class="hljs-string">' '</span>;<br><br>    cout &lt;&lt; endl;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>THINK</category>
+        <category>Atcoder</category>
       </categories>
       <tags>
-        <tag>日记</tag>
-        <tag>回忆</tag>
+        <tag>OI</tag>
+        <tag>Atcoder</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
-    <title>2023年5月1日Blog</title>
-    <url>/p/962664e0/</url>
-    <content><![CDATA[<p>五一假期快乐！</p>
+    <title>中秋十五日</title>
+    <url>/p/a2d1b2e9/</url>
+    <content><![CDATA[<p>“斫去桂婆娑，人道是，清光更多。”</p>
 <span id="more"></span>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>这几天刚刚用 Github 建了自己第一个独立的博客。也算是博客园两周年纪念了。</p>
-<p>经过一天的研究已经初步上线了评论系统，访问统计之类的东西了。现在还在内测阶段，等正式发布的时候把链接挂在洛谷博客，那时候估计洛谷博客的文章会迁移过去。</p>
-<p>由于跟洛谷本站没有直接的入口不太常注意到，一般遵循每周日更新维护一次，届时会同步洛谷博客。不会像博客园那样只做个备份了。</p>
-<p>实际上之前也有研究过gh-hexo独立博客的，只不过那时候太小了不会做又不会维护。现在不像以前那样废弃了。你看这洛谷博客不也建设的很好吗，哈哈哈。</p>
-<p>这几天高中的数学、物理书拿到手了。高中的集合论有点入迷，正好看了几篇。阅读前言，对数学，乃至所有学科的学习方式都有了新的理解。</p>
-<p>Blue进度飞速，一周之内已经从#7赶到#11了。预计下周还要增长。（这周生病了，身体原因）</p>
-<p>勤学早八下的东西现在先主攻一次函数，Blue第三本也有一次函数。九年级的慢着等暑假做。</p>
-<p>下一棵树真的好感动啊（指我的网易云歌单）。也不知道为啥最近迷恋于网易云，只是听歌而已。网易云2019-09-15注册的号，我从此开启了我人生中的互联网之旅了。（虽然2018年寒假（9岁）搞了个微信公众号？）</p>
-<p>上周期中的成绩都出来了。历史86.5奇奇怪怪炸飞了，还没来得及去问，病了。</p>
-<p>语文作文损失惨重，因为改卷的原因整整丢了10分。（10分呐！！！！未折算的！！！加上去至少前10年段！！！）</p>
-<p>数学还是差了点，一定要尽力向上，（不苛求140）只是尽力向上，敢学敢问。</p>
-<p>物理只能继续保持，据说这次挺简单，但是我是真的尽力了，考试的时候还以为我妈在我旁边（她与物理有很大的关系，是她帮我的）。</p>
-<p>英语有点跌，作文出问题，记得所有的框都写上，不要漏了。短文填词又是farm farmer farmers 跟 minute 一个错点，一定要多加重视，中考也必考。听力有bug，吃亏了。</p>
-<p>道法只能说终于学明白了，后半学期开始难一定要脚踏实地，敢学敢问，知不足自反，知困而自强。还有答题的时候的一些技巧。老师这些笔记都帮我批注在答题卡里面了。</p>
-<p>地理没问题（95），生物没问题（88）。因为老师们自然会帮忙。</p>
-<p>我爸目前语文的目标是要将我提上130.（先上120）.首要的是文言文，文言文文章平时做一定要逐字翻译。探究平时学课本现代文一定是领悟情感，还要总结情感。领悟技法，一定要实践技法。做文言文阅读的时候总结题型，避免考试现场组织模板。</p>
-<p>压轴作文多是旁征博引，句句有理，密而不疏。（因为读后感，演讲稿开始偏一轮了，可能对我有优势，但是记叙文依然不能落下）。平时阅读的习惯，要参考一些阅读方法。引用如果不会的话直接参考课内文章，效果实际上很惊艳的。</p>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>本文同步发布于新博客。</p>
-<p>好感动啊上次tsy主动发我q（错乱</p>
+<hr>
+<p>自从初赛考完之后，便进入了农历八月。</p>
+<p>一直等着初赛成绩出来，实际上也不是非常的急。</p>
+<p>反而“初赛成绩”成了几个好友之间为数不多的话题，以至于见面都谈一口。</p>
+<p>上周晚自习终于解放了。回家就只带一个水杯，骑车骑得很舒服。</p>
+<p>而且作业效率超高，总是能留下来一点时间。但是晚自习后回家再去学习就没那么多劲儿了。</p>
+<p>初五那天，去晚自习的路上恰是月挂西天。蛾眉似弦，好像要弹出音波的弯弓。</p>
+<p><strong>“地面会脏，而天空永远明净。”</strong></p>
+<hr>
+<p>这几天班里总是有点不安定的感觉。</p>
+<p>新教二班和六班的英语女老师吹着二班之好，六班之差。</p>
+<p>前排几个不太会读书的嚷嚷着厉害，说什么“畜生班级”。</p>
+<p>晚自习吵到段长找上门来。</p>
+<p>班主任有次单独找出我来谈论升学的事情，我谈到我想追求的一个好的学习环境，班主任就仿佛求着我提出什么可以改进的地方一样。我礼貌的留下一句：</p>
+<p>“老师您管理的很好，不过这件事情我想等到高中再说，谢谢。”</p>
+<hr>
+<p>月儿不知道何事，他就是逐渐圆了起来。</p>
+<p>明明每个农历月都有溯、有望，为何世人偏爱中秋月？</p>
+<p>既然能在晚自习路上遇到月亮，如果中秋节那天晚自习回来边走边赏月多好啊。</p>
+<p>“但是中秋节不上课你可以吹着空调、喝着饮料，<strong>和朋友一起赏月</strong>。”</p>
+<p>上周日晚上因为补作业，很晚才睡，觉得有点焦虑。</p>
+<p>因为实在睡不着就和父亲聊了一会儿天。他说。</p>
+<p><strong>“不要患得患失。有所得必有所失。”</strong></p>
+<p>我记得小学做语文阅读题也有这样“患得患失”的字眼，想不到如今终于明白了。</p>
+<p>我们要清楚有所得，必有所失。我们常常注重于自己失去什么，比别人怎样差。不说所谓“换位思考”，清醒的认识到<strong>自我价值</strong>永远是屹立于自我的一大动力。</p>
+<hr>
+<p>去学校的路上必定会经过一个叫人民广场的广场。</p>
+<p><strong>我啊，常常像个照相机一样。同样的地点，总是喜欢怀旧。</strong></p>
+<p>去 NOIP 2021 的时候，那天恰逢初一运动会，就冒着雨和一群现在已经高一高二的学长来这里来做核酸。</p>
+<p>县里颁大奖的时候，也在人民广场后面的人民大会堂里去。</p>
+<p><strong>那里都是精英。</strong></p>
+<p>如今那里模仿了个什么地摊经济，不觉得晚上有多么辉煌，只知道早上我路过的时候臭气熏天。</p>
+<p>旺得高很早就开始做中秋活动，想考高中想疯了，每天看到的都是：</p>
+<p>“旺得<strong>高中</strong>秋礼盒”</p>
+<hr>
+<p>这几天又采访了我祖父，听闻他在补假牙前，也是满口乱牙。</p>
+<p>如今这事情便解释的通了，就一句话。</p>
+<p>“我是无辜的。”</p>
+<p>这件事情是感性的，但我是个理性主义者，便不会触动太多，现实就是如此。</p>
+<p>我大概可以概括成这样。</p>
+<p>“长得不算丑，脸还不算黑，齿真不算斜，话还讲的清。和爹一样帅。”</p>
+<p>用之前班主任说我一句话就是。</p>
+<p>“这样家庭的孩子咋会有病呢哈哈哈。”</p>
+<p>中秋放假回家路上，碰见个估计酒足饭饱的人，走在街上打嗝还嘶哑着拉长恶心的声音。像极了我妈。语文课刚学了《论教养》，我只能说这真没教养。</p>
+<p>父亲给我取名时，据说是看历史上许多名人烈士名字里都带有“琛”字，就也寄与我这个字了，就是如此，所以但凡上过初中的人都懂读我名字。</p>
+<hr>
+<p>十二十三，眼前就是中秋十五。</p>
+<p>冰箱里好像长出了月饼，拿去送同学老师！</p>
+<p>农历八月十三那天晚上晚自习刚刚下课。看见走廊上好多人在看不算圆的月亮。我从西边的教室出来，依然是走“高处更有胜景”的东楼梯。</p>
+<p>“哇，你好啊。琛。”</p>
+<p>“哇，你好啊。骞。”</p>
+<p>“哇，月饼！”</p>
+<p>“这样吧，月饼送你。”</p>
+<p>“哇，真的吗。明天我请你吃蛋黄酥。”</p>
+<p>然后楼梯上来的时候，碰见现任历史老师，脑回路好像短路了，就说。</p>
+<p>“哇，老师好。”</p>
+<p>“好…”（有点不明白随便回了一句的感觉）</p>
+<hr>
+<p>十四下午上三节课放学，门口好多好多人。</p>
+<p>有一些老师领导在门口拍照，喜气洋洋的样子。</p>
+<p>寄宿高中生回家，有的在打电话，有的在等车，有的在装行李。</p>
+<p>恰好碰见初一初二分别教政治历史两位老师，恰好包里有两份一模一样的月饼，恰好她们是好姐妹！</p>
+<p>然后月饼送出去啦，收获了从未听见过在校门口如此响亮而来自老师的。</p>
+<p>“谢谢！”</p>
+<hr>
+<p>中秋十五日就到此为止了。</p>
+<p>“不要患得患失”，“保持乐观主义”，“凝聚自我价值”。</p>
 ]]></content>
       <categories>
-        <category>THINK</category>
+        <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>日记</tag>
-        <tag>心情</tag>
-        <tag>学习方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023年5月13日Blog</title>
-    <url>/p/fc9e2db8/</url>
-    <content><![CDATA[<h2 id="复盘"><a href="#复盘" class="headerlink" title="复盘"></a>复盘</h2><p>这周没什么大事记。感觉五月心情好很多。不知道问什么心情会受天气影响。</p>
-<span id="more"></span>
-<p>短暂的休息期又开始进入自律啦！</p>
-<p>生物老师上课时的几句话：</p>
-<p>“够自信，够努力。”</p>
-<p>“人是为自己而活。”</p>
-<p>“多做自己喜欢的兴趣。爱写书法写书法，爱运动去运动，爱音乐弹弹琴唱唱歌。”</p>
-<p>“初中学习没需要什么智力，自律才是。”</p>
-<p>这周很勤劳。找了政治老师历史老师问了期中的卷子，也有了提升的方向。英语老师依然是热聊对象。</p>
-<p>地理生物是很值得努力的。</p>
-]]></content>
-      <categories>
-        <category>THINK</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023年6月10日Blog</title>
-    <url>/p/cfdb4695/</url>
-    <content><![CDATA[<h2 id="复盘"><a href="#复盘" class="headerlink" title="复盘"></a>复盘</h2><p>差不多一个月没写博客了，简单回顾一下。</p>
-<p>这几天心情都不错，有时候下雨有时候出太阳。</p>
-<span id="more"></span>
-<p>今天下午午睡30分钟精神好很多。</p>
-<p>不知道为什么路过高考考场的时候有种莫名的压抑感。</p>
-<p>语文这个东西阅读是非常重要的，我最近在读《钢铁是怎样炼成的》，我还想读更多的书。</p>
-<p>我想这个暑假去练书法，或者继续弹《唐璜的回忆》，那首曲子真的让我痴迷。</p>
-<p>5.26是我生日，邀请了好多小伙伴，过的很开心。还和tsy一起跑步！</p>
-<p>6.2下午考完也去跑步啦。</p>
-<p>最近几天放假都是早六早七，晚七这样，好有成就感！</p>
-<p>6.7 MC 1.20 发布了！</p>
-<p>每天晚上的福利也让我感觉很好。</p>
-<h2 id="事务"><a href="#事务" class="headerlink" title="事务"></a>事务</h2><p>明天要去学校上课。上午还要打GESP，最近请假可能会多一点。</p>
-<p>本来下午还要去上自己的补习班，太可恶了还要去上课。</p>
-<p>然后第24周就是完整的一周，好像也没什么特殊的。我想是这周开始中高强度的复习，第25周舒缓一点准备中考+期末考，安安稳稳过一个端午。</p>
-<p>打算在暑假全面提升自我，但我深知不能急于求成。</p>
-<p>这方面的东西等以后的博客再说吧！</p>
-<h2 id="OI-现状"><a href="#OI-现状" class="headerlink" title="OI 现状"></a>OI 现状</h2><p>说好高考期间尽力去打OI了，前两天学校内地理生物集体优生聚集复习，第三天晚上抽了一个半小时只搞懂了一个题目，第四天晚上去写书法（学校征集的）。</p>
-<p>纵观剩下半个月好像也没什么时间。打算在FOISC2023之前，也就是7.1~7.8，开中高强度的OI模式。如果幸运的话FOISC2023还能遇到joy大佬哈哈哈哈。</p>
-<h2 id="最后的一句话"><a href="#最后的一句话" class="headerlink" title="最后的一句话"></a>最后的一句话</h2><p>厚积薄发，博观进取。</p>
-]]></content>
-      <categories>
-        <category>THINK</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>心情</tag>
+        <tag>心路</tag>
+        <tag>补档</tag>
       </tags>
   </entry>
   <entry>
@@ -400,165 +335,8 @@
 </blockquote>
 ]]></content>
       <tags>
+        <tag>补档</tag>
         <tag>迁移</tag>
-        <tag>补档</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>闲谈 Atcoder Beginner Contest 300</title>
-    <url>/p/d7f2a536/</url>
-    <content><![CDATA[<p>同步发布于洛谷博客。</p>
-<span id="more"></span>
-<h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><p>读入 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="4.42ex" height="2.059ex" role="img" focusable="false" viewBox="0 -716 1953.7 910"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(750,0)"><path data-c="2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path></g><g data-mml-node="mi" transform="translate(1194.7,0)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></g></g></g></svg></mjx-container>，数组里面查找一遍 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="6.18ex" height="1.805ex" role="img" focusable="false" viewBox="0 -716 2731.4 798"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g><g data-mml-node="mo" transform="translate(972.2,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mi" transform="translate(1972.4,0)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></g></g></g></svg></mjx-container>。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> _ = <span class="hljs-number">114514</span>;<br><span class="hljs-type">int</span> num[_];<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-comment">// start here..</span><br><br>    <span class="hljs-type">int</span> n, a, b;<br>    cin &gt;&gt; n &gt;&gt; a &gt;&gt; b;<br><br>    <span class="hljs-type">int</span> res = a + b;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>    {<br>        cin &gt;&gt; num[i];<br>    }<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>    {<br>        <span class="hljs-keyword">if</span> (num[i] == res)<br>        {<br>            cout &lt;&lt; i &lt;&lt; endl;<br>            <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>        }<br>    }<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></table></figure>
-<h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><p>赛时没做出来，看到大模拟头就晕。</p>
-<p>一眼数据范围，很小，直接大胆点用暴力。</p>
-<p>把矩阵 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.697ex" height="1.62ex" role="img" focusable="false" viewBox="0 -716 750 716"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path></g></g></g></svg></mjx-container> 所有的偏移情况处理出来，一一与 <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.717ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 759 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></g></g></g></svg></mjx-container> 做对比。（时间爆炸，但是能过）</p>
-<p>还学到了一种特殊的 Flag 方式。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> _ = <span class="hljs-number">31</span>;<br><span class="hljs-type">int</span> n, m;<br><span class="hljs-type">char</span> a[_][_], b[_][_];<br><span class="hljs-type">char</span> t[_];<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">left_bound</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-built_in">memset</span>(t, <span class="hljs-number">0</span>, <span class="hljs-keyword">sizeof</span> t);<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>        t[j] = a[<span class="hljs-number">1</span>][j];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt; n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            a[i][j] = a[i + <span class="hljs-number">1</span>][j];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>        a[n][j] = t[j];<br>    <span class="hljs-keyword">return</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">up_bound</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-built_in">memset</span>(t, <span class="hljs-number">0</span>, <span class="hljs-keyword">sizeof</span> t);<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        t[i] = a[i][<span class="hljs-number">1</span>];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt; m; ++j)<br>            a[i][j] = a[i][j + <span class="hljs-number">1</span>];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        a[i][m] = t[i];<br>    <span class="hljs-keyword">return</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">judge</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            <span class="hljs-keyword">if</span> (a[i][j] != b[i][j])<br>                <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;<br>    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-comment">// start here..</span><br>    cin &gt;&gt; n &gt;&gt; m;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            cin &gt;&gt; a[i][j];<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            cin &gt;&gt; b[i][j];<br><br>    <span class="hljs-type">int</span> ans = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>    {<br>        <span class="hljs-built_in">left_bound</span>();<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>        {<br>            <span class="hljs-built_in">up_bound</span>();<br>            <br>            ans |= <span class="hljs-built_in">judge</span>();<br>        }<br>    }<br><br>    cout &lt;&lt; (ans == <span class="hljs-number">1</span> ? <span class="hljs-string">"Yes"</span> : <span class="hljs-string">"No"</span>) &lt;&lt; endl;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></table></figure>
-<h3 id="KeyPoints"><a href="#KeyPoints" class="headerlink" title="KeyPoints"></a>KeyPoints</h3><p>Flag 的定义与使用。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> flag = <span class="hljs-number">0</span>; <span class="hljs-comment">// 定义一个 Flag，也可以是布尔。</span><br>...<br>   ...<br>   	flag |= <span class="hljs-built_in">check</span>(); <span class="hljs-comment">// 与条件做或运算，check 返回 bool</span><br>    <br>cout &lt;&lt; (flag == <span class="hljs-number">0</span> : <span class="hljs-string">""</span> : <span class="hljs-string">""</span>) &lt;&lt; endl; <span class="hljs-comment">// 对应三目的输出</span><br></code></pre></td></tr></table></figure>
-<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><p>细节很多的一道搜索题目。</p>
-<p>估计是我做的太复杂了，但是喜悦感是有的。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> _ = <span class="hljs-number">101</span>;<br><span class="hljs-type">char</span> a[_][_];<br><span class="hljs-type">bool</span> vis[_][_];<br><span class="hljs-type">int</span> s[_];<br><span class="hljs-type">int</span> n, m;<br><br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">check_map</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> i)</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">return</span> (<span class="hljs-number">1</span> &lt;= x - i &amp;&amp; x + i &lt;= n &amp;&amp; <span class="hljs-number">1</span> &lt;= y - i &amp;&amp; y + i &lt;= m);<br>}<br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">check_char</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> i)</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">return</span> (a[x + i][y + i] == <span class="hljs-string">'#'</span> &amp;&amp; a[x - i][y - i] == <span class="hljs-string">'#'</span> &amp;&amp; a[x + i][y - i] == <span class="hljs-string">'#'</span> &amp;&amp; a[x - i][y + i] == <span class="hljs-string">'#'</span>);<br>}<br><span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">check_vis</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> i)</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-keyword">return</span> (!vis[x + i][y + i] &amp;&amp; !vis[x - i][y - i] &amp;&amp; !vis[x + i][y - i] &amp;&amp; !vis[x - i][y + i]);<br>}<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">dfs</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y)</span></span><br><span class="hljs-function"></span>{<br>    queue&lt;pair&lt;<span class="hljs-type">int</span>, <span class="hljs-type">int</span>&gt;&gt; q;<br>    <span class="hljs-comment">// vis[x][y] = 1;</span><br>    <span class="hljs-type">int</span> lvl = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= <span class="hljs-number">101</span>; ++i)<br>    {<br>        <span class="hljs-comment">// 左上 x - i, y + i</span><br>        <span class="hljs-comment">// 右上 x + i, y + i</span><br>        <span class="hljs-comment">// 左下 x - i, y - i</span><br>        <span class="hljs-comment">// 右下 x + i, y - i</span><br>        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">check_map</span>(x, y, i) &amp;&amp; <span class="hljs-built_in">check_char</span>(x, y, i))<br>        {<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x - i, y - i));<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x + i, y - i));<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x + i, y + i));<br>            q.<span class="hljs-built_in">push</span>(<span class="hljs-built_in">make_pair</span>(x - i, y + i));<br>        }<br>        <span class="hljs-keyword">else</span><br>            <span class="hljs-keyword">break</span>;<br>        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">check_map</span>(x, y, i) &amp;&amp; <span class="hljs-built_in">check_char</span>(x, y, i) &amp;&amp; <span class="hljs-built_in">check_vis</span>(x, y, i))<br>            lvl++;<br>        <span class="hljs-keyword">else</span><br>        {<br>            lvl = i - <span class="hljs-number">1</span>;<br>            <span class="hljs-keyword">break</span>;<br>        }<br>    }<br>    s[lvl]++;<br>    <span class="hljs-keyword">if</span> (lvl != <span class="hljs-number">0</span>)<br>        vis[x][y] = <span class="hljs-number">1</span>;<br>    <span class="hljs-keyword">while</span> (!q.<span class="hljs-built_in">empty</span>())<br>    {<br>        <span class="hljs-keyword">auto</span> tmp = q.<span class="hljs-built_in">front</span>();<br>        q.<span class="hljs-built_in">pop</span>();<br>        vis[tmp.first][tmp.second] = <span class="hljs-number">1</span>;<br>    }<br>    <span class="hljs-comment">// for (int i = 1; i &lt;= n; ++i)</span><br>    <span class="hljs-comment">// {</span><br>    <span class="hljs-comment">//     for (int j = 1; j &lt;= m; ++j)</span><br>    <span class="hljs-comment">//         cout &lt;&lt; vis[i][j] &lt;&lt; ' ';</span><br>    <span class="hljs-comment">//     cout &lt;&lt; endl;</span><br>    <span class="hljs-comment">// }</span><br>    <span class="hljs-comment">// cout &lt;&lt; endl;</span><br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>{<br>    <span class="hljs-comment">// start here..</span><br><br>    cin &gt;&gt; n &gt;&gt; m;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            cin &gt;&gt; a[i][j];<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; ++i)<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= m; ++j)<br>            <span class="hljs-keyword">if</span> (a[i][j] == <span class="hljs-string">'#'</span>)<br>            {<br>                <span class="hljs-comment">// if (i == 2 &amp;&amp; j == 2)</span><br>                <span class="hljs-built_in">dfs</span>(i, j);<br>            }<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= <span class="hljs-built_in">min</span>(n, m); ++i)<br>        cout &lt;&lt; s[i] &lt;&lt; <span class="hljs-string">' '</span>;<br><br>    cout &lt;&lt; endl;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Atcoder</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>Atcoder</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎来到我的第一篇博客</title>
-    <url>/p/17b3d7ee/</url>
-    <content><![CDATA[<p>也可以访问我的洛谷博客！</p>
-<span id="more"></span>
-<p><a href="https://luogu.com.cn/blog/zrc4889/">https://luogu.com.cn/blog/zrc4889/</a></p>
-]]></content>
-      <categories>
-        <category>站务版</category>
-      </categories>
-      <tags>
-        <tag>站务</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中秋十五日</title>
-    <url>/p/a2d1b2e9/</url>
-    <content><![CDATA[<p>“斫去桂婆娑，人道是，清光更多。”</p>
-<span id="more"></span>
-<hr>
-<p>自从初赛考完之后，便进入了农历八月。</p>
-<p>一直等着初赛成绩出来，实际上也不是非常的急。</p>
-<p>反而“初赛成绩”成了几个好友之间为数不多的话题，以至于见面都谈一口。</p>
-<p>上周晚自习终于解放了。回家就只带一个水杯，骑车骑得很舒服。</p>
-<p>而且作业效率超高，总是能留下来一点时间。但是晚自习后回家再去学习就没那么多劲儿了。</p>
-<p>初五那天，去晚自习的路上恰是月挂西天。蛾眉似弦，好像要弹出音波的弯弓。</p>
-<p><strong>“地面会脏，而天空永远明净。”</strong></p>
-<hr>
-<p>这几天班里总是有点不安定的感觉。</p>
-<p>新教二班和六班的英语女老师吹着二班之好，六班之差。</p>
-<p>前排几个不太会读书的嚷嚷着厉害，说什么“畜生班级”。</p>
-<p>晚自习吵到段长找上门来。</p>
-<p>班主任有次单独找出我来谈论升学的事情，我谈到我想追求的一个好的学习环境，班主任就仿佛求着我提出什么可以改进的地方一样。我礼貌的留下一句：</p>
-<p>“老师您管理的很好，不过这件事情我想等到高中再说，谢谢。”</p>
-<hr>
-<p>月儿不知道何事，他就是逐渐圆了起来。</p>
-<p>明明每个农历月都有溯、有望，为何世人偏爱中秋月？</p>
-<p>既然能在晚自习路上遇到月亮，如果中秋节那天晚自习回来边走边赏月多好啊。</p>
-<p>“但是中秋节不上课你可以吹着空调、喝着饮料，<strong>和朋友一起赏月</strong>。”</p>
-<p>上周日晚上因为补作业，很晚才睡，觉得有点焦虑。</p>
-<p>因为实在睡不着就和父亲聊了一会儿天。他说。</p>
-<p><strong>“不要患得患失。有所得必有所失。”</strong></p>
-<p>我记得小学做语文阅读题也有这样“患得患失”的字眼，想不到如今终于明白了。</p>
-<p>我们要清楚有所得，必有所失。我们常常注重于自己失去什么，比别人怎样差。不说所谓“换位思考”，清醒的认识到<strong>自我价值</strong>永远是屹立于自我的一大动力。</p>
-<hr>
-<p>去学校的路上必定会经过一个叫人民广场的广场。</p>
-<p><strong>我啊，常常像个照相机一样。同样的地点，总是喜欢怀旧。</strong></p>
-<p>去 NOIP 2021 的时候，那天恰逢初一运动会，就冒着雨和一群现在已经高一高二的学长来这里来做核酸。</p>
-<p>县里颁大奖的时候，也在人民广场后面的人民大会堂里去。</p>
-<p><strong>那里都是精英。</strong></p>
-<p>如今那里模仿了个什么地摊经济，不觉得晚上有多么辉煌，只知道早上我路过的时候臭气熏天。</p>
-<p>旺得高很早就开始做中秋活动，想考高中想疯了，每天看到的都是：</p>
-<p>“旺得<strong>高中</strong>秋礼盒”</p>
-<hr>
-<p>这几天又采访了我祖父，听闻他在补假牙前，也是满口乱牙。</p>
-<p>如今这事情便解释的通了，就一句话。</p>
-<p>“我是无辜的。”</p>
-<p>这件事情是感性的，但我是个理性主义者，便不会触动太多，现实就是如此。</p>
-<p>我大概可以概括成这样。</p>
-<p>“长得不算丑，脸还不算黑，齿真不算斜，话还讲的清。和爹一样帅。”</p>
-<p>用之前班主任说我一句话就是。</p>
-<p>“这样家庭的孩子咋会有病呢哈哈哈。”</p>
-<p>中秋放假回家路上，碰见个估计酒足饭饱的人，走在街上打嗝还嘶哑着拉长恶心的声音。像极了我妈。语文课刚学了《论教养》，我只能说这真没教养。</p>
-<p>父亲给我取名时，据说是看历史上许多名人烈士名字里都带有“琛”字，就也寄与我这个字了，就是如此，所以但凡上过初中的人都懂读我名字。</p>
-<hr>
-<p>十二十三，眼前就是中秋十五。</p>
-<p>冰箱里好像长出了月饼，拿去送同学老师！</p>
-<p>农历八月十三那天晚上晚自习刚刚下课。看见走廊上好多人在看不算圆的月亮。我从西边的教室出来，依然是走“高处更有胜景”的东楼梯。</p>
-<p>“哇，你好啊。琛。”</p>
-<p>“哇，你好啊。骞。”</p>
-<p>“哇，月饼！”</p>
-<p>“这样吧，月饼送你。”</p>
-<p>“哇，真的吗。明天我请你吃蛋黄酥。”</p>
-<p>然后楼梯上来的时候，碰见现任历史老师，脑回路好像短路了，就说。</p>
-<p>“哇，老师好。”</p>
-<p>“好…”（有点不明白随便回了一句的感觉）</p>
-<hr>
-<p>十四下午上三节课放学，门口好多好多人。</p>
-<p>有一些老师领导在门口拍照，喜气洋洋的样子。</p>
-<p>寄宿高中生回家，有的在打电话，有的在等车，有的在装行李。</p>
-<p>恰好碰见初一初二分别教政治历史两位老师，恰好包里有两份一模一样的月饼，恰好她们是好姐妹！</p>
-<p>然后月饼送出去啦，收获了从未听见过在校门口如此响亮而来自老师的。</p>
-<p>“谢谢！”</p>
-<hr>
-<p>中秋十五日就到此为止了。</p>
-<p>“不要患得患失”，“保持乐观主义”，“凝聚自我价值”。</p>
-]]></content>
-      <categories>
-        <category>冬日之心</category>
-      </categories>
-      <tags>
-        <tag>补档</tag>
-        <tag>心路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>冬日之心</title>
-    <url>/p/ecb66e39/</url>
-    <content><![CDATA[<p>“愿你们都有一颗冬日之心；愿它不仅让你们懂得欣赏冬日之美，也促使你们取思考时间、季节、轮回，去体认和接纳生命中那些无可回避的黑暗、艰难与悲伤。”</p>
-<span id="more"></span>
-<h2 id="Chapter-01"><a href="#Chapter-01" class="headerlink" title="Chapter 01 "></a>Chapter 01 </h2><p>秋风起，气温骤降。冬日的第一缕暖阳照来了。</p>
-<p>浑浑噩噩地下课，又要为准备晚自习而奔波。路过办公室，看见了熟悉的身影。</p>
-<p>他站在我平常时站在的那个老师旁边的一处地方，双手一如既往背在身后。那个老师手里玩弄着橡胶尺，恰好也是我的老师。</p>
-<p>他把头扭来扭去，余光落在我眼中时一无表情。出来后他说他被连打了八下手心。我突然想到我最后一次被打手心是在几年前我懵懂之时。</p>
-<p>他同班的同学在楼梯间也言语粗略几句。但出来后，他的身影俨然竖直、威严、孤傲。没有了帽子、没有了水杯，眉毛仍然将他的目光压的低而庄重。</p>
-<p>似乎是他第一次向我开口，就如几年前我酝酿了许久才放下心喉的话态。在路口分开时，他问我向左还是向右，我说向右，他说再见。</p>
-<p>我恍然想到如果向左，我能多和他说几句，他也能和我多说几句。可我们的路不一样，两人如此平淡的说“再见”，我已满足。</p>
-<p>2023.10.13</p>
-<h2 id="Chapter-02"><a href="#Chapter-02" class="headerlink" title="Chapter 02"></a>Chapter 02</h2><p>这几日又回暖，十一月了，很是怪异。</p>
-<p>本想着趁着周六下午四点放学的风华，赶赶到操场上赴一场热闹的运动。</p>
-<p>可是我在路口彷徨了。我想等谁，却又等不到。我想离开，看到许多人正在背着行李回家去。我分明看见，一把心锁锁住了我，让我动弹不得。</p>
-<p>他说过，我们都还是平凡的学生，还是写一些作业吧。他像是身行法则，言行合一的，因为他也因上课摸鱼被调到单一桌，罚站过。有一次机会到那里的班级听课，我看见桌上专门抠出了玩弹珠的一个洞。我想帮他捡他掉下的杯子，他推辞了。</p>
-<p>如果这杯子是我的，那么我一定会捡。</p>
-<p>似乎上了初中后，也没几次被老师与学校罚过什么。要不然也是全体受罚。可我心里在自己罚自己！</p>
-<p>我本到了停车场，看见他的车还没意外地消失，放下几吨重地书包喘了口气。“要不，回去找找看吧？”</p>
-<p>我果然回去了，逆着人流。我心想这美景，好的阳光再不珍惜就没了。我心想我要跑一圈，不够！三圈一千米，不够！五圈了，一千五百米，还是不够！十圈三千米！</p>
-<p>跑着跑着，我的袖子在风中抖动。如果他能出现，我便停下。但是到了最后我是担心我的身体，便停了下来。我本来能继续跑的。</p>
-<p>我走向沙地。沙地上有我熟悉的几位别班的同学。那人很热情，来就是看看我的单杠能力。我从来没觉得跳上一个比自己高许多的杠子会这么简单，他比我还矮。我勉强做了四个，便退让了。</p>
-<p>离开时，只觉得没找到什么，又感觉找到了什么。如果我能放下架子，真正做个普通人，那该多好。可现实中我就是个普通人。哪有什么束缚，我有我自己的爱好，我为所欲为，不受羁绊。真有点文艺复兴里“人文主义”的侧影。</p>
-<p>现实却是，“真的很糟糕”。心里打气，“明天会更好”。这就是冬日之心赋予我的力量。</p>
-<p>“杨柳岸，晓风残月。此去经年，应是良辰好景虚设。便纵有千种风情，更与何人说？”</p>
-<p>2023.11.5</p>
-]]></content>
-      <categories>
-        <category>冬日之心</category>
-      </categories>
-      <tags>
-        <tag>补档</tag>
-        <tag>心路</tag>
       </tags>
   </entry>
   <entry>
@@ -616,8 +394,44 @@
         <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>补档</tag>
         <tag>心路</tag>
+        <tag>补档</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>冬日之心</title>
+    <url>/p/ecb66e39/</url>
+    <content><![CDATA[<p>“愿你们都有一颗冬日之心；愿它不仅让你们懂得欣赏冬日之美，也促使你们取思考时间、季节、轮回，去体认和接纳生命中那些无可回避的黑暗、艰难与悲伤。”</p>
+<span id="more"></span>
+<h2 id="Chapter-01"><a href="#Chapter-01" class="headerlink" title="Chapter 01 "></a>Chapter 01 </h2><p>秋风起，气温骤降。冬日的第一缕暖阳照来了。</p>
+<p>浑浑噩噩地下课，又要为准备晚自习而奔波。路过办公室，看见了熟悉的身影。</p>
+<p>他站在我平常时站在的那个老师旁边的一处地方，双手一如既往背在身后。那个老师手里玩弄着橡胶尺，恰好也是我的老师。</p>
+<p>他把头扭来扭去，余光落在我眼中时一无表情。出来后他说他被连打了八下手心。我突然想到我最后一次被打手心是在几年前我懵懂之时。</p>
+<p>他同班的同学在楼梯间也言语粗略几句。但出来后，他的身影俨然竖直、威严、孤傲。没有了帽子、没有了水杯，眉毛仍然将他的目光压的低而庄重。</p>
+<p>似乎是他第一次向我开口，就如几年前我酝酿了许久才放下心喉的话态。在路口分开时，他问我向左还是向右，我说向右，他说再见。</p>
+<p>我恍然想到如果向左，我能多和他说几句，他也能和我多说几句。可我们的路不一样，两人如此平淡的说“再见”，我已满足。</p>
+<p>2023.10.13</p>
+<h2 id="Chapter-02"><a href="#Chapter-02" class="headerlink" title="Chapter 02"></a>Chapter 02</h2><p>这几日又回暖，十一月了，很是怪异。</p>
+<p>本想着趁着周六下午四点放学的风华，赶赶到操场上赴一场热闹的运动。</p>
+<p>可是我在路口彷徨了。我想等谁，却又等不到。我想离开，看到许多人正在背着行李回家去。我分明看见，一把心锁锁住了我，让我动弹不得。</p>
+<p>他说过，我们都还是平凡的学生，还是写一些作业吧。他像是身行法则，言行合一的，因为他也因上课摸鱼被调到单一桌，罚站过。有一次机会到那里的班级听课，我看见桌上专门抠出了玩弹珠的一个洞。我想帮他捡他掉下的杯子，他推辞了。</p>
+<p>如果这杯子是我的，那么我一定会捡。</p>
+<p>似乎上了初中后，也没几次被老师与学校罚过什么。要不然也是全体受罚。可我心里在自己罚自己！</p>
+<p>我本到了停车场，看见他的车还没意外地消失，放下几吨重地书包喘了口气。“要不，回去找找看吧？”</p>
+<p>我果然回去了，逆着人流。我心想这美景，好的阳光再不珍惜就没了。我心想我要跑一圈，不够！三圈一千米，不够！五圈了，一千五百米，还是不够！十圈三千米！</p>
+<p>跑着跑着，我的袖子在风中抖动。如果他能出现，我便停下。但是到了最后我是担心我的身体，便停了下来。我本来能继续跑的。</p>
+<p>我走向沙地。沙地上有我熟悉的几位别班的同学。那人很热情，来就是看看我的单杠能力。我从来没觉得跳上一个比自己高许多的杠子会这么简单，他比我还矮。我勉强做了四个，便退让了。</p>
+<p>离开时，只觉得没找到什么，又感觉找到了什么。如果我能放下架子，真正做个普通人，那该多好。可现实中我就是个普通人。哪有什么束缚，我有我自己的爱好，我为所欲为，不受羁绊。真有点文艺复兴里“人文主义”的侧影。</p>
+<p>现实却是，“真的很糟糕”。心里打气，“明天会更好”。这就是冬日之心赋予我的力量。</p>
+<p>“杨柳岸，晓风残月。此去经年，应是良辰好景虚设。便纵有千种风情，更与何人说？”</p>
+<p>2023.11.5</p>
+]]></content>
+      <categories>
+        <category>冬日之心</category>
+      </categories>
+      <tags>
+        <tag>心路</tag>
+        <tag>补档</tag>
       </tags>
   </entry>
   <entry>
@@ -677,8 +491,91 @@
         <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>补档</tag>
         <tag>心路</tag>
+        <tag>补档</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最后的荣光</title>
+    <url>/p/6a6b2dfb/</url>
+    <content><![CDATA[<p>你好，我还是 zrc4889，来自福建福州<span id="more"></span>，准初三。</p>
+<p>很喜欢一句诗——“数风流人物，还看今朝”。</p>
+<p>贸然觉得开学以后大家一起卷就没意思了。虽然假期谁家开卷的消息萦绕耳中。我身处世外桃源只觉不痛不痒。如此一来甚至排斥开学——不是因为开学作业压力，而是自己独处学习的时间快用完了。</p>
+<p>话说个人独处的物质条件确实假期易于满足。但是进入学校后，同舟共济，舟子上的人要么投身群众，要么在精神上开辟出一隅深山老林。</p>
+<p>恍惚觉得许多人物都在奋身努力。像是刷题四千的大佬。我有种欲望达到如此境界。但是达到了又如何呢？现在我做题445道，也是个穷凶极恶的数字。但愿我，投身数竞数日月，归时依旧信竞少年。</p>
+<p>意志有，但是条件和时间迫在眉睫。B站上认识的一样是准初三的大佬，却已自学高中数学，高等数学。那些美丽的知识的殿堂，无时无刻不吸引着无知的我。</p>
+<p>如此以来，我便更要坚定。不要让任何人对你施加以精神控制，不要让任何人轻易地动摇你的意志。脚踏实地做好一切事情。</p>
+<p>暑假后几天也是乏味，坚持的七月给我安慰。今日终于寻得一些有意思的东西，哈哈哈。书法，阅读英语，等等都可以啊，也可以停停手上连续做了好几天的东西啊！</p>
+<p>昨夜辗转反侧未眠，月色入户，蚊虫实在是烦恼。点灯起行，就发现两件事。一是我的手臂肿了好多包，另一是，我的脑袋里竟然全是梦想。</p>
+<p>凌晨两点失眠站在窗边，十五过后几天未追上的明月悬挂在平时不凡一个位置。</p>
+<p>安心回去学文化课了。</p>
+<p>今夕是何年？我欲乘风归去，又恐琼楼玉宇！</p>
+<p>答曰：“今夕2023年。乘风归去乃君之梦想，琼楼玉宇乃触手不及。望君记得，琼楼玉宇再高，也应当‘但愿人长久，千里共婵娟。。’”。</p>
+<p>如今思绪太过混乱。文笔也满目疮痍。</p>
+<p>还是喜欢那句话 “数风流人物，还看今朝”！</p>
+<p>“此时此刻的光辉，盼君勿忘。”</p>
+<p>2023.8.4</p>
+]]></content>
+      <categories>
+        <category>冬日之心</category>
+      </categories>
+      <tags>
+        <tag>心路</tag>
+        <tag>补档</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无题</title>
+    <url>/p/9b44950b/</url>
+    <content><![CDATA[<p>现在是 2023 年 10 月 20 日。</p>
+<span id="more"></span>
+<p>明天就是 CSP - J/S 2023 第二轮复赛，我看见许多人都在互相祝愿 RP ++</p>
+<p>我的心情很沉重。</p>
+<p>世界都在劝我放弃，坚持整整三年，我用时间能够为人所知，为人所道。即使没有光鲜的荣誉。</p>
+<p>有的人可以拿到省一然后亮丽地展现在什么颁奖台上做特殊发言，冲入重点班然后升级。可是我做不到。</p>
+<p>做不到就是做不到，能力还是不够。时间却已经是浪费了。但是，我却忍受着精神和肉体上的双重折磨。后来又说“天将降大任”，便释然了。</p>
+<p>明天就是复赛，一决胜负的一日。</p>
+<hr>
+<p>我天生如此。悲惨中磨练出坚强来，冷眼中不息着热情。乐观，却又悲于自己的处境。至于表现出来又“理还乱”，不如说成乐观主义，消沉在幻梦中，呼吸着一点微弱的氧气的火焰。无欲则刚。</p>
+<hr>
+<p>我不想要所谓胜利。如果失败了，我只好回去打我的 AtCoder，也无需再等到出头亮相之日。生活一般般，仅此而已，知足常乐。</p>
+]]></content>
+      <categories>
+        <category>冬日之心</category>
+      </categories>
+      <tags>
+        <tag>心路</tag>
+        <tag>补档</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的暑假总结</title>
+    <url>/p/c19eecef/</url>
+    <content><![CDATA[<p>中考考完有一周的时间，其实我也不知道我做了什么。</p>
+<span id="more"></span>
+<p>然后是毕业典礼，太平淡，很难受。</p>
+<p>接着是十三天高强度的初高衔接。</p>
+<p>后面回家，又过了十二天早起看网课学习。</p>
+<p>台风来了，气压比较低，状态不是很好，大部分时间在阅读。</p>
+<p>高中非正式报道，一直到开始集中学习前都在玩。</p>
+<p>开始集中学习了，到现在，有点累。</p>
+<p>总之整个暑假都比较平淡的，现在反而翘首冬日之心的冬至了。</p>
+<p>夏天真无聊。</p>
+<p>也许二二年夏天是我攀登的最高峰，众所周知最高峰过后就下坡了。</p>
+<p>后面起起伏伏，更像是平原，有时有山谷，有时有断崖，但都没有登顶。</p>
+<p>忽然发现身边人都不错，高中两百四名以内上 211，我基本如此。</p>
+<p>从今以后，做一个普通人，一个不凡的我。陌生人，我祝你幸福。</p>
+<p>而我只愿面朝大海，春暖花开…</p>
+<p>2024.8.14 即兴。</p>
+]]></content>
+      <categories>
+        <category>冬日之心Ⅱ</category>
+      </categories>
+      <tags>
+        <tag>暑假</tag>
+        <tag>总结</tag>
+        <tag>即兴</tag>
+        <tag>流水账</tag>
       </tags>
   </entry>
   <entry>
@@ -713,32 +610,8 @@
         <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>补档</tag>
         <tag>心路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无题</title>
-    <url>/p/9b44950b/</url>
-    <content><![CDATA[<p>现在是 2023 年 10 月 20 日。</p>
-<span id="more"></span>
-<p>明天就是 CSP - J/S 2023 第二轮复赛，我看见许多人都在互相祝愿 RP ++</p>
-<p>我的心情很沉重。</p>
-<p>世界都在劝我放弃，坚持整整三年，我用时间能够为人所知，为人所道。即使没有光鲜的荣誉。</p>
-<p>有的人可以拿到省一然后亮丽地展现在什么颁奖台上做特殊发言，冲入重点班然后升级。可是我做不到。</p>
-<p>做不到就是做不到，能力还是不够。时间却已经是浪费了。但是，我却忍受着精神和肉体上的双重折磨。后来又说“天将降大任”，便释然了。</p>
-<p>明天就是复赛，一决胜负的一日。</p>
-<hr>
-<p>我天生如此。悲惨中磨练出坚强来，冷眼中不息着热情。乐观，却又悲于自己的处境。至于表现出来又“理还乱”，不如说成乐观主义，消沉在幻梦中，呼吸着一点微弱的氧气的火焰。无欲则刚。</p>
-<hr>
-<p>我不想要所谓胜利。如果失败了，我只好回去打我的 AtCoder，也无需再等到出头亮相之日。生活一般般，仅此而已，知足常乐。</p>
-]]></content>
-      <categories>
-        <category>冬日之心</category>
-      </categories>
-      <tags>
         <tag>补档</tag>
-        <tag>心路</tag>
       </tags>
   </entry>
   <entry>
@@ -802,37 +675,8 @@
         <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>补档</tag>
         <tag>心路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最后的荣光</title>
-    <url>/p/6a6b2dfb/</url>
-    <content><![CDATA[<p>你好，我还是 zrc4889，来自福建福州<span id="more"></span>，准初三。</p>
-<p>很喜欢一句诗——“数风流人物，还看今朝”。</p>
-<p>贸然觉得开学以后大家一起卷就没意思了。虽然假期谁家开卷的消息萦绕耳中。我身处世外桃源只觉不痛不痒。如此一来甚至排斥开学——不是因为开学作业压力，而是自己独处学习的时间快用完了。</p>
-<p>话说个人独处的物质条件确实假期易于满足。但是进入学校后，同舟共济，舟子上的人要么投身群众，要么在精神上开辟出一隅深山老林。</p>
-<p>恍惚觉得许多人物都在奋身努力。像是刷题四千的大佬。我有种欲望达到如此境界。但是达到了又如何呢？现在我做题445道，也是个穷凶极恶的数字。但愿我，投身数竞数日月，归时依旧信竞少年。</p>
-<p>意志有，但是条件和时间迫在眉睫。B站上认识的一样是准初三的大佬，却已自学高中数学，高等数学。那些美丽的知识的殿堂，无时无刻不吸引着无知的我。</p>
-<p>如此以来，我便更要坚定。不要让任何人对你施加以精神控制，不要让任何人轻易地动摇你的意志。脚踏实地做好一切事情。</p>
-<p>暑假后几天也是乏味，坚持的七月给我安慰。今日终于寻得一些有意思的东西，哈哈哈。书法，阅读英语，等等都可以啊，也可以停停手上连续做了好几天的东西啊！</p>
-<p>昨夜辗转反侧未眠，月色入户，蚊虫实在是烦恼。点灯起行，就发现两件事。一是我的手臂肿了好多包，另一是，我的脑袋里竟然全是梦想。</p>
-<p>凌晨两点失眠站在窗边，十五过后几天未追上的明月悬挂在平时不凡一个位置。</p>
-<p>安心回去学文化课了。</p>
-<p>今夕是何年？我欲乘风归去，又恐琼楼玉宇！</p>
-<p>答曰：“今夕2023年。乘风归去乃君之梦想，琼楼玉宇乃触手不及。望君记得，琼楼玉宇再高，也应当‘但愿人长久，千里共婵娟。。’”。</p>
-<p>如今思绪太过混乱。文笔也满目疮痍。</p>
-<p>还是喜欢那句话 “数风流人物，还看今朝”！</p>
-<p>“此时此刻的光辉，盼君勿忘。”</p>
-<p>2023.8.4</p>
-]]></content>
-      <categories>
-        <category>冬日之心</category>
-      </categories>
-      <tags>
         <tag>补档</tag>
-        <tag>心路</tag>
       </tags>
   </entry>
   <entry>
@@ -895,8 +739,41 @@
         <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>补档</tag>
         <tag>心路</tag>
+        <tag>补档</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>而今迈步从头越</title>
+    <url>/p/10fd68ca/</url>
+    <content><![CDATA[<p>炎热的八月，同样是《冬日之心》开始更新的时期。<span id="more"></span></p>
+<p>回收往事，发现从初一寒假到初二升初三暑假，《THINK》专栏记录了我绝大部分平凡的生活。后来又有《冬日之心》间断式的记录，一直到今年新年。</p>
+<p>信念是我又在线下自己做了一本《2024 甲辰龙年 年度事记》做到今年四月份没坚持下去，四月份空挡一个月，五月份又在自己的“生活追踪本”上持续记录至今。</p>
+<p>做 todo 习惯一直从去年新年坚持到现在为止，真是感动于过去的自己。</p>
+<p>初升高暑假，我的心情很平静，“去信息化”就是积极夺回线下生活的表现。QQ 全关了，但是当了班长 QQ 时不时被轰炸，压力山大。这篇文章的发表，也算是在新博客的第一次发表。回首中考完后的《夏至公示》，真是忍俊不禁，因而已经设置私有了。</p>
+<p>后面，最主要的目标，还是活下去，不要寻死。接着再做好本职工作，勤劳能干。而后再为自己的生活添砖加瓦。暑假来，朋友们都没怎么联系，我的心境基本很平静，平静地像跌入谷底。仿佛有个声音告诉我：“前面的路，以后你自己探索吧。”</p>
+<p>实在苦恼，也不想像记叙文范式一样欲扬先抑地写我的随笔。但是表达三大段还是意未尽。实验班今年龙腾虎跃，而我已经无缘实验班了。从今以后，做一个普通人，做好自己的事，享受拥有，珍惜生命。</p>
+<p>生于己丑六十诞，千万同辈我愁满。</p>
+<p>小学坎坷不须谈，乘机“偷渡”来城关。</p>
+<p>城关公立第一校，第一之后还第一。</p>
+<p>第一第二何须有，从此泯然众人矣！</p>
+<p>写一首五音不全的诗，恍然畅达了。高中生了，马上要成年了，要学会负责了。我何去何从呢。大学目标差不多个一本就够了，虽然我也不知道自己的高中实力，初二初三起也会像个农民打理农田一样来塑造自我、积极上进，但我的心境就认为我只是个中等生了。好像如果我考不好，心理也是释然。但谁知道我行不行？如果三年之后我考上哈尔滨工业大学这所985，或者福州大学这所211，还是哪个一本，不要谴责我，我生性如此。</p>
+<p>学子乘风来蟾宫，状元及第应无我。</p>
+<p>我本农家三代传，五中一跃至一中。</p>
+<p>家母已愁千白发，瘦面更添老虎威。</p>
+<p>家父事务多如毛，为子心切力愿出。</p>
+<p>愿出何时事学业，望我倾心续家业。</p>
+<p>倾心可勿为死心，但若人空事无无。</p>
+<p>暂借佛家近息心，摒除杂念行善事。</p>
+<p>诗写不好，诸位见笑了。再见了我的过去，再见了我的老朋友，老朋友若以新朋友出现，那我将恭迎贤兄！谢谢！</p>
+<p>2024.8.4<br>CharonTree（@zrc4889）</p>
+]]></content>
+      <categories>
+        <category>冬日之心Ⅱ</category>
+      </categories>
+      <tags>
+        <tag>心路</tag>
+        <tag>抒情</tag>
       </tags>
   </entry>
   <entry>
@@ -929,38 +806,91 @@
         <category>冬日之心</category>
       </categories>
       <tags>
-        <tag>补档</tag>
         <tag>心路</tag>
+        <tag>补档</tag>
       </tags>
   </entry>
   <entry>
-    <title>我的暑假总结</title>
-    <url>/p/c19eecef/</url>
-    <content><![CDATA[<p>中考考完有一周的时间，其实我也不知道我做了什么。</p>
+    <title>欢迎来到我的第一篇博客</title>
+    <url>/p/17b3d7ee/</url>
+    <content><![CDATA[<p>也可以访问我的洛谷博客！</p>
 <span id="more"></span>
-<p>然后是毕业典礼，太平淡，很难受。</p>
-<p>接着是十三天高强度的初高衔接。</p>
-<p>后面回家，又过了十二天早起看网课学习。</p>
-<p>台风来了，气压比较低，状态不是很好，大部分时间在阅读。</p>
-<p>高中非正式报道，一直到开始集中学习前都在玩。</p>
-<p>开始集中学习了，到现在，有点累。</p>
-<p>总之整个暑假都比较平淡的，现在反而翘首冬日之心的冬至了。</p>
-<p>夏天真无聊。</p>
-<p>也许二二年夏天是我攀登的最高峰，众所周知最高峰过后就下坡了。</p>
-<p>后面起起伏伏，更像是平原，有时有山谷，有时有断崖，但都没有登顶。</p>
-<p>忽然发现身边人都不错，高中两百四名以内上 211，我基本如此。</p>
-<p>从今以后，做一个普通人，一个不凡的我。陌生人，我祝你幸福。</p>
-<p>而我只愿面朝大海，春暖花开…</p>
-<p>2024.8.14 即兴。</p>
+<p><a href="https://luogu.com.cn/blog/zrc4889/">https://luogu.com.cn/blog/zrc4889/</a></p>
+]]></content>
+      <categories>
+        <category>站务版</category>
+      </categories>
+      <tags>
+        <tag>站务</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新计划</title>
+    <url>/p/40c4accf/</url>
+    <content><![CDATA[<p>大家好，我叫 CharonTree，很高兴和你做朋友！</p>
+<span id="more"></span>
+<p>日月光华，岁回律转。夏至之后，太阳就马不停蹄地“落山”，越过赤道，轻吻南回归线了。一年前的这时候，我在洛谷博客上定每月发布一篇《冬日之心》系列地文章，每一篇都记叙或抒情了对应时期的内容。如今也成为了宝贵的回忆。</p>
+<p>事实上，无论什么体裁，初中三年，我从作业记录本到笔记本，笔记本后换到了线上 Notion，又回归纸质单页的Todo，后来重新复兴为生活学习工作一体化的追踪本，无一不记录着我的足迹。为此我值得自豪。</p>
+<p>但是现在，我想暂时停下，来续写一些过去的事情。</p>
+<p>与原来的《冬日之心》不一样的是，《冬日之心Ⅱ》更侧重于回忆录系列，而非一时的抒情。</p>
+<!-- 下面是我预计文章的安排。 -->
+<!-- - 初来乍到（2021.7 ~ 2021.11）
+
+- 第一冬日（2021.12 ~ 2022.2）
+
+- 春暖花开（2022.3 ~ 2022.6）
+
+- “巅峰”时刻（2022.7 ~ 2022.10）
+
+- 疫情时代（2022.10.24 ~ 2022.12）
+
+- 至暗时刻（2023.1 ~ 2023.2）
+
+- 又是一年春夏（2023.3 ~ 2023.6）
+
+- 哀我心（2023.7 ~ 2023.10）
+
+- 第二冬日（2023.11 ~ 2024.2）
+
+- 再见了（2024.2 末 ~ 2024.3 初）
+
+- 红星计划（2024.3.12 ~ 2024.4 底）
+
+- 最后冲刺（2024.5 ~ 2024.6）
+
+- 战后迷惘（2024.7 ~ 2024.8） -->
+<p>预计共 13 篇，文题并非实际发布文题。</p>
+<p>因为是回忆录，难免有一时想不起来的事，为此，我一方面着手编写回忆录，且一旦想到就立刻补充。</p>
+<p>共勉！</p>
 ]]></content>
       <categories>
         <category>冬日之心Ⅱ</category>
       </categories>
       <tags>
-        <tag>暑假</tag>
-        <tag>总结</tag>
-        <tag>即兴</tag>
-        <tag>流水账</tag>
+        <tag>抒情</tag>
+        <tag>随心</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客探索的坎坷之路</title>
+    <url>/p/d40f79ae/</url>
+    <content><![CDATA[<p>这几天时常会因为捣鼓自己的博客以致于荒废了其他事务。</p>
+<span id="more"></span>
+<p>事实上，这方面相关的技术确实是难度高且耗时大的。</p>
+<p>所以对于博客，我衷心建议大家<strong>专注于写作，而非花里胡哨的功能</strong></p>
+<p>有求必应，有需求再去添加功能。</p>
+<p>其实从小开始我也一贯如此。</p>
+<p>以前探索 Python 搭建聊天室，了解到网络编程，IIS 探索过。</p>
+<p>后来自己“速成” HTML、CSS、Javascript 手工写了一个网站（现在不知道还在不在），那已经是六年级的事情了。</p>
+<p>遇到一些数学难题也会所谓“追根溯源”。</p>
+<p>但是，按照“儒释道”的原理，人生中其实还有许许多多类似于此纷繁复杂的事情，需要我们“拿得起、放得下”。</p>
+<p>共勉。</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>心路</tag>
       </tags>
   </entry>
   <entry>
@@ -1004,107 +934,8 @@
         <category>冬日之心</category>
       </categories>
       <tags>
+        <tag>心路</tag>
         <tag>补档</tag>
-        <tag>心路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新计划</title>
-    <url>/p/40c4accf/</url>
-    <content><![CDATA[<p>大家好，我叫 CharonTree，很高兴和你做朋友！</p>
-<span id="more"></span>
-<p>日月光华，岁回律转。夏至之后，太阳就马不停蹄地“落山”，越过赤道，轻吻南回归线了。一年前的这时候，我在洛谷博客上定每月发布一篇《冬日之心》系列地文章，每一篇都记叙或抒情了对应时期的内容。如今也成为了宝贵的回忆。</p>
-<p>事实上，无论什么体裁，初中三年，我从作业记录本到笔记本，笔记本后换到了线上 Notion，又回归纸质单页的Todo，后来重新复兴为生活学习工作一体化的追踪本，无一不记录着我的足迹。为此我值得自豪。</p>
-<p>但是现在，我想暂时停下，来续写一些过去的事情。</p>
-<p>与原来的《冬日之心》不一样的是，《冬日之心Ⅱ》更侧重于回忆录系列，而非一时的抒情。</p>
-<!-- 下面是我预计文章的安排。 -->
-<!-- - 初来乍到（2021.7 ~ 2021.11）
-
-- 第一冬日（2021.12 ~ 2022.2）
-
-- 春暖花开（2022.3 ~ 2022.6）
-
-- “巅峰”时刻（2022.7 ~ 2022.10）
-
-- 疫情时代（2022.10.24 ~ 2022.12）
-
-- 至暗时刻（2023.1 ~ 2023.2）
-
-- 又是一年春夏（2023.3 ~ 2023.6）
-
-- 哀我心（2023.7 ~ 2023.10）
-
-- 第二冬日（2023.11 ~ 2024.2）
-
-- 再见了（2024.2 末 ~ 2024.3 初）
-
-- 红星计划（2024.3.12 ~ 2024.4 底）
-
-- 最后冲刺（2024.5 ~ 2024.6）
-
-- 战后迷惘（2024.7 ~ 2024.8） -->
-<p>预计共 13 篇，文题并非实际发布文题。</p>
-<p>因为是回忆录，难免有一时想不起来的事，为此，我一方面着手编写回忆录，且一旦想到就立刻补充，另一方面坚持学习鲁迅先生那样写日记。</p>
-<p>共勉！</p>
-]]></content>
-      <categories>
-        <category>冬日之心Ⅱ</category>
-      </categories>
-      <tags>
-        <tag>抒情</tag>
-        <tag>随心</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>而今迈步从头越</title>
-    <url>/p/10fd68ca/</url>
-    <content><![CDATA[<p>炎热的八月，同样是《冬日之心》开始更新的时期。<span id="more"></span>回收往事，发现从初一寒假到初二升初三暑假，《THINK》专栏记录了我绝大部分平凡的生活。后来又有《冬日之心》间断式的记录，一直到今年新年。信念是我又在线下自己做了一本《2024 甲辰龙年 年度事记》做到今年四月份没坚持下去，四月份空挡一个月，五月份又在自己的“生活追踪本”上持续记录至今。做 todo 习惯一直从去年新年坚持到现在为止，真是感动于过去的自己。</p>
-<p>初升高暑假，我的心情很平静，“去信息化”就是积极夺回线下生活的表现。QQ 全关了，但是当了班长 QQ 时不时被轰炸，压力山大。这篇文章的发表，也算是在新博客的第一次发表。回首中考完后的《夏至公示》，真是忍俊不禁，因而已经设置私有了。</p>
-<p>后面，最主要的目标，还是活下去，不要寻死。接着再做好本职工作，勤劳能干。而后再为自己的生活添砖加瓦。暑假来，朋友们都没怎么联系，我的心境基本很平静，平静地像跌入谷底。仿佛有个声音告诉我：“前面的路，以后你自己探索吧。”</p>
-<p>实在苦恼，也不想像记叙文范式一样欲扬先抑地写我的随笔。但是表达三大段还是意未尽。实验班今年龙腾虎跃，而我已经无缘实验班了。从今以后，做一个普通人，做好自己的事，享受拥有，珍惜生命。</p>
-<p>生于己丑六十诞，千万同辈我愁满。</p>
-<p>小学坎坷不须谈，乘机“偷渡”来城关。</p>
-<p>城关公立第一校，第一之后还第一。</p>
-<p>第一第二何须有，从此泯然众人矣！</p>
-<p>写一首五音不全的诗，恍然畅达了。高中生了，马上要成年了，要学会负责了。我何去何从呢。大学目标差不多个一本就够了，虽然我也不知道自己的高中实力，初二初三起也会像个农民打理农田一样来塑造自我、积极上进，但我的心境就认为我只是个中等生了。好像如果我考不好，心理也是释然。但谁知道我行不行？如果三年之后我考上哈尔滨工业大学这所985，或者福州大学这所211，还是哪个一本，不要谴责我，我生性如此。</p>
-<p>学子乘风来蟾宫，状元及第应无我。</p>
-<p>我本农家三代传，五中一跃至一中。</p>
-<p>家母已愁千白发，瘦面更添老虎威。</p>
-<p>家父事务多如毛，为子心切力愿出。</p>
-<p>愿出何时事学业，望我倾心续家业。</p>
-<p>倾心可勿为死心，但若人空事无无。</p>
-<p>暂借佛家近息心，摒除杂念行善事。</p>
-<p>诗写不好，诸位见笑了。再见了我的过去，再见了我的老朋友，老朋友若以新朋友出现，那我将恭迎贤兄！谢谢！</p>
-<p>2024.8.4<br>CharonTree（@zrc4889）</p>
-]]></content>
-      <categories>
-        <category>冬日之心Ⅱ</category>
-      </categories>
-      <tags>
-        <tag>心路</tag>
-        <tag>抒情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客探索的坎坷之路</title>
-    <url>/p/d40f79ae/</url>
-    <content><![CDATA[<p>这几天时常会因为捣鼓自己的博客以致于荒废了其他事务。</p>
-<span id="more"></span>
-<p>事实上，这方面相关的技术确实是难度高且耗时大的。</p>
-<p>所以对于博客，我衷心建议大家<strong>专注于写作，而非花里胡哨的功能</strong></p>
-<p>有求必应，有需求再去添加功能。</p>
-<p>其实从小开始我也一贯如此。</p>
-<p>以前探索 Python 搭建聊天室，了解到网络编程，IIS 探索过。</p>
-<p>后来自己“速成” HTML、CSS、Javascript 手工写了一个网站（现在不知道还在不在），那已经是六年级的事情了。</p>
-<p>遇到一些数学难题也会所谓“追根溯源”。</p>
-<p>但是，按照“儒释道”的原理，人生中其实还有许许多多类似于此纷繁复杂的事情，需要我们“拿得起、放得下”。</p>
-<p>共勉。</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>心路</tag>
       </tags>
   </entry>
 </search>
