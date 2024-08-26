@@ -192,8 +192,9 @@ function essay()
                 e.appendChild(p)
                 e.appendChild(t)
                 e.appendChild(h)
-
-                document.getElementById('essay').appendChild(e)
+                
+                if (document.getElementById('essay') != undefined)
+                    document.getElementById('essay').appendChild(e)
                 
             }
 
