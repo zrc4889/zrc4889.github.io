@@ -1,5 +1,13 @@
+function entrance()
+{
+    console.log('Javascript Entrance Loaded Successfully.')// 获取父元素
+    badge()
+    essay()
+}
+
 function badge()
 {
+    console.log('Personal Badge Loaded Successfully.')
 
     var title = document.getElementsByClassName("navbar-brand")[0];
 
@@ -9,7 +17,7 @@ function badge()
     var year = d.getFullYear()
 
     var Lunar = lunarFun.gregorianToLunal(year, month, date)
-    var Lyear = Lunar[0];
+    // var Lyear = Lunar[0];
     var Lmonth = Lunar[1];
     var Ldate = Lunar[2];
 
@@ -18,7 +26,23 @@ function badge()
     var badge = document.createElement("strong");
     
     // todo.. 生肖
-    // todo.. 时间段而不是时间点
+
+    // 季节
+
+    if (month >= 3 && month <= 5)
+        badge.innerHTML = " · 春";
+    
+    if (month >= 6 && month <= 8)
+        badge.innerHTML = " · 夏";
+
+    if (month >= 9 && month <= 11)
+        badge.innerHTML = " · 秋"
+
+    if (month >= 12 && month <= 2)
+        badge.innerHTML = " · 冬"
+    
+
+    // 公历跨年限定
 
     if (month == 12 && date >= 27)
     {
@@ -27,11 +51,13 @@ function badge()
     }
 
     if (month == 1 && date <= 3)
-        // 元旦
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
         badge.innerHTML = " · Hello " + year + "!";
     }
+
+
+    // 节日
 
     if (month == 3)
         // 植树节
@@ -41,7 +67,7 @@ function badge()
     }
 
     if (month == 4 && month == 9)
-     {
+    {
         badge.style.color = "rgba(255, 255, 0, 0.7)"
         badge.innerHTML = " · 空山新雨后";
     }   
@@ -80,6 +106,19 @@ function badge()
         badge.innerHTML = " · 冬日之心❄️"
     }
 
+    if (Lmonth == 12)
+    {   
+        if (Ldate >= 20) 
+        {
+            var alpha = 1.0 - (30.0 - Ldate) / 10.0
+            badge.style.color = "rgba(255, 0, 0, " + alpha +")"
+        }
+        if (30 - Ldate == 0)
+            badge.innerHTML = " · 除夕"
+        else
+            badge.innerHTML = " · 新年倒计时 " + 30 - Ldate + " 天";
+    }
+
     if (Lmonth == 1 && Ldate <= 7)
         // 春节
         // 生肖 todo
@@ -91,7 +130,7 @@ function badge()
     if (Lmonth == 1 && date == 15)
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
-        badge.innerHTML = " · 上元🏮";
+        badge.innerHTML = " · 上元🏮元宵";
     }
 
     if (Lmonth == 4 && Ldate == 4)
@@ -105,23 +144,18 @@ function badge()
         // 中秋
     {
         badge.style.color = "rgba(255, 255, 0, 0.7)"
-        badge.innerHTML = " · 中秋🌕";
+        badge.innerHTML = " · 中秋🌕月圆";
     }
 
     // 插入新元素
     title.appendChild(badge);
-
 }
 
-function entrance()
-{
-    console.log('Personal Javascript Loaded Successfully.')// 获取父元素
-    badge()
-}
 
 function essay()
 {
     // Get Json
+    console.log('Personal Essay Loaded Successfully.')
 
     $.ajax({
         type: 'get',
@@ -130,8 +164,43 @@ function essay()
         success: function(data)
         {
             console.log(data)
+
+            var say = data[0]
+            // var author = say['author']
+            var list = say['essay_list']
+
+            for (var i = 0; i < list.length; i ++)
+            {
+
+                // var a = document.createElement("strong")
+                // if (list[i].author == undefined)
+                //     a.innerHTML = author
+                // else
+                //     a.innerHTML = list[i].author
+                
+                var p = document.createElement("p")
+                p.innerHTML = list[i].content
+
+                var t = document.createElement("sup")
+                t.innerHTML = list[i].date
+
+                var h = document.createElement("hr")
+
+                var e = document.createElement("div")
+
+                // e.appendChild(a)
+                e.appendChild(p)
+                e.appendChild(t)
+                e.appendChild(h)
+
+                document.getElementById('essay').appendChild(e)
+                
+            }
+
+            console.log(list[1].author)
         }
     }) 
-
+    
+    
 
 }
