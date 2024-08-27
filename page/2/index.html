@@ -443,9 +443,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -513,9 +513,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -583,9 +583,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -653,9 +653,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -723,9 +723,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -793,9 +793,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -863,9 +863,9 @@ mjx-container[display="true"] + br {
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
-            
               <a href="../../tags/%E8%A1%A5%E6%A1%A3/">#补档</a>
+            
+              <a href="../../tags/%E5%BF%83%E8%B7%AF/">#心路</a>
             
           </div>
         
@@ -1127,13 +1127,13 @@ mjx-container[display="true"] + br {
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://v1.hitokoto.cn/',
+          url: 'https://v2.jinrishici.com/one.json',
           headers: {},
           dataType: 'json',
           success: function(result) {
             var apiText;
             if (result) {
-              var keys = 'hitokoto'.split(',');
+              var keys = 'data,content'.split(',');
               if (result instanceof Array) {
                 result = result[0];
               }
@@ -1151,7 +1151,7 @@ mjx-container[display="true"] + br {
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://v1.hitokoto.cn/:', error);
+              console.error('Failed to request https://v2.jinrishici.com/one.json:', error);
             }
             typing(text);
           }
