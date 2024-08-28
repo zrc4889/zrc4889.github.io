@@ -1,13 +1,14 @@
 function entrance()
 {
-    console.log('Javascript Entrance Loaded Successfully.')// 获取父元素
+    console.log('Custom Javascript: Entrance Loaded Successfully.')// 获取父元素
     badge()
     essay()
+    newPost()
 }
 
 function badge()
 {
-    console.log('Personal Badge Loaded Successfully.')
+    console.log('Custom Javascript: Module Badge Loaded Successfully.')
 
     var title = document.getElementsByClassName("navbar-brand")[0];
 
@@ -151,11 +152,24 @@ function badge()
     title.appendChild(badge);
 }
 
+function newPost()
+{
+    console.log('Custom Javascript: Module New Post Note Loaded Successfully.')
+
+    var p = document.getElementsByClassName("index-header")[0]; // The Newest
+    
+    var n = document.createElement("sup")
+    n.style.color = "orange";
+    n.innerHTML = "[最新]"
+    
+    p.appendChild(n)
+}
+
 
 function essay()
 {
     // Get Json
-    console.log('Personal Essay Loaded Successfully.')
+    console.log('Custom Javascript: Module Essay Loaded Successfully.')
 
     $.ajax({
         type: 'get',
