@@ -154,15 +154,16 @@ function badge()
 
 function newPost()
 {
-    console.log('Custom Javascript: Module New Post Note Loaded Successfully.')
+    console.log('Custom Javascript: Module New Post Note Unload.')
+    // console.log('Custom Javascript: Module New Post Note Loaded Successfully.')
 
-    var p = document.getElementsByClassName("index-header")[0]; // The Newest
+    // var p = document.getElementsByClassName("index-header")[0]; // The Newest
     
-    var n = document.createElement("sup")
-    n.style.color = "orange";
-    n.innerHTML = "[最新]"
+    // var n = document.createElement("sup")
+    // n.style.color = "orange";
+    // n.innerHTML = "New"
     
-    p.appendChild(n)
+    // p.appendChild(n)
 }
 
 
