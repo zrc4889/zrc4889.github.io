@@ -4,6 +4,7 @@ function entrance()
     badge()
     essay()
     newPost()
+    update()
 }
 
 function badge()
@@ -166,6 +167,52 @@ function newPost()
     // p.appendChild(n)
 }
 
+function update()
+{
+    console.log('Custom Javascript: Module Update Loaded Successfully.')
+    
+    $.ajax({
+        type: 'get',
+        datatype: 'json',
+        url: '/update.json',
+        success: function(data)
+        {
+            console.log(data)
+            for (var i = 0; i < data.length; i ++)
+            {
+                var d = data[i]
+                var v = d['version']
+                var c = d['content']
+                
+                var div = document.createElement('div')
+
+                var h2 = document.createElement('h2')
+                h2.innerHTML = v
+                
+                var hr = document.createElement('hr')
+                
+                div.appendChild(h2)
+                div.appendChild(hr)
+
+                for (var j = 0; j < c.length; j ++)
+                {
+                    var p = document.createElement('ul')
+                    p.innerHTML = c[j]
+                    div.appendChild(p)
+                }
+
+                var date = document.createElement('sup')
+                date.innerHTML = d['date'].substring(0, 10)
+                div.appendChild(date)
+
+                if (document.getElementById('update') != undefined)
+                    document.getElementById('update').appendChild(div)
+
+            }
+        }
+    })
+}
+
 
 function essay()
 {
@@ -178,7 +225,7 @@ function essay()
         url: '/essay.json',
         success: function(data)
         {
-            console.log(data)
+            // console.log(data)
 
             var say = data[0]
             // var author = say['author']
@@ -197,7 +244,9 @@ function essay()
                 p.innerHTML = list[i].content
 
                 var t = document.createElement("sup")
-                t.innerHTML = list[i].date
+                var tmp = list[i].date
+                var tmp2 = tmp.substring(0, 10)
+                t.innerHTML = tmp2
 
                 var h = document.createElement("hr")
 
@@ -213,10 +262,7 @@ function essay()
                 
             }
 
-            console.log(list[1].author)
+            // console.log(list[1].author)
         }
     }) 
-    
-    
-
 }
