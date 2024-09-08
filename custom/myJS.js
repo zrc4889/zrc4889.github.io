@@ -1,10 +1,48 @@
 function entrance()
 {
-    console.log('Custom Javascript: Entrance Loaded Successfully.')// 获取父元素
+    console.log('Custom Javascript: Entrance Loaded Successfully.')
     badge()
     essay()
     newPost()
     update()
+    // board()  
+}
+
+
+function board()
+{
+    console.log('Custom Javascript: Module Board Loaded Successfully.')
+
+    var d = new Date()
+    var date = d.getDate()
+    var month = d.getMonth() + 1
+    var year = d.getFullYear()
+
+    // var Lunar = lunarFun.gregorianToLunal(year, month, date)
+    // var Lyear = Lunar[0];
+    // var Lmonth = Lunar[1];
+    // var Ldate = Lunar[2];
+
+    var bar = document.getElementsByClassName("navbar-nav ml-auto text-center")[0];
+
+    var dis = document.createElement('li')
+    dis.className = 'nav-item'
+
+    var a = document.createElement('a')
+    a.className = 'nav-link'
+
+    var span = document.createElement('span')
+    span.innerHTML = year + '年' + month + '月' + date + '日'
+
+    a.appendChild(span)
+    dis.appendChild(a)
+    bar.appendChild(dis)
+
+    /* Example
+    div.id = 'content';
+    div.className = 'note';
+    div.innerHTML = '<p>CreateElement example</p>';
+    */
 }
 
 function badge()
@@ -177,7 +215,7 @@ function update()
         url: '/update.json',
         success: function(data)
         {
-            console.log(data)
+            // console.log(data)
             for (var i = 0; i < data.length; i ++)
             {
                 var d = data[i]
@@ -212,7 +250,6 @@ function update()
         }
     })
 }
-
 
 function essay()
 {
