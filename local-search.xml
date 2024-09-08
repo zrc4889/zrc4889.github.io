@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>让U盘成为储物柜</title>
+    <link href="/p/99ad/"/>
+    <url>/p/99ad/</url>
+    
+    <content type="html"><![CDATA[<p>如何开发一个小工具，使得输入指定的提取码获取U盘内相应文件？</p><span id="more"></span><p>由于开发需要时间，这里只构建一个蓝图。</p><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><ol><li><p>指定存储文件夹，例如 <code>F:\New\</code>。</p></li><li><p>用 <code>attrlib</code> 隐藏该文件夹下的所有文件。</p></li></ol><h2 id="存入"><a href="#存入" class="headerlink" title="存入"></a>存入</h2><ol><li><p>将文件放置至如下，<code>F:\New\1e4b\file.txt</code>. 其中，<code>\1e4b\</code> 是提取码，<code>\file.txt</code> 是示例文件。</p></li><li><p>用 <code>attrlib</code>，使得 <code>\1e4b\</code> 被隐藏。</p></li></ol><h2 id="取出"><a href="#取出" class="headerlink" title="取出"></a>取出</h2><ol><li><p>将提取码输入，该工具对文件夹名进行查找，例如 <code>1e4b</code> 定位至 <code>\1e4b\</code> 文件夹。</p></li><li><p>用 <code>attrlib</code>，使得 <code>\1e4b\</code> 被取消隐藏。</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机科学</category>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>安全</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>TheNextTree</title>
     <link href="/p/ae50/"/>
     <url>/p/ae50/</url>
@@ -223,9 +250,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>迁移</tag>
+      
+      <tag>补档</tag>
       
     </tags>
     
@@ -252,9 +279,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -281,9 +308,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -310,9 +337,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -339,9 +366,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -368,9 +395,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -397,9 +424,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -426,9 +453,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -455,9 +482,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -484,9 +511,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -513,9 +540,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
@@ -542,9 +569,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
     </tags>
     
