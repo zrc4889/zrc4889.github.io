@@ -8,7 +8,7 @@
     <link href="/p/76e7/"/>
     <url>/p/76e7/</url>
     
-    <content type="html"><![CDATA[<p>对于关于页面中的“计划更新”，本篇文章将较为详细的构想一下新功能。</p><span id="more"></span><h1 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h1><h2 id="辅助板"><a href="#辅助板" class="headerlink" title="辅助板"></a>辅助板</h2><p>使用 <code>board.js</code> 实现。</p><ol><li><p>欢迎语（用户名）与签到。</p></li><li><p>时间（农历、公历）。</p></li><li><p>倒计时（纪念日）。</p></li><li><p>最后更新时间。</p></li></ol><h2 id="状态页"><a href="#状态页" class="headerlink" title="状态页"></a>状态页</h2><p>使用 <code>status.js</code> 实现。<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="后续补充。">[1]</span></a></sup></p><p>显示最后更新时间，数据统计，概览。</p><h1 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h1><p>主要通过批处理文件实现。</p><h2 id="备份处理"><a href="#备份处理" class="headerlink" title="备份处理"></a>备份处理</h2><ol><li>文章等核心备份。</li></ol><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>后续补充。<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    <content type="html"><![CDATA[<p>对于关于页面中的“计划更新”，本篇文章将较为详细的构想一下新功能。</p><span id="more"></span><h1 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h1><h2 id="辅助板"><a href="#辅助板" class="headerlink" title="辅助板"></a>辅助板</h2><p>使用 <code>board.js</code> 实现。</p><ol><li><p>欢迎语（用户名）与签到。</p></li><li><p>时间（农历、公历）。</p></li><li><p>倒计时（纪念日）。</p></li><li><p>最后更新时间。</p></li></ol><h2 id="状态页"><a href="#状态页" class="headerlink" title="状态页"></a>状态页</h2><p>使用 <code>status.js</code> 实现。<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="后续补充。">[1]</span></a></sup></p><p>显示最后更新时间，数据统计，概览。</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>后续补充。<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
     
     
     <categories>
@@ -31,38 +31,11 @@
   
   
   <entry>
-    <title>让U盘成为储物柜</title>
-    <link href="/p/99ad/"/>
-    <url>/p/99ad/</url>
-    
-    <content type="html"><![CDATA[<p>如何开发一个小工具，使得输入指定的提取码获取U盘内相应文件？</p><span id="more"></span><p>由于开发需要时间，这里只构建一个蓝图。</p><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><ol><li><p>指定存储文件夹，例如 <code>F:\New\</code>。</p></li><li><p>用 <code>attrlib</code> 隐藏该文件夹下的所有文件。</p></li></ol><h2 id="存入"><a href="#存入" class="headerlink" title="存入"></a>存入</h2><ol><li><p>将文件放置至如下，<code>F:\New\1e4b\file.txt</code>. 其中，<code>\1e4b\</code> 是提取码，<code>\file.txt</code> 是示例文件。</p></li><li><p>用 <code>attrlib</code>，使得 <code>\1e4b\</code> 被隐藏。</p></li></ol><h2 id="取出"><a href="#取出" class="headerlink" title="取出"></a>取出</h2><ol><li><p>将提取码输入，该工具对文件夹名进行查找，例如 <code>1e4b</code> 定位至 <code>\1e4b\</code> 文件夹。</p></li><li><p>用 <code>attrlib</code>，使得 <code>\1e4b\</code> 被取消隐藏。</p></li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>计算机科学</category>
-      
-      <category>程序设计</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>安全</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>TheNextTree</title>
     <link href="/p/ae50/"/>
     <url>/p/ae50/</url>
     
-    <content type="html"><![CDATA[<h2 id="Chapter-Ⅰ"><a href="#Chapter-Ⅰ" class="headerlink" title="Chapter Ⅰ"></a>Chapter Ⅰ</h2><p>2022.10.24</p><p>在第一天拿到某OJ的橙名之后，我十分开心，以至于在早上录了一段视频，见证蜕变。</p><p>依稀记得那天下午放学回家，还没有晚自习，大约很晚了，我突然接到妈妈的电话。</p><p>“疫情又开始了，今晚回老家。”</p><p>我十分惊恐，只能在离开的最后时刻弹一会儿钢琴，《钟》。</p><p>晚上很晚到老家，已经是疲惫不堪。不幸地，因为不帮忙提东西，从上半夜一直被骂到下半夜。</p><p>太阳依旧升起，此刻归途遥遥无期。</p><h2 id="Chapter-Ⅱ"><a href="#Chapter-Ⅱ" class="headerlink" title="Chapter Ⅱ"></a>Chapter Ⅱ</h2><p>2022.10.25</p><p>钉钉上网课了，这估计是所有同学都会经历的。</p><p>早上吃的是饭团，不然是炒粉，这两样小吃我从小就爱吃。在每日清晨的核酸检测后，就开始上网课了。</p><p>英语老师由于是新来的不久，只有两个月，但是网课是我6班和2班一起上的英语课，这时我了解了很多2班的同学，真是百花齐放。</p><p>这些同学后来都考进一中了，幸运的是，我和他们高一大多分在一个班。</p><p>网课常有不便之处，前几天突然爆出疫情期间我们学校又私自上课，结果理当取消。</p><p>这期间学校发了很多的资料，我不在城关，因而无法领取。</p><p>钉钉上出于吐槽，也加了一个同学的好友，后来是我小中考的“徒弟”。</p><p>午后的时候，我会到山上的钢琴室弹钢琴。每天去上课都要爬山。</p><p>由于是网课，作业难免有不认真之处，有一次英语老师就生气了，我 exercise 分不清楚词性和用法。</p><p>后来啊，这个单词在我脑子里记得非常清楚。</p><h2 id="Chapter-Ⅲ"><a href="#Chapter-Ⅲ" class="headerlink" title="Chapter Ⅲ"></a>Chapter Ⅲ</h2><p>2022.11.1</p><p>万圣节到了。</p><p>由于 CSP2022 的取消，我意外认识了一个大佬，他建的博客我很喜欢，与此同时，我也自己捣鼓了一个，这应该算我倒数第三个博客，原来的域名还注册了一个 oierzrc.tk，挺好的，但是现在 tk 好像不能用了，原来那个大佬也迁移到 .top，尴尬的是我访问不了。</p><p>天气在进入公历十一月之后突然寒凉了很多，带回的衣服还是初秋的薄装，很是寒冷。</p><p>“盼望着，盼望着，春天来了吗。”</p><p>有一天中午上完课后，我在手搓树状数组，那天中午我是去食堂吃的饭，应该还好吧。</p><p>我还在坚持不懈的练习《钟》，原定计划是从七月份开始练一年练熟练的。</p><p>华彩（花菜）很好，我竟然也会弹了。这可能是那段时间里，我为数不多的快乐。</p><p>课程表还在不断延展…</p><h2 id="Chapter-Ⅳ"><a href="#Chapter-Ⅳ" class="headerlink" title="Chapter Ⅳ"></a>Chapter Ⅳ</h2><p>2022.11.17</p><p>这段时间内我拍了很多照片，其中就有一张“云卷云舒”的“仙境”图。</p><p>还有月食，我可兴奋了。</p><p>我还很喜欢上一班地理孙老师的课，他当时在讲黄河和长江，应该还好吧。</p><p>反倒是自己班的奇葩地理老师一句话都不说，emm…老师各有特色吧。</p><p>11月17日，细雨，核酸检测完就回到教室了，整理、重建，恍若隔世。</p><p>紧张的期中备考马上就开始了。</p><p>2022.11.30</p><p>这一天我们考了期中考，物理科是我敬爱的英语老师监考，至今记忆犹新。</p><p>这场考试我数学几何没做好，现在反观，其实了了。</p><p>大概是这附近，有一次体测我跑了 3’33’’ 的好成绩，这是我最早的满分记录。</p><p>体育中考的时候我跑了 3’20’’, 最快应该是 3’19’’.</p><p>这部分的故事，要等到后面再说了。</p><h2 id="Chapter-Ⅴ"><a href="#Chapter-Ⅴ" class="headerlink" title="Chapter Ⅴ"></a>Chapter Ⅴ</h2><p>不幸的是，经过一段升温后，随着公历十二月的临近，最后时刻卷土重来。</p><p>2022.12.13，这一天，从 2020.1 延续至今的健康码、行程卡，正式下线。</p><p>随之而来的是疫情的反弹。</p><p>2022.12.19，这一天，FIFA 卡塔尔世界杯冠军胜出，我在办公室和资料室之间奔波忙活。</p><p>我看见了好久不见的好朋友。</p><p>2022.12.22 冬至，这一天前后，我的大奶奶去世了。</p><p>公历年关的这几天很是吃力，做饭、洗碗都是自己干，白天孤独在家，晚上爸妈才回来。</p><p>降温了，一直降到 3℃，这是我在小区楼下的温度计里看的实测。</p><p>倾吐心声，这段时间数学上平行四边形，我几乎没听多少，以至于后面好累，大家千万不要学我。</p><p>2022.12.31 寒假正式开始。</p><h2 id="Chapter-Ⅵ"><a href="#Chapter-Ⅵ" class="headerlink" title="Chapter Ⅵ"></a>Chapter Ⅵ</h2><p>2023.1.2</p><p>我写下了我的第一张 to-do list。</p><p>也许是网课是我接触到了自律、学习、打卡等所谓“先进”的学习方法，随之而来的是“费曼学习法”、冥想、计划表、番茄钟等等等等许多新鲜玩意。</p><p>这个习惯，一直延续到我写这篇文章的今天。</p><p>2023.1.25</p><p>我们迎来了本世纪最早的农历新年。</p><p>气温又是很低的，尤其我又回了老家，山区里几乎是零下好几度，但没有下雪。</p><p>本以为寒假舒心过完，春季照常，但事与愿违。</p><p>2023.2</p><p>我突然发现我的身体不行了，十分自卑，但是事实就是如此。</p><blockquote><p>来自于未来的我，2024.9.7</p></blockquote><p>有一天晚上流泪了很多，一个人对着电话和爸爸说了40分钟，最后他们连夜还是赶回了家，本来他们是不在家过夜的。</p><p>谁知道，40分钟的电话费和几公里的油费究竟有多少…</p><p>后来我的心理逐渐恢复到接近正常，以至于可以正常参加期初考试（其实是补上个学期的）。</p><p>结果出来也不是很理想，但这对我的成长，已经够了。</p><h2 id="Chapter-Ⅶ"><a href="#Chapter-Ⅶ" class="headerlink" title="Chapter Ⅶ"></a>Chapter Ⅶ</h2><p>2023.3.12</p><p>植树节。</p><p>我把我的 QQ 名字改成了 CharonTree。</p><p>《Charon》，是我当时喜欢听的一首电音，至于 Tree 那就不知道为什么。</p><p>我还建了个名叫《下一棵树》的歌单，之后我时常添加喜欢的歌曲，也不断更新调整。</p><p>三月份我还买了一部运动手环，应该是 3.5 到货的，感谢我的母亲。</p><p>三月初我的英语老师叫我参加趣配音的英语比赛，原定是三月下旬，但最后一直拖到了 4.9</p><p>我总怕我做不好，没精力做，有次拖得太久了甚至被请到办公室，甚至泪眼汪汪。</p><p>但也感谢我的初二英语老师，这次之后，我便每节英语课前都跑到他的办公室门口问问题，2班刚好就在办公室门口，借此我认识了很多2班的同学。</p><p>这也构筑了我的学习方法之一，其实初三的时候也有一个这样崇敬的老师，不过那是后来的事情了。</p><p>3.21 左右，早上上物理课最后一节的时候，福州忽然有飑线经过，当时天都绿了，在昼如夜，雨如剑注。</p><p>我还在休闲的时候玩我的 MC 单机存档，总记得是那时候建的，后来发现其实 2022 年暑假就有了。</p><p>这个存档虽然还好，但却承载了我太多的情感。</p><p>“如果你感到不畅快，那就来这个存档玩一玩吧。”</p><h2 id="Chapter-Ⅷ"><a href="#Chapter-Ⅷ" class="headerlink" title="Chapter Ⅷ"></a>Chapter Ⅷ</h2><p>2023.4.30</p><p>马上是五一劳动节了，生病刚好的第一节体育课前，和父母去醉得意（一家餐馆）吃好吃的。</p><p>结果麻辣豆腐在胃里面燃烧着。</p><p>那天体育老师看在五一放假的份上让我们跑完两圈就休息。</p><p>那天夕阳正好，她坐在小树下。我们坐在被她当作讲台的国旗下。</p><p>循着国旗的日影，时光缓缓挪动…</p><p>2023.5.19</p><p>一个很好的同学去加拿大了。期中考他排名在我之上。</p><p>其实那次我考的很烂。</p><p>他离开那天还发表讲话了，第二天周六就看不见他的身影了。</p><p>我记得我还目送他到路口。</p><p>2023.5.26</p><p>十四岁生日。</p><p>请了好多朋友来家里，当时是周五，下午上地理课的时候后桌奶茶倒在我位子上了，还好没有大问题。</p><p>但是她喝的是我最爱的百香双重奏，呃呃…</p><p>下午还六一颁奖，在班里面，估计没多少人知道今天我生日，颁奖有多开心。</p><p>“待空山新雨后，放一叶小舟。载上无人问津的温柔，摆渡寻处去忘忧…”</p><p>《空山新雨后》</p><p>2023.5.30</p><p>去研学了，前桌送我一个番茄钟，可开心了，毕竟当时我可是很崇拜这样的“学习工具”的。</p><h2 id="Chapter-Ⅸ"><a href="#Chapter-Ⅸ" class="headerlink" title="Chapter Ⅸ"></a>Chapter Ⅸ</h2><p>转眼到六月了。</p><p>自己班的“班班有歌声”没选上，唱的是《有我》，跟其他班重了，全然是文艺委员的锅。</p><p>端午节学校让我们优生到新楼去自习地理生物。</p><p>现在我们在新楼的临时班级里面的希沃白板，还有我初二英语老师的账号痕迹和当时生物的一个课件。</p><p>最后，地理生物会考出来了，100+98，很理想。</p><p>最后，我初二的英语老师在讲台上评论完后2023福建中考的英语后，就再也没进过那个教室了。</p><p>最后，初三英语老师换了。</p><p>最后，还是今年三月份一个春光融融的一天，我遇见了他。</p><p>最后，这篇文章，为他，为过去，为成长，为朋友而作。</p><h2 id="Ending"><a href="#Ending" class="headerlink" title="Ending"></a>Ending</h2><p>最后放出现在我的歌单《下一棵树》，以及曾经存在过的歌曲。</p><p>部分有 VIP.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=492390949&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=408332757&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1862376787&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1343460536&height=66"></iframe><p><a href="https://music.163.com/#/song?id=1352002513">空山新雨后</a></p><p><a href="https://music.163.com/#/song?id=1989729997">我的故事未写完</a></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=8188857900&height=430"></iframe>]]></content>
+    <content type="html"><![CDATA[<h2 id="Chapter-Ⅰ"><a href="#Chapter-Ⅰ" class="headerlink" title="Chapter Ⅰ"></a>Chapter Ⅰ</h2><p>2022.10.24</p><p>在第一天拿到某OJ的橙名之后，我十分开心，以至于在早上录了一段视频，见证蜕变。</p><p>依稀记得那天下午放学回家，还没有晚自习，大约很晚了，我突然接到妈妈的电话。</p><p>“疫情又开始了，今晚回老家。”</p><p>我十分惊恐，只能在离开的最后时刻弹一会儿钢琴，《钟》。</p><p>晚上很晚到老家，已经是疲惫不堪。不幸地，因为不帮忙提东西，从上半夜一直被骂到下半夜。</p><p>太阳依旧升起，此刻归途遥遥无期。</p><h2 id="Chapter-Ⅱ"><a href="#Chapter-Ⅱ" class="headerlink" title="Chapter Ⅱ"></a>Chapter Ⅱ</h2><p>2022.10.25</p><p>钉钉上网课了，这估计是所有同学都会经历的。</p><p>早上吃的是饭团，不然是炒粉，这两样小吃我从小就爱吃。在每日清晨的核酸检测后，就开始上网课了。</p><p>英语老师由于是新来的不久，只有两个月，但是网课是我6班和2班一起上的英语课，这时我了解了很多2班的同学，真是百花齐放。</p><p>这些同学后来都考进一中了，幸运的是，我和他们高一大多分在一个班。</p><p>网课常有不便之处，前几天突然爆出疫情期间我们学校又私自上课，结果理当取消。</p><p>这期间学校发了很多的资料，我不在城关，因而无法领取。</p><p>钉钉上出于吐槽，也加了一个同学的好友，后来是我小中考的“徒弟”。</p><p>午后的时候，我会到山上的钢琴室弹钢琴。每天去上课都要爬山。</p><p>由于是网课，作业难免有不认真之处，有一次英语老师就生气了，我 exercise 分不清楚词性和用法。</p><p>后来啊，这个单词在我脑子里记得非常清楚。</p><h2 id="Chapter-Ⅲ"><a href="#Chapter-Ⅲ" class="headerlink" title="Chapter Ⅲ"></a>Chapter Ⅲ</h2><p>2022.11.1</p><p>万圣节到了。</p><p>由于 CSP2022 的取消，我意外认识了一个大佬，他建的博客我很喜欢，与此同时，我也自己捣鼓了一个，这应该算我倒数第三个博客，原来的域名还注册了一个 oierzrc.tk，挺好的，但是现在 tk 好像不能用了，原来那个大佬也迁移到 .top，尴尬的是我访问不了。</p><p>天气在进入公历十一月之后突然寒凉了很多，带回的衣服还是初秋的薄装，很是寒冷。</p><p>“盼望着，盼望着，春天来了吗。”</p><p>有一天中午上完课后，我在手搓树状数组，那天中午我是去食堂吃的饭，应该还好吧。</p><p>我还在坚持不懈的练习《钟》，原定计划是从七月份开始练一年练熟练的。</p><p>华彩（花菜）很好，我竟然也会弹了。这可能是那段时间里，我为数不多的快乐。</p><p>课程表还在不断延展…</p><h2 id="Chapter-Ⅳ"><a href="#Chapter-Ⅳ" class="headerlink" title="Chapter Ⅳ"></a>Chapter Ⅳ</h2><p>2022.11.17</p><p>这段时间内我拍了很多照片，其中就有一张“云卷云舒”的“仙境”图。</p><p>还有月食，我可兴奋了。</p><p>我还很喜欢上一班地理孙老师的课，他当时在讲黄河和长江，应该还好吧。</p><p>反倒是自己班的奇葩地理老师一句话都不说，emm…老师各有特色吧。</p><p>11月17日，细雨，核酸检测完就回到教室了，整理、重建，恍若隔世。</p><p>紧张的期中备考马上就开始了。</p><p>2022.11.30</p><p>这一天我们考了期中考，物理科是我敬爱的英语老师监考，至今记忆犹新。</p><p>这场考试我数学几何没做好，现在反观，其实了了。</p><p>大概是这附近，有一次体测我跑了 3’33’’ 的好成绩，这是我最早的满分记录。</p><p>体育中考的时候我跑了 3’20’’, 最快应该是 3’19’’.</p><p>这部分的故事，要等到后面再说了。</p><h2 id="Chapter-Ⅴ"><a href="#Chapter-Ⅴ" class="headerlink" title="Chapter Ⅴ"></a>Chapter Ⅴ</h2><p>不幸的是，经过一段升温后，随着公历十二月的临近，最后时刻卷土重来。</p><p>2022.12.13，这一天，从 2020.1 延续至今的健康码、行程卡，正式下线。</p><p>随之而来的是疫情的反弹。</p><p>2022.12.19，这一天，FIFA 卡塔尔世界杯冠军胜出，我在办公室和资料室之间奔波忙活。</p><p>我看见了好久不见的好朋友。</p><p>2022.12.22 冬至，这一天前后，我的大奶奶去世了。</p><p>公历年关的这几天很是吃力，做饭、洗碗都是自己干，白天孤独在家，晚上爸妈才回来。</p><p>降温了，一直降到 3℃，这是我在小区楼下的温度计里看的实测。</p><p>倾吐心声，这段时间数学上平行四边形，我几乎没听多少，以至于后面好累，大家千万不要学我。</p><p>2022.12.31 寒假正式开始。</p><h2 id="Chapter-Ⅵ"><a href="#Chapter-Ⅵ" class="headerlink" title="Chapter Ⅵ"></a>Chapter Ⅵ</h2><p>2023.1.2</p><p>我写下了我的第一张 to-do list。</p><p>也许是网课是我接触到了自律、学习、打卡等所谓“先进”的学习方法，随之而来的是“费曼学习法”、冥想、计划表、番茄钟等等等等许多新鲜玩意。</p><p>这个习惯，一直延续到我写这篇文章的今天。</p><p>2023.1.25</p><p>我们迎来了本世纪最早的农历新年。</p><p>气温又是很低的，尤其我又回了老家，山区里几乎是零下好几度，但没有下雪。</p><p>本以为寒假舒心过完，春季照常，但事与愿违。</p><p>2023.2</p><p>我突然发现我的身体不行了，十分自卑，但是事实就是如此。</p><blockquote><p>来自于未来的我，2024.9.7</p></blockquote><p>有一天晚上流泪了很多，一个人对着电话和爸爸说了40分钟，最后他们连夜还是赶回了家，本来他们是不在家过夜的。</p><p>谁知道，40分钟的电话费和几公里的油费究竟有多少…</p><p>后来我的心理逐渐恢复到接近正常，以至于可以正常参加期初考试（其实是补上个学期的）。</p><p>结果出来也不是很理想，但这对我的成长，已经够了。</p><h2 id="Chapter-Ⅶ"><a href="#Chapter-Ⅶ" class="headerlink" title="Chapter Ⅶ"></a>Chapter Ⅶ</h2><p>2023.3.12</p><p>植树节。</p><p>我把我的 QQ 名字改成了 CharonTree。</p><p>《Charon》，是我当时喜欢听的一首电音，至于 Tree 那就不知道为什么。</p><p>我还建了个名叫《下一棵树》的歌单，之后我时常添加喜欢的歌曲，也不断更新调整。</p><p>三月份我还买了一部运动手环，应该是 3.5 到货的，感谢我的母亲。</p><p>三月初我的英语老师叫我参加趣配音的英语比赛，原定是三月下旬，但最后一直拖到了 4.9</p><p>我总怕我做不好，没精力做，有次拖得太久了甚至被请到办公室，甚至泪眼汪汪。</p><p>但也感谢我的初二英语老师，这次之后，我便每节英语课前都跑到他的办公室门口问问题，2班刚好就在办公室门口，借此我认识了很多2班的同学。</p><p>这也构筑了我的学习方法之一，其实初三的时候也有一个这样崇敬的老师，不过那是后来的事情了。</p><p>3.21 左右，早上上物理课最后一节的时候，福州忽然有飑线经过，当时天都绿了，在昼如夜，雨如剑注。</p><p>我还在休闲的时候玩我的 MC 单机存档，总记得是那时候建的，后来发现其实 2022 年暑假就有了。</p><p>这个存档虽然还好，但却承载了我太多的情感。</p><p>“如果你感到不畅快，那就来这个存档玩一玩吧。”</p><h2 id="Chapter-Ⅷ"><a href="#Chapter-Ⅷ" class="headerlink" title="Chapter Ⅷ"></a>Chapter Ⅷ</h2><p>2023.4.30</p><p>马上是五一劳动节了，生病刚好的第一节体育课前，和父母去醉得意（一家餐馆）吃好吃的。</p><p>结果麻辣豆腐在胃里面燃烧着。</p><p>那天体育老师看在五一放假的份上让我们跑完两圈就休息。</p><p>那天夕阳正好，她坐在小树下。我们坐在被她当作讲台的国旗下。</p><p>循着国旗的日影，时光缓缓挪动…</p><p>2023.5.19</p><p>一个很好的同学去加拿大了。期中考他排名在我之上。</p><p>其实那次我考的很烂。</p><p>他离开那天还发表讲话了，第二天周六就看不见他的身影了。</p><p>我记得我还目送他到路口。</p><p>2023.5.26</p><p>十四岁生日。</p><p>请了好多朋友来家里，当时是周五，下午上地理课的时候后桌奶茶倒在我位子上了，还好没有大问题。</p><p>但是她喝的是我最爱的百香双重奏，呃呃…</p><p>下午还六一颁奖，在班里面，估计没多少人知道今天我生日，颁奖有多开心。</p><p>“待空山新雨后，放一叶小舟。载上无人问津的温柔，摆渡寻处去忘忧…”</p><p>《空山新雨后》</p><p>2023.5.30</p><p>去研学了，前桌送我一个番茄钟，可开心了，毕竟当时我可是很崇拜这样的“学习工具”的。</p><h2 id="Chapter-Ⅸ"><a href="#Chapter-Ⅸ" class="headerlink" title="Chapter Ⅸ"></a>Chapter Ⅸ</h2><p>转眼到六月了。</p><p>自己班的“班班有歌声”没选上，唱的是《有我》，跟其他班重了，全然是文艺委员的锅。</p><p>端午节学校让我们优生到新楼去自习地理生物。</p><p>现在我们在新楼的临时班级里面的希沃白板，还有我初二英语老师的账号痕迹和当时生物的一个课件。</p><p>最后，地理生物会考出来了，100+98，很理想。</p><p>最后，我初二的英语老师在讲台上评论完后2023福建中考的英语后，就再也没进过那个教室了。</p><p>最后，初三英语老师换了。</p><p>最后，还是今年三月份一个春光融融的一天，我遇见了他。</p><p>最后，这篇文章，为他，为过去，为成长，为朋友而作。</p><h2 id="Ending"><a href="#Ending" class="headerlink" title="Ending"></a>Ending</h2><p>最后放出现在我的歌单《下一棵树》，以及曾经存在过的歌曲。</p><p>部分有 VIP.</p><!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=492390949&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=408332757&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1862376787&height=66"></iframe><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1343460536&height=66"></iframe>[空山新雨后](https://music.163.com/#/song?id=1352002513)[我的故事未写完](https://music.163.com/#/song?id=1989729997) --><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=8188857900&height=430"></iframe>]]></content>
     
     
     <categories>
@@ -75,6 +48,8 @@
     
     
     <tags>
+      
+      <tag>Winter</tag>
       
       <tag>回忆</tag>
       
@@ -104,6 +79,8 @@
     
     
     <tags>
+      
+      <tag>Winter</tag>
       
       <tag>随笔</tag>
       
@@ -186,6 +163,8 @@
     
     <tags>
       
+      <tag>Winter</tag>
+      
       <tag>抒情</tag>
       
       <tag>随心</tag>
@@ -250,6 +229,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
       <tag>抒情</tag>
       
     </tags>
@@ -310,6 +291,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
     </tags>
     
   </entry>
@@ -338,6 +321,8 @@
       <tag>补档</tag>
       
       <tag>心路</tag>
+      
+      <tag>Winter</tag>
       
     </tags>
     
@@ -368,6 +353,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
     </tags>
     
   </entry>
@@ -396,6 +383,8 @@
       <tag>补档</tag>
       
       <tag>心路</tag>
+      
+      <tag>Winter</tag>
       
     </tags>
     
@@ -426,6 +415,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
     </tags>
     
   </entry>
@@ -454,6 +445,8 @@
       <tag>补档</tag>
       
       <tag>心路</tag>
+      
+      <tag>Winter</tag>
       
     </tags>
     
@@ -484,6 +477,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
     </tags>
     
   </entry>
@@ -512,6 +507,8 @@
       <tag>补档</tag>
       
       <tag>心路</tag>
+      
+      <tag>Winter</tag>
       
     </tags>
     
@@ -542,6 +539,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
     </tags>
     
   </entry>
@@ -571,6 +570,8 @@
       
       <tag>心路</tag>
       
+      <tag>Winter</tag>
+      
     </tags>
     
   </entry>
@@ -599,6 +600,8 @@
       <tag>补档</tag>
       
       <tag>心路</tag>
+      
+      <tag>Winter</tag>
       
     </tags>
     

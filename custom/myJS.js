@@ -4,7 +4,7 @@ function entrance()
     badge()
     essay()
     newPost()
-    update()
+    // update()
     // board()  
 }
 
@@ -205,51 +205,51 @@ function newPost()
     // p.appendChild(n)
 }
 
-function update()
-{
-    console.log('Custom Javascript: Module Update Loaded Successfully.')
+// function update()
+// {
+//     console.log('Custom Javascript: Module Update Loaded Successfully.')
     
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: '/update.json',
-        success: function(data)
-        {
-            // console.log(data)
-            for (var i = 0; i < data.length; i ++)
-            {
-                var d = data[i]
-                var v = d['version']
-                var c = d['content']
+//     $.ajax({
+//         type: 'get',
+//         datatype: 'json',
+//         url: '/update.json',
+//         success: function(data)
+//         {
+//             // console.log(data)
+//             for (var i = 0; i < data.length; i ++)
+//             {
+//                 var d = data[i]
+//                 var v = d['version']
+//                 var c = d['content']
                 
-                var div = document.createElement('div')
+//                 var div = document.createElement('div')
 
-                var h2 = document.createElement('h2')
-                h2.innerHTML = v
+//                 var h2 = document.createElement('h2')
+//                 h2.innerHTML = v
                 
-                var hr = document.createElement('hr')
+//                 var hr = document.createElement('hr')
                 
-                div.appendChild(h2)
-                div.appendChild(hr)
+//                 div.appendChild(h2)
+//                 div.appendChild(hr)
 
-                for (var j = 0; j < c.length; j ++)
-                {
-                    var p = document.createElement('ul')
-                    p.innerHTML = c[j]
-                    div.appendChild(p)
-                }
+//                 for (var j = 0; j < c.length; j ++)
+//                 {
+//                     var p = document.createElement('ul')
+//                     p.innerHTML = c[j]
+//                     div.appendChild(p)
+//                 }
 
-                var date = document.createElement('sup')
-                date.innerHTML = d['date'].substring(0, 10)
-                div.appendChild(date)
+//                 var date = document.createElement('sup')
+//                 date.innerHTML = d['date'].substring(0, 10)
+//                 div.appendChild(date)
 
-                if (document.getElementById('update') != undefined)
-                    document.getElementById('update').appendChild(div)
+//                 if (document.getElementById('update') != undefined)
+//                     document.getElementById('update').appendChild(div)
 
-            }
-        }
-    })
-}
+//             }
+//         }
+//     })
+// }
 
 function essay()
 {
