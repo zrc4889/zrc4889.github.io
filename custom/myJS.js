@@ -15,7 +15,7 @@ function time()
     $.ajax({
         type: 'get',
         // datatype: 'text',
-        url: '/info',
+        url: '/info.ini',
         success: function(data)
         {
             var year = data.substring(0, 4)
