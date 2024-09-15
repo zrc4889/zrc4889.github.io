@@ -14,16 +14,20 @@ function time()
     console.log('Custom Javascript: Module Time Loaded Successfully.')
     $.ajax({
         type: 'get',
-        // datatype: 'text',
-        url: '/info.ini',
+        datatype: 'json',
+        url: '/info.json',
         success: function(data)
         {
-            var year = data.substring(0, 4)
-            var month = data.substring(4, 6)
-            var day = data.substring(6, 8)
-            var hour = data.substring(9, 11)
-            var minute = data.substring(11, 13)
-            var second = data.substring(13, 15)
+            var t = data[0]['time'].toString()
+
+            console.log(t)
+
+            var year = t.substring(0, 4)
+            var month = t.substring(4, 6)
+            var day = t.substring(6, 8)
+            var hour = t.substring(8, 10)
+            var minute = t.substring(10, 12)
+            var second = t.substring(12, 14)
 
             console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
         }
