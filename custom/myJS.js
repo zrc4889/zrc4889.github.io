@@ -4,10 +4,31 @@ function entrance()
     badge()
     essay()
     newPost()
+    time()
     // update()
     // board()  
 }
 
+function time()
+{
+    console.log('Custom Javascript: Module Time Loaded Successfully.')
+    $.ajax({
+        type: 'get',
+        // datatype: 'text',
+        url: '/info',
+        success: function(data)
+        {
+            var year = data.substring(0, 4)
+            var month = data.substring(4, 6)
+            var day = data.substring(6, 8)
+            var hour = data.substring(9, 11)
+            var minute = data.substring(11, 13)
+            var second = data.substring(13, 15)
+
+            console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+        }
+    }) 
+}
 
 function board()
 {
