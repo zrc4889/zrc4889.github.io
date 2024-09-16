@@ -26,7 +26,7 @@ function time()
         url: '/info.json',
         success: function(data)
         {
-            var t = data[0]['time'].toString()
+            var t = data[0]['last_update'].toString()
 
             console.log(t)
 
