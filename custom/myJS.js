@@ -1,3 +1,5 @@
+const { current } = require("hexo/dist/plugins/helper/is")
+
 function entrance()
 {
     console.log('Custom Javascript: Entrance Loaded Successfully.')
@@ -8,6 +10,7 @@ function entrance()
     // update()
     // board()  
 }
+
 
 function time()
 {
