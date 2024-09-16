@@ -2,15 +2,20 @@ const { current } = require("hexo/dist/plugins/helper/is")
 
 function entrance()
 {
+    // 暂未拆分
+
     console.log('Custom Javascript: Entrance Loaded Successfully.')
+
+    siteStatus()
     badge()
     essay()
-    newPost()
     time()
-    // update()
-    // board()  
 }
 
+function siteStatus()
+{
+    
+}
 
 function time()
 {
@@ -32,45 +37,12 @@ function time()
             var minute = t.substring(10, 12)
             var second = t.substring(12, 14)
 
+            // var d = document.getElementById('status')
+            // d.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
+
             console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
         }
     }) 
-}
-
-function board()
-{
-    console.log('Custom Javascript: Module Board Loaded Successfully.')
-
-    var d = new Date()
-    var date = d.getDate()
-    var month = d.getMonth() + 1
-    var year = d.getFullYear()
-
-    // var Lunar = lunarFun.gregorianToLunal(year, month, date)
-    // var Lyear = Lunar[0];
-    // var Lmonth = Lunar[1];
-    // var Ldate = Lunar[2];
-
-    var bar = document.getElementsByClassName("navbar-nav ml-auto text-center")[0];
-
-    var dis = document.createElement('li')
-    dis.className = 'nav-item'
-
-    var a = document.createElement('a')
-    a.className = 'nav-link'
-
-    var span = document.createElement('span')
-    span.innerHTML = year + '年' + month + '月' + date + '日'
-
-    a.appendChild(span)
-    dis.appendChild(a)
-    bar.appendChild(dis)
-
-    /* Example
-    div.id = 'content';
-    div.className = 'note';
-    div.innerHTML = '<p>CreateElement example</p>';
-    */
 }
 
 function badge()
@@ -218,66 +190,6 @@ function badge()
     // 插入新元素
     title.appendChild(badge);
 }
-
-function newPost()
-{
-    console.log('Custom Javascript: Module New Post Note Unload.')
-    // console.log('Custom Javascript: Module New Post Note Loaded Successfully.')
-
-    // var p = document.getElementsByClassName("index-header")[0]; // The Newest
-    
-    // var n = document.createElement("sup")
-    // n.style.color = "orange";
-    // n.innerHTML = "New"
-    
-    // p.appendChild(n)
-}
-
-// function update()
-// {
-//     console.log('Custom Javascript: Module Update Loaded Successfully.')
-    
-//     $.ajax({
-//         type: 'get',
-//         datatype: 'json',
-//         url: '/update.json',
-//         success: function(data)
-//         {
-//             // console.log(data)
-//             for (var i = 0; i < data.length; i ++)
-//             {
-//                 var d = data[i]
-//                 var v = d['version']
-//                 var c = d['content']
-                
-//                 var div = document.createElement('div')
-
-//                 var h2 = document.createElement('h2')
-//                 h2.innerHTML = v
-                
-//                 var hr = document.createElement('hr')
-                
-//                 div.appendChild(h2)
-//                 div.appendChild(hr)
-
-//                 for (var j = 0; j < c.length; j ++)
-//                 {
-//                     var p = document.createElement('ul')
-//                     p.innerHTML = c[j]
-//                     div.appendChild(p)
-//                 }
-
-//                 var date = document.createElement('sup')
-//                 date.innerHTML = d['date'].substring(0, 10)
-//                 div.appendChild(date)
-
-//                 if (document.getElementById('update') != undefined)
-//                     document.getElementById('update').appendChild(div)
-
-//             }
-//         }
-//     })
-// }
 
 function essay()
 {
