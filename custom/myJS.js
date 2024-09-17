@@ -14,7 +14,33 @@ function entrance()
 
 function siteStatus()
 {
-    
+    console.log('Custom Javascript: Module Site Status Loaded Successfully.')
+    $.ajax({
+        type: 'get',
+        datatype: 'json',
+        url: '/status.json',
+        success: function(data)
+        {
+            var t = data[0]['last_update'].toString()
+
+            console.log(t)
+
+            var year = t.substring(0, 4)
+            var month = t.substring(4, 6)
+            var day = t.substring(6, 8)
+            var hour = t.substring(8, 10)
+            var minute = t.substring(10, 12)
+            var second = t.substring(12, 14)
+
+            var p = document.createElement('p')
+            p.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
+
+            var d = document.getElementById('status')
+            d.appendChild(p)
+
+            console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+        }
+    }) 
 }
 
 function time()
@@ -28,7 +54,7 @@ function time()
         {
             var t = data[0]['last_update'].toString()
 
-            console.log(t)
+            // console.log(t)
 
             var year = t.substring(0, 4)
             var month = t.substring(4, 6)
