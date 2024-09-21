@@ -1,15 +1,34 @@
 const { current } = require("hexo/dist/plugins/helper/is")
 
+
 function entrance()
 {
     // 暂未拆分
 
     console.log('Custom Javascript: Entrance Loaded Successfully.')
 
+    // $.ajax({
+    //     type: 'get',
+    //     datatype: 'json',
+    //     url: '/status.json',
+    //     success: function(data)
+    //     {
+
+    //     }
+    // }) 
+
+    test()
+
     siteStatus()
     badge()
     essay()
     time()
+}
+
+function test()
+{
+    console.log('test')
+
 }
 
 function siteStatus()
@@ -18,7 +37,7 @@ function siteStatus()
     $.ajax({
         type: 'get',
         datatype: 'json',
-        url: '/status.json',
+        url: 'https://zrc4889.github.io/status.json',
         success: function(data)
         {
             var t = data[0]['last_update'].toString()
@@ -49,7 +68,7 @@ function time()
     $.ajax({
         type: 'get',
         datatype: 'json',
-        url: '/info.json',
+        url: 'https://zrc4889.github.io/status.json',
         success: function(data)
         {
             var t = data[0]['last_update'].toString()
