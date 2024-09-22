@@ -22,9 +22,9 @@
     
     <tags>
       
-      <tag>假期</tag>
-      
       <tag>总结</tag>
+      
+      <tag>假期</tag>
       
     </tags>
     
@@ -37,7 +37,7 @@
     <link href="/p/5d08/"/>
     <url>/p/5d08/</url>
     
-    <content type="html"><![CDATA[<!-- <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>        <a onclick="showNotification();">点我看右下角信息</a>        <script>            function showNotification() {                window.Notification.permission = "granted";                alert(window.Notification.permission);                if(window.Notification) {                    if(window.Notification.permission == "granted") {                        var notification = new Notification('你有一条新信息', {                            body: "你好我是王小婷",                            icon: "img/1.jpg"                        });                        setTimeout(function() { notification.close(); }, 5000);                    } else {                        window.Notification.requestPermission();                    }                } else alert('你的浏览器不支持此消息提示功能，请使用chrome内核的浏览器！');            };        </script> --><h1 id="博文"><a href="#博文" class="headerlink" title="博文"></a>博文</h1><ul><li><p>《红星计划》</p></li><li><p>更丰富的内容</p></li></ul><h1 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h1><ul><li><p>皮肤特效</p></li><li><p>面板</p></li><li><p>博客网站图标</p></li><li><p>博客快捷键</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>        <a onclick="showNotification();">点我看右下角信息</a>        <script>            function showNotification() {                window.Notification.permission = "granted";                alert(window.Notification.permission);                if(window.Notification) {                    if(window.Notification.permission == "granted") {                        var notification = new Notification('你有一条新信息', {                            body: "你好我是王小婷",                            icon: "img/1.jpg"                        });                        setTimeout(function() { notification.close(); }, 5000);                    } else {                        window.Notification.requestPermission();                    }                } else alert('你的浏览器不支持此消息提示功能，请使用chrome内核的浏览器！');            };        </script><h1 id="博文"><a href="#博文" class="headerlink" title="博文"></a>博文</h1><ul><li><p>《红星计划》</p></li><li><p>更丰富的内容</p></li></ul><h1 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h1><ul><li>外观系统</li></ul>]]></content>
     
     
     <categories>
@@ -252,9 +252,9 @@
     
     <tags>
       
-      <tag>总结</tag>
-      
       <tag>暑假</tag>
+      
+      <tag>总结</tag>
       
       <tag>即兴</tag>
       

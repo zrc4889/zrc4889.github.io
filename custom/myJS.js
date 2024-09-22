@@ -16,13 +16,12 @@ function entrance()
 
     //     }
     // }) 
-
     // notice()
+
     skin()
     siteStatus()
     badge()
     essay()
-    time()
 
     //var domName = document.querySelector('#domName');
     // domName.style.backgroundColor = '#aaa'
