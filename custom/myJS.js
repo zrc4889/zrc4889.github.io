@@ -16,22 +16,54 @@ function entrance()
 
     //     }
     // }) 
-    // notice()
 
     skin()
     siteStatus()
     badge()
     essay()
+    getCountTime()
+    redirect()
 
     //var domName = document.querySelector('#domName');
     // domName.style.backgroundColor = '#aaa'
 }
 
+function getCountTime() {
+      const now = +new Date()
+      const time = '2024-07-14'
+      const after = +new Date(time)
+      const sec = (after - now) / 1000
+      const d = parseInt(sec / 60 / 60 / 24) 
+    //   document.querySelector('.title span').innerHTML = '元旦'   //修改标题处
+    //   document.querySelector('#days').innerHTML = d
+    //   document.querySelector('#goal').innerHTML = time
+}
+
+function redirect()
+{
+    var urlParams = new URLSearchParams(window.location.search);
+    var params = {};
+
+    for (var key of urlParams.keys()) {
+        params[key] = urlParams.get(key);
+    }
+    
+    var x = params['redirect'];
+
+    // ajax
+    $.ajax({
+        type: 'get',
+        url: '/redirect.json',
+        success: function(data)
+        {
+            console.log(data[x]['link'])   
+        }
+    })
+    
+}
+
 function skin()
 {
-    // console.log('skin')
-    // var a = document.getElementsByClassName('row mx-auto index-card')[0]
-    // a.classList = "row mx-auto index-card"
 }
 
 function notice()
@@ -74,7 +106,7 @@ function siteStatus()
             if (d != undefined)
                 d.appendChild(p)
 
-            console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
         }
     }) 
 }
@@ -102,7 +134,7 @@ function time()
             // var d = document.getElementById('status')
             // d.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
 
-            console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
         }
     }) 
 }
