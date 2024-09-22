@@ -18,16 +18,21 @@ function entrance()
     // }) 
 
     // notice()
-    message()
+    skin()
     siteStatus()
     badge()
     essay()
     time()
+
+    //var domName = document.querySelector('#domName');
+    // domName.style.backgroundColor = '#aaa'
 }
 
-function message()
+function skin()
 {
-    
+    // console.log('skin')
+    // var a = document.getElementsByClassName('row mx-auto index-card')[0]
+    // a.classList = "row mx-auto index-card"
 }
 
 function notice()
