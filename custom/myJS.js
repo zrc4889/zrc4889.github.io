@@ -1,4 +1,4 @@
-const { current } = require("hexo/dist/plugins/helper/is")
+// const { current } = require("hexo/dist/plugins/helper/is")
 
 
 function entrance()
@@ -17,18 +17,30 @@ function entrance()
     //     }
     // }) 
 
-    test()
-
+    // notice()
+    message()
     siteStatus()
     badge()
     essay()
     time()
 }
 
-function test()
+function message()
 {
-    console.log('test')
+    
+}
 
+function notice()
+{
+    console.log('Notice')
+
+    var d = document.createElement("div")
+    d.classList = 'note note-info'
+    var text = document.createTextNode("Water")
+    d.appendChild(text)
+
+    var c = document.getElementsByClassName("container")[2]
+    c.insertBefore(d, c.childNodes[0]);
 }
 
 function siteStatus()
@@ -37,7 +49,7 @@ function siteStatus()
     $.ajax({
         type: 'get',
         datatype: 'json',
-        url: 'https://zrc4889.github.io/status.json',
+        url: 'https://zrc4889.github.io/status.json?=' + Math.random(),
         success: function(data)
         {
             var t = data[0]['last_update'].toString()
@@ -55,7 +67,8 @@ function siteStatus()
             p.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
 
             var d = document.getElementById('status')
-            d.appendChild(p)
+            if (d != undefined)
+                d.appendChild(p)
 
             console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
         }
