@@ -64,6 +64,8 @@ function redirect()
 
 function skin()
 {
+    var t = document.getElementsByClassName('index-card')[0]
+    t.style.background-image = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')'
 }
 
 function notice()
@@ -160,6 +162,12 @@ function badge()
     var badge = document.createElement("strong");
     
     // todo.. 生肖
+
+    if (year == 2024 && month == 9 && date == 30)
+    {
+        badge.innerHTML = " · 重访日";
+        badge.style.color = "rgba(255, 0, 0, 0.7)"
+    }
 
     // 季节
 
