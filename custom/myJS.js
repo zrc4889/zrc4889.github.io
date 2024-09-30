@@ -64,8 +64,9 @@ function redirect()
 
 function skin()
 {
-    // var t = document.getElementsByClassName('index-card')[0];
-    // t.style.background-image = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')'
+    var t = document.getElementsByClassName('index-card')[0];
+    t.style['background-image'] = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')';
+    // 成功
 }
 
 function notice()
