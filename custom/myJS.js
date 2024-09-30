@@ -163,11 +163,6 @@ function badge()
     
     // todo.. 生肖
 
-    if (year == 2024 && month == 9 && date == 30)
-    {
-        badge.innerHTML = " · 重访日";
-        badge.style.color = "rgba(255, 0, 0, 0.7)"
-    }
 
     // 季节
 
@@ -287,6 +282,13 @@ function badge()
     {
         badge.style.color = "rgba(255, 255, 0, 0.7)"
         badge.innerHTML = " · 中秋🌕月圆";
+    }
+
+    
+    if (year == 2024 && month == 9 && date == 30)
+    {
+        badge.innerHTML = " · 重访日";
+        badge.style.color = "rgba(255, 0, 0, 0.7)"
     }
 
     // 插入新元素
