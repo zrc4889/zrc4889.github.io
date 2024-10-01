@@ -22,6 +22,7 @@ function entrance()
     badge()
     essay()
     getCountTime()
+    
     // redirect()
     
     dynamicTest()
@@ -38,11 +39,11 @@ function dynamicTest()
         success: function(data)
         {
             console.log(data)
-            var d = document.getElementById('weather')
+            // var d = document.getElementById('weather')
             var p = document.createElement('li')
             p.innerHTML = data
             p.className = 'nav-item'
-            d.appendChild(p)
+            // d.appendChild(p)
 
             var n = document.getElementsByClassName('navbar-nav')[0]
             n.appendChild(p)
