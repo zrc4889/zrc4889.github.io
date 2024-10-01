@@ -23,9 +23,31 @@ function entrance()
     essay()
     getCountTime()
     redirect()
+    
+    dynamicTest()
 
     //var domName = document.querySelector('#domName');
     // domName.style.backgroundColor = '#aaa'
+}
+
+function dynamicTest()
+{
+    $.ajax({
+        type: 'get',
+        url: 'https://zrc4889.github.io/DynamicBlog/test.txt',
+        success: function(data)
+        {
+            console.log(data)
+            var d = document.getElementById('weather')
+            var p = document.createElement('li')
+            p.innerHTML = data
+            p.className = 'nav-item'
+            d.appendChild(p)
+
+            var n = document.getElementsByClassName('navbar-nav')[0]
+            n.appendChild(p)
+        }
+    })
 }
 
 function getCountTime() {
@@ -65,7 +87,8 @@ function redirect()
 function skin()
 {
     var t = document.getElementsByClassName('index-card')[0];
-    t.style['background-image'] = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')';
+    if (t != undefined)
+        t.style['background-image'] = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')';
     // 成功
 }
 
