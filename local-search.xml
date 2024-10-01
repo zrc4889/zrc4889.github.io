@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>国庆前至中秋小记</title>
+    <link href="/p/ec74/"/>
+    <url>/p/ec74/</url>
+    
+    <content type="html"><![CDATA[<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>晚自习课内作业基本游刃有余，数学物理开始有点难度。有一天物理列方程题目做了 47min。</p><p>数学只能说是因为之前有培训过的功底，速度比较快。</p><p>其实学习也罢如此，主要看接受能力。第一次接受不了，遇到新题目新解法就怀疑自己，接受多了自然就会了。在接受之后从一个高的维度去回视，也只有这样的独厚条件才能让我明白这样一个学习的小道理。</p><p>英语老师真的太漂亮辣！阅读理解讲的很深刻，还会带我们复习。抛去她年轻教龄，我上课挺有信心。</p><p>去实验室做生物实验了，发现同桌竟然这么有责任感，我甚至都帮不上什么。但是为了实验会考，我还是要学一点的。</p><p>心理课校内活动探索拿了个死蜻蜓回来真搞笑，我们都很愉悦。</p><p>化学比较头疼，但是在做出积极改进之后情况确实改善了，我有信心走下去了！</p><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><p>上一周刚刚经历了第一次降温，最高23°C有一天，这只是开场白，下点小雨。</p><p>国庆假期间有台风活动，我们这里雨下挺大。</p><h2 id="研究"><a href="#研究" class="headerlink" title="研究"></a>研究</h2><p>今天刚把 Github Actions 调好。原理就是先编好一个爬虫 Python 代码，然后传到 Github Actions 上爬取，前端用 Ajax 抓取保存的天气信息并呈现。不过 Ajax 抓取有缓存还是比较慢。</p><p>待续</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>TheNextTree</category>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>随笔</tag>
+      
+      <tag>国庆</tag>
+      
+      <tag>中秋</tag>
+      
+      <tag>小记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>总结我的中秋假期</title>
     <link href="/p/2265/"/>
     <url>/p/2265/</url>
@@ -22,9 +55,9 @@
     
     <tags>
       
-      <tag>总结</tag>
-      
       <tag>假期</tag>
+      
+      <tag>总结</tag>
       
     </tags>
     
@@ -252,9 +285,9 @@
     
     <tags>
       
-      <tag>暑假</tag>
-      
       <tag>总结</tag>
+      
+      <tag>暑假</tag>
       
       <tag>即兴</tag>
       
@@ -316,9 +349,9 @@
     
     <tags>
       
-      <tag>迁移</tag>
-      
       <tag>补档</tag>
+      
+      <tag>迁移</tag>
       
     </tags>
     
@@ -345,9 +378,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -376,9 +409,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -407,9 +440,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -438,9 +471,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -469,9 +502,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -500,9 +533,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -531,9 +564,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -562,9 +595,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -593,9 +626,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -624,9 +657,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       
@@ -655,9 +688,9 @@
     
     <tags>
       
-      <tag>补档</tag>
-      
       <tag>心路</tag>
+      
+      <tag>补档</tag>
       
       <tag>Winter</tag>
       

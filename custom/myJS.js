@@ -22,9 +22,6 @@ function entrance()
     badge()
     essay()
     getCountTime()
-    
-    // redirect()
-    
     dynamicTest()
 
     //var domName = document.querySelector('#domName');
