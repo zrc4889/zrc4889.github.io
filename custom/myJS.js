@@ -22,7 +22,7 @@ function entrance()
     badge()
     essay()
     getCountTime()
-    redirect()
+    // redirect()
     
     dynamicTest()
 
