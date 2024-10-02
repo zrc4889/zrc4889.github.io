@@ -17,7 +17,7 @@ function entrance()
     //     }
     // }) 
 
-    skin()
+    // skin()
     siteStatus()
     badge()
     essay()

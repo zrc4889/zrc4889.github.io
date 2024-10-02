@@ -233,22 +233,6 @@
                   
                   
                   
-                  <a class="dropdown-item" href="/message/" target="_self">
-                    <i class="iconfont icon-mail"></i>
-                    <span>留言</span>
-                  </a>
-                
-                  
-                  
-                  
-                  <a class="dropdown-item" href="/comment/" target="_self">
-                    <i class="iconfont icon-comment"></i>
-                    <span>点评</span>
-                  </a>
-                
-                  
-                  
-                  
                   <a class="dropdown-item" href="/books/" target="_self">
                     <i class="iconfont icon-book"></i>
                     <span>阅读</span>
@@ -267,7 +251,7 @@
                   
                   <a class="dropdown-item" href="https://zrc4889.github.io/Cpp-Code/" target="_self">
                     <i class="iconfont icon-code"></i>
-                    <span>源代码</span>
+                    <span>网盘</span>
                   </a>
                 
               </div>
@@ -303,7 +287,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="勤劳勇敢，自强不息。"></span>
+            <span id="subtitle" data-typed-text="为往圣继绝学，为万世开太平。"></span>
           
         </div>
 
@@ -487,6 +471,67 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h2 class="index-header">
         
+        <a href="p/f205/" target="_self">
+          构想Cpp-Code新变革
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="p/f205/" target="_self">
+        <div>
+          111f
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-10-02 08:10" pubdate>
+              2024-10-02
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/%E6%8A%80%E6%9C%AF/" class="category-chain-item">技术</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="tags/%E6%9E%84%E6%83%B3/">#构想</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
         <a href="p/ec74/" target="_self">
           国庆前至中秋小记
         </a>
@@ -615,70 +660,9 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="tags/%E5%81%87%E6%9C%9F/">#假期</a>
-            
               <a href="tags/%E6%80%BB%E7%BB%93/">#总结</a>
             
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h2 class="index-header">
-        
-        <a href="p/5d08/" target="_self">
-          国庆十一版本预告
-        </a>
-      </h2>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="p/5d08/" target="_self">
-        <div>
-          即将到来。
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2024-09-17 09:44" pubdate>
-              2024-09-17
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="categories/%E7%AB%99%E5%8A%A1%E7%89%88/" class="category-chain-item">站务版</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="tags/%E9%A2%84%E5%91%8A/">#预告</a>
+              <a href="tags/%E5%81%87%E6%9C%9F/">#假期</a>
             
           </div>
         
@@ -1026,9 +1010,9 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="tags/%E6%80%BB%E7%BB%93/">#总结</a>
-            
               <a href="tags/%E6%9A%91%E5%81%87/">#暑假</a>
+            
+              <a href="tags/%E6%80%BB%E7%BB%93/">#总结</a>
             
               <a href="tags/%E5%8D%B3%E5%85%B4/">#即兴</a>
             
@@ -1159,37 +1143,7 @@
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        jQuery.ajax({
-          type: 'GET',
-          url: 'https://v2.jinrishici.com/one.json',
-          headers: {},
-          dataType: 'json',
-          success: function(result) {
-            var apiText;
-            if (result) {
-              var keys = 'data,content'.split(',');
-              if (result instanceof Array) {
-                result = result[0];
-              }
-              for (const k of keys) {
-                var value = result[k];
-                if (typeof value === 'string') {
-                  apiText = value;
-                  break;
-                } else if (value instanceof Object) {
-                  result = value;
-                }
-              }
-            }
-            apiText ? typing(apiText) : typing(text);
-          },
-          error: function(xhr, status, error) {
-            if (error) {
-              console.error('Failed to request https://v2.jinrishici.com/one.json:', error);
-            }
-            typing(text);
-          }
-        })
+        typing(text);
       
     })(window, document);
   </script>

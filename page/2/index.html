@@ -345,22 +345,6 @@ mjx-container[display="true"] + br {
                   
                   
                   
-                  <a class="dropdown-item" href="../../message/" target="_self">
-                    <i class="iconfont icon-mail"></i>
-                    <span>留言</span>
-                  </a>
-                
-                  
-                  
-                  
-                  <a class="dropdown-item" href="../../comment/" target="_self">
-                    <i class="iconfont icon-comment"></i>
-                    <span>点评</span>
-                  </a>
-                
-                  
-                  
-                  
                   <a class="dropdown-item" href="../../books/" target="_self">
                     <i class="iconfont icon-book"></i>
                     <span>阅读</span>
@@ -379,7 +363,7 @@ mjx-container[display="true"] + br {
                   
                   <a class="dropdown-item" href="https://zrc4889.github.io/Cpp-Code/" target="_self">
                     <i class="iconfont icon-code"></i>
-                    <span>源代码</span>
+                    <span>网盘</span>
                   </a>
                 
               </div>
@@ -415,7 +399,7 @@ mjx-container[display="true"] + br {
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="勤劳勇敢，自强不息。"></span>
+            <span id="subtitle" data-typed-text="为往圣继绝学，为万世开太平。"></span>
           
         </div>
 
@@ -1284,37 +1268,7 @@ mjx-container[display="true"] + br {
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        jQuery.ajax({
-          type: 'GET',
-          url: 'https://v2.jinrishici.com/one.json',
-          headers: {},
-          dataType: 'json',
-          success: function(result) {
-            var apiText;
-            if (result) {
-              var keys = 'data,content'.split(',');
-              if (result instanceof Array) {
-                result = result[0];
-              }
-              for (const k of keys) {
-                var value = result[k];
-                if (typeof value === 'string') {
-                  apiText = value;
-                  break;
-                } else if (value instanceof Object) {
-                  result = value;
-                }
-              }
-            }
-            apiText ? typing(apiText) : typing(text);
-          },
-          error: function(xhr, status, error) {
-            if (error) {
-              console.error('Failed to request https://v2.jinrishici.com/one.json:', error);
-            }
-            typing(text);
-          }
-        })
+        typing(text);
       
     })(window, document);
   </script>

@@ -4,11 +4,36 @@
   
   
   <entry>
+    <title>构想Cpp-Code新变革</title>
+    <link href="/p/f205/"/>
+    <url>/p/f205/</url>
+    
+    <content type="html"><![CDATA[<p>这几天捣鼓 Github Actions 成功实现了博客天气更新。</p><p>具体的来说就是，先写好一个 Python 爬虫爬取 MSN 天气并保存（其实是保存在 Github Actions 的服务器上）。</p><p>然后用 Actions 提交这个数据文件到仓库。</p><p>因为 Hexo 本地提交渲染到仓库上会覆盖，我就用了另一个仓库。</p><p>然后因为没有跨域限制。就可以用 JavaScript Ajax 来请求获取了。</p><hr><p>后面突然想到能不能直接用 Python 跑个服务器，结果网上都没有我这种奇葩想法，我就去问 AI。</p><p>结果是可以的，不过要用内网穿透。</p><p>有机会实现静态网站动态化。</p><p>但是也暴露出一个问题，我一直想在博客技术上捣鼓，却忘记了创作优质的博客。</p><hr><p>还记得 Cpp-Code 吗？我把一些课件资料上传到仓库，现在还是在用本地的 Python 迭代目录生成。</p><p>但是有了 Github Actions 后有可能实现只需要提交文件到仓库，然后 Actions 自动渲染页面。</p><p>好好设计一下还是可行的。</p><p>2024.10.2</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>构想</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>国庆前至中秋小记</title>
     <link href="/p/ec74/"/>
     <url>/p/ec74/</url>
     
-    <content type="html"><![CDATA[<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>晚自习课内作业基本游刃有余，数学物理开始有点难度。有一天物理列方程题目做了 47min。</p><p>数学只能说是因为之前有培训过的功底，速度比较快。</p><p>其实学习也罢如此，主要看接受能力。第一次接受不了，遇到新题目新解法就怀疑自己，接受多了自然就会了。在接受之后从一个高的维度去回视，也只有这样的独厚条件才能让我明白这样一个学习的小道理。</p><p>英语老师真的太漂亮辣！阅读理解讲的很深刻，还会带我们复习。抛去她年轻教龄，我上课挺有信心。</p><p>去实验室做生物实验了，发现同桌竟然这么有责任感，我甚至都帮不上什么。但是为了实验会考，我还是要学一点的。</p><p>心理课校内活动探索拿了个死蜻蜓回来真搞笑，我们都很愉悦。</p><p>化学比较头疼，但是在做出积极改进之后情况确实改善了，我有信心走下去了！</p><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><p>上一周刚刚经历了第一次降温，最高23°C有一天，这只是开场白，下点小雨。</p><p>国庆假期间有台风活动，我们这里雨下挺大。</p><h2 id="研究"><a href="#研究" class="headerlink" title="研究"></a>研究</h2><p>今天刚把 Github Actions 调好。原理就是先编好一个爬虫 Python 代码，然后传到 Github Actions 上爬取，前端用 Ajax 抓取保存的天气信息并呈现。不过 Ajax 抓取有缓存还是比较慢。</p><p>待续</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>晚自习课内作业基本游刃有余，数学物理开始有点难度。有一天物理列方程题目做了 47min。</p><p>数学只能说是因为之前有培训过的功底，速度比较快。</p><p>其实学习也罢如此，主要看接受能力。第一次接受不了，遇到新题目新解法就怀疑自己，接受多了自然就会了。在接受之后从一个高的维度去回视，也只有这样的独厚条件才能让我明白这样一个学习的小道理。</p><p>英语老师真的太漂亮辣！阅读理解讲的很深刻，还会带我们复习。抛去她年轻教龄，我上课挺有信心。</p><p>去实验室做生物实验了，发现同桌竟然这么有责任感，我甚至都帮不上什么。但是为了实验会考，我还是要学一点的。</p><p>心理课校内活动探索拿了个死蜻蜓回来真搞笑，我们都很愉悦。</p><p>化学比较头疼，但是在做出积极改进之后情况确实改善了，我有信心走下去了！</p><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><p>上一周刚刚经历了第一次降温，最高23°C有一天，这只是开场白，下点小雨。</p><p>国庆假期间有台风活动，我们这里雨下挺大。</p><h2 id="研究"><a href="#研究" class="headerlink" title="研究"></a>研究</h2><p>今天刚把 Github Actions 调好。原理就是先编好一个爬虫 Python 代码，然后传到 Github Actions 上爬取，前端用 Ajax 抓取保存的天气信息并呈现。不过 Ajax 抓取有缓存还是比较慢。</p>]]></content>
     
     
     <categories>
@@ -55,34 +80,9 @@
     
     <tags>
       
-      <tag>假期</tag>
-      
       <tag>总结</tag>
       
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>国庆十一版本预告</title>
-    <link href="/p/5d08/"/>
-    <url>/p/5d08/</url>
-    
-    <content type="html"><![CDATA[<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>        <a onclick="showNotification();">点我看右下角信息</a>        <script>            function showNotification() {                window.Notification.permission = "granted";                alert(window.Notification.permission);                if(window.Notification) {                    if(window.Notification.permission == "granted") {                        var notification = new Notification('你有一条新信息', {                            body: "你好我是王小婷",                            icon: "img/1.jpg"                        });                        setTimeout(function() { notification.close(); }, 5000);                    } else {                        window.Notification.requestPermission();                    }                } else alert('你的浏览器不支持此消息提示功能，请使用chrome内核的浏览器！');            };        </script><h1 id="博文"><a href="#博文" class="headerlink" title="博文"></a>博文</h1><ul><li><p>《红星计划》</p></li><li><p>更丰富的内容</p></li></ul><h1 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h1><ul><li><p>外观系统</p></li><li><p>消息系统</p></li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>站务版</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>预告</tag>
+      <tag>假期</tag>
       
     </tags>
     
@@ -285,9 +285,9 @@
     
     <tags>
       
-      <tag>总结</tag>
-      
       <tag>暑假</tag>
+      
+      <tag>总结</tag>
       
       <tag>即兴</tag>
       
