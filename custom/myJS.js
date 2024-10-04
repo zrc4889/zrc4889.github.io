@@ -42,12 +42,12 @@ function postsStatus()
         {
             // published
 
-            var pub = data[0]['published']
+            var pub = data[0]['next']
 
             for (let key in pub)
             {
                 var str = pub[key]['name']
-                var d = document.getElementById('published')
+                var d = document.getElementById('next')
                 if (d != undefined)
                 {
                     var p = document.createElement('p')
