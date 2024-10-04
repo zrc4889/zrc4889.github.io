@@ -23,7 +23,7 @@ function entrance()
     essay()
     getCountTime()
     dynamicTest()
-    postsStatus()
+    // postsStatus()
 
     //var domName = document.querySelector('#domName');
     // domName.style.backgroundColor = '#aaa'
@@ -43,6 +43,7 @@ function postsStatus()
             // published
 
             var pub = data[0]['next']
+            console.log(pub)
 
             for (let key in pub)
             {
