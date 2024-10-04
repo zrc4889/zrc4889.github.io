@@ -29,8 +29,11 @@ function entrance()
     // domName.style.backgroundColor = '#aaa'
 }
 
+// function 
+
 function postsStatus()
 {
+
     $.ajax({
         type: 'get',
         datatype: 'json',
