@@ -23,9 +23,38 @@ function entrance()
     essay()
     getCountTime()
     dynamicTest()
+    postsStatus()
 
     //var domName = document.querySelector('#domName');
     // domName.style.backgroundColor = '#aaa'
+}
+
+function postsStatus()
+{
+    $.ajax({
+        type: 'get',
+        datatype: 'json',
+        url: '/info.json',
+        success: function(data)
+        {
+            // published
+
+            var pub = data[0]['published']
+
+            for (let key in pub)
+            {
+                var str = pub[key]['name']
+                var d = document.getElementById('published')
+                if (d != undefined)
+                {
+                    var p = document.createElement('p')
+                    p.innerHTML = str
+                    d.appendChild(p)
+                }
+            }
+
+        }
+    })
 }
 
 function dynamicTest()
