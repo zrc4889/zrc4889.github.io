@@ -63,6 +63,7 @@ function postsStatus()
 
 function dynamicTest()
 {
+    
     $.ajax({
         type: 'get',
         url: 'https://zrc4889.github.io/DynamicBlog/test.txt',
