@@ -77,7 +77,8 @@ function dynamicTest()
             // d.appendChild(p)
 
             var n = document.getElementsByClassName('navbar-nav')[0]
-            n.appendChild(p)
+
+            // n.appendChild(p) 暂时下线该功能
         }
     })
 }
