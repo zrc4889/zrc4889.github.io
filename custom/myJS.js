@@ -200,6 +200,8 @@ function time()
 
 function badge()
 {
+     document.title = 'Betelgeuse · 岁寒山雪行❄️'
+    
     console.log('Custom Javascript: Module Badge Loaded Successfully.')
 
     var title = document.getElementsByClassName("navbar-brand")[0];
@@ -234,22 +236,6 @@ function badge()
 
     if (month >= 12 && month <= 2)
         badge.innerHTML = " · 冬"
-    
-
-    // 公历跨年限定
-
-    if (month == 12 && date >= 27)
-    {
-        badge.style.color = "rgba(255, 0, 0, 0.7)"
-        badge.innerHTML = " · Goodbye " + year + "!";
-    }
-
-    if (month == 1 && date <= 3)
-    {
-        badge.style.color = "rgba(255, 0, 0, 0.7)"
-        badge.innerHTML = " · Hello " + year + "!";
-    }
-
 
     // 节日
 
@@ -294,10 +280,16 @@ function badge()
         badge.innerHTML = " · " + (year - 1949) + " 华诞";
     }
 
-    if ((month == 10 && date >= 24) || (month == 11) || (month == 12 && date <= 26))
+    if ((month == 10 && date >= 24) || (month == 11) || (month == 12 && date <= 19))
     {
         badge.style.color = "rgba(153,255,255,0.7)"
         badge.innerHTML = " · 冬日之心❄️"
+    }
+
+    if ((month == 12 && date >= 20) || (month == 1 || month == 2))
+    {
+        badge.style.color = "rgba(153,255,255,0.7)"
+        badge.innerHTML = " · 岁寒山雪行❄️"
     }
 
     if (Lmonth == 12)
@@ -346,6 +338,20 @@ function badge()
     {
         badge.innerHTML = " · 重访日";
         badge.style.color = "rgba(255, 0, 0, 0.7)"
+    }
+
+    // 公历跨年限定
+
+    if (month == 12 && date >= 27)
+    {
+        badge.style.color = "rgba(255, 0, 0, 0.7)"
+        badge.innerHTML = " · Goodbye " + year + "!";
+    }
+
+    if (month == 1 && date <= 3)
+    {
+        badge.style.color = "rgba(255, 0, 0, 0.7)"
+        badge.innerHTML = " · Hello " + year + "!";
     }
 
     // 插入新元素
