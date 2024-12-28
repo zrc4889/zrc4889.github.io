@@ -342,7 +342,7 @@ function badge()
 
     // 公历跨年限定
 
-    if (month == 12 && date >= 27)
+    if (month == 12 && date >= 28)
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
         badge.innerHTML = " · Goodbye " + year + "!";
