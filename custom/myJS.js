@@ -200,7 +200,7 @@ function time()
 
 function badge()
 {
-     document.title = 'Betelgeuse · 岁寒山雪行❄️'
+     document.title = 'CharonTree\'s World · 岁寒山雪行❄️'
     
     console.log('Custom Javascript: Module Badge Loaded Successfully.')
 
