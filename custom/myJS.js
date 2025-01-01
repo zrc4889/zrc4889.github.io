@@ -5,6 +5,8 @@ function entrance()
 {
     // 暂未拆分
 
+    // swal("Hello world!");
+
     console.log('Custom Javascript: Entrance Loaded Successfully.')
 
     // $.ajax({
