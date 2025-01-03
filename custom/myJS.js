@@ -7,6 +7,7 @@ function entrance()
 
     // swal("Hello world!");
 
+     document.title = 'CharonTree\'s World · 岁寒山雪行❄️'
     console.log('Custom Javascript: Entrance Loaded Successfully.')
 
     // $.ajax({
@@ -20,11 +21,11 @@ function entrance()
     // }) 
 
     // skin()
-    siteStatus()
+    // siteStatus()
     badge()
-    essay()
-    getCountTime()
-    dynamicTest()
+    // essay()
+    // getCountTime()
+    // dynamicTest()
     // postsStatus()
 
     //var domName = document.querySelector('#domName');
@@ -202,7 +203,6 @@ function time()
 
 function badge()
 {
-     document.title = 'CharonTree\'s World · 岁寒山雪行❄️'
     
     console.log('Custom Javascript: Module Badge Loaded Successfully.')
 
@@ -296,6 +296,7 @@ function badge()
 
     if (Lmonth == 12)
     {   
+
         if (Ldate >= 20) 
         {
             var alpha = 1.0 - (30.0 - Ldate) / 10.0
@@ -303,8 +304,9 @@ function badge()
         }
         if (30 - Ldate == 0)
             badge.innerHTML = " · 除夕"
+
         else
-            badge.innerHTML = " · 新年倒计时 " + 30 - Ldate + " 天";
+            badge.innerHTML = " · 新年倒计时 " + (30 - Ldate) + " 天";
     }
 
     if (Lmonth == 1 && Ldate <= 7)
@@ -342,7 +344,7 @@ function badge()
         badge.style.color = "rgba(255, 0, 0, 0.7)"
     }
 
-    // 公历跨年限定
+    // // 公历跨年限定
 
     if (month == 12 && date >= 28)
     {
