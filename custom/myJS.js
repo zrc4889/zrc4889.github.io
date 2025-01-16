@@ -7,7 +7,7 @@ function entrance()
 
     // swal("Hello world!");
 
-     document.title = document.title + ' ⨉ 岁寒山雪行❄️'
+     document.title = document.title + ' | 岁寒山雪行❄️'
     console.log('Custom Javascript: Entrance Loaded Successfully.')
 
     // $.ajax({
