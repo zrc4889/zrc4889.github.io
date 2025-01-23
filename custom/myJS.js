@@ -299,7 +299,7 @@ function badge()
 
         if (Ldate >= 20) 
         {
-            var alpha = 1.0 - (30.0 - Ldate) / 10.0
+            var alpha = (1.0 - (30.0 - Ldate) / 10.0) * 1.5
             badge.style.color = "rgba(255, 0, 0, " + alpha +")"
         }
         if (30 - Ldate == 0)
