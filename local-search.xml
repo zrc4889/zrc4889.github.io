@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>记录 Deepseek 本地部署</title>
+    <link href="/p/10cb/"/>
+    <url>/p/10cb/</url>
+    
+    <content type="html"><![CDATA[<p>请注意，本文并不是一篇教程。</p><span id="more"></span><h2 id="安装中遇到的问题"><a href="#安装中遇到的问题" class="headerlink" title="安装中遇到的问题"></a>安装中遇到的问题</h2><p>Ollama 和 Chatbox 都正常安装了。</p><p>最后发现命令行 Ollama 显示不是内部或外部命令等等。</p><p>添加 Path 环境变量即可解决。</p><p>Ollama 只能安装在 AppData 中，这就有点难受。</p><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>电脑吃不消，跑不了。</p><p>配置如下。</p><p>CPU：Intel(R) Core(TM) i7-10510U @ 1.80GHz<br>内存：8.0 GB<br>GPU：Radeon 530 Series<br>GPU 内存：6.0 GB</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>Deepseek</tag>
+      
+      <tag>本地部署</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>乙巳年节日安排</title>
     <link href="/p/413d/"/>
     <url>/p/413d/</url>
@@ -488,9 +517,9 @@
     
     <tags>
       
-      <tag>假期</tag>
-      
       <tag>总结</tag>
+      
+      <tag>假期</tag>
       
     </tags>
     
@@ -679,9 +708,9 @@
     
     <tags>
       
-      <tag>总结</tag>
-      
       <tag>暑假</tag>
+      
+      <tag>总结</tag>
       
       <tag>即兴</tag>
       
