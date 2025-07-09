@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title>一些外链</title>
-    <link href="/p/ad25/"/>
-    <url>/p/ad25/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://zrc4889.github.io/essay">个人博客说说</a></p><p><a href="https://t.bilibili.com/">Bilibili 动态</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>记录 Deepseek 本地部署</title>
     <link href="/p/10cb/"/>
     <url>/p/10cb/</url>
@@ -505,9 +492,9 @@
     
     <tags>
       
-      <tag>假期</tag>
-      
       <tag>总结</tag>
+      
+      <tag>假期</tag>
       
     </tags>
     
@@ -696,9 +683,9 @@
     
     <tags>
       
-      <tag>总结</tag>
-      
       <tag>暑假</tag>
+      
+      <tag>总结</tag>
       
       <tag>即兴</tag>
       
