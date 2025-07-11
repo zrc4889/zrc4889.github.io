@@ -4,13 +4,25 @@
   
   
   <entry>
-    <title></title>
-    <link href="/p/0/"/>
-    <url>/p/0/</url>
+    <title>公告</title>
+    <link href="/p/7b07/"/>
+    <url>/p/7b07/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>这不刚好网站一周年快到了，顺便更新升级。</p>]]></content>
     
     
+    <categories>
+      
+      <category>站务版</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>公告</tag>
+      
+    </tags>
     
   </entry>
   
@@ -505,9 +517,9 @@
     
     <tags>
       
-      <tag>总结</tag>
-      
       <tag>假期</tag>
+      
+      <tag>总结</tag>
       
     </tags>
     
@@ -696,9 +708,9 @@
     
     <tags>
       
-      <tag>暑假</tag>
-      
       <tag>总结</tag>
+      
+      <tag>暑假</tag>
       
       <tag>即兴</tag>
       
