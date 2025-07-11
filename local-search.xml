@@ -8,7 +8,7 @@
     <link href="/p/7b07/"/>
     <url>/p/7b07/</url>
     
-    <content type="html"><![CDATA[<p>这不刚好网站一周年快到了，顺便更新升级。</p>]]></content>
+    <content type="html"><![CDATA[<ul><li>对博客文章进行全面整理。</li></ul>]]></content>
     
     
     <categories>
@@ -21,35 +21,6 @@
     <tags>
       
       <tag>公告</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>记录 Deepseek 本地部署</title>
-    <link href="/p/10cb/"/>
-    <url>/p/10cb/</url>
-    
-    <content type="html"><![CDATA[<p>请注意，本文并不是一篇教程。</p><span id="more"></span><h2 id="安装中遇到的问题"><a href="#安装中遇到的问题" class="headerlink" title="安装中遇到的问题"></a>安装中遇到的问题</h2><p>Ollama 和 Chatbox 都正常安装了。</p><p>最后发现命令行 Ollama 显示不是内部或外部命令等等。</p><p>添加 Path 环境变量即可解决。</p><p>Ollama 只能安装在 AppData 中，这就有点难受。</p><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>电脑吃不消，跑不了。</p><p>配置如下。</p><p>CPU：Intel(R) Core(TM) i7-10510U @ 1.80GHz<br>内存：8.0 GB<br>GPU：Radeon 530 Series<br>GPU 内存：6.0 GB</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>技术</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>记录</tag>
-      
-      <tag>Deepseek</tag>
-      
-      <tag>本地部署</tag>
       
     </tags>
     
@@ -233,37 +204,6 @@
   
   
   <entry>
-    <title>期末及寒假部分学习计划</title>
-    <link href="/p/6913/"/>
-    <url>/p/6913/</url>
-    
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="d16ea9f793f8e2a8d69bf95e45f3337103c760369d4cdd33d90f9f8348dcaa0e">161bafe538b090375c528f81cebd5bfec3ea3fce58e34132adbd740cc76d1635921a02eb6441f6bc49a9eebf7294cd03a8fd5d928256b2bbdb5b10cfaf1dd39f899da3a42127c799f532056c5b0aa041fd42b2e703574b38ab3f9ba8be5ada8578f8c365f77aee1660d5b479b1845cf1d62a7f3a64ea64bec88bbea6a8bfa5b1ac31fd2d7c5e63680d5d3edf417531212735a7054d7a48eb3681f77c2b8f22343836626c74bacbe0c939c3f378c141faf6b92139e79120ce3ab597e85b303ba94f4faf657f51a0c78c78cccd8f3f7ae3f91ce49717697fb808606a1c231ca75f83d7101c11d553ed5c303a1840f8abfbcc49523221b106233be962601aea27f9af3c5c24176e9d1a40dc20c946c95cec261589b2eed8993d3639d0417b5d16d571e5e5ad99c33655b0dbc830def4aa1a4f3647dfa29d52d977d2edf98ed13c56354c17dbdc2841bf99285c0657340e39eec0a258679fe3ddcbc8169514b5cc01a28cda474e9db8985dabfae559f0fbea45c7d9809b2cc26b01b0512dfc5b5ba43102cc5db727f8f2cec4b6596c381c417799e18161fb45370ece58493d519bec9f48de19b63d00c8badf388b3f915d51732fed65bb8736eab042eb455554e30139b0319eddd51b01db56f9bf6a91f3ca26b099ff34614daa760eba85efefe2f867f4d52fb5beb56cb32b7e6f078a5cf82d01f7a53e4623a93edce5c5313a0f0a922507444b98e63e6ed1deccd0b1c3699cf0c8860015327c0b506fc40b693d68f1ef88701fd1f6b140460605cf44464da0ca91552ceb84b0cac378fbf17e6040392b274f3fd18c71c0207089159ab295ea7307dd8464566ae2bcaa331d426e4f8ab5804bf4adfb33f2bbab4c373abe156e6d0b94b413238037e6d9aecf00169977bd0fe99f012e99fa2640aafea3442c4028d4b93007c1ef17f464842898b17004e1a908b1cdce6036e81b4b5e44c1efc17a3bd008fb925cb11e3cfdd24ddc8a6f8baa01326999e7455c0f8c189aedf748e9a606dd9b36eda58ded3686eaefbbc8e3d3f62e54d0ee48580328229cf45b349743902460ae121b1db7b6df8a8c2b316c2a6c15cc2c9ceb2bc703be5bd4347404f2f87362c092ec1f5c94d9b6f46cb8fe226b85f6f29d8d8f3c3b2271bc9120f3405296a63c5dba125024d7cc50d4c74b4d73e2b96edbb5b5645894ddb16bf052e68ff1f937c4be2dfec59a0d4cb57ebe9bb19fb2ae2d3cf630171c55b591523870f69afdd94c1ac6e1f11b070e731df6bedc4845ada48bcb502ec4bae7cd46bbe743ac9678b5c3e15413fe9cc9a0996049d33af91e833711981a787f16289ad395e157c6bb41bc86b73db2dab501f7a3ae87083ce46c708f8e48072600bd2421efb4bcfa3c592528019bf78b1e9442884e8d2206c55bb27d5a9d91876df2bb4083b7d432afac6d983f4025f773b9cc6609e7b5afb83836a6f9e45b069d7a0018bcb99c4098abfad016f12729f876440c1ae13e41f5028a76d84614a962d43a4d6a12afc7f1554c0bc9eaeb358014b5bfb01afa8bb46342e0f8fcfcb38b273c4e996434bfddf0f2ef164c6e5919cac56e4d29a0a5dc9ec4fb3ba2c7aedde6af125b7fcebc19ee25b7c5db56baf2b8406965a633ba9bbd2a5a10cf50a1e6d87a02c42cb434e5e9ccb2084c717f9f79244dd39dd60c639b856fb7ac62615685ab52ae6f82dee39fb6c0c5943d876b948d1887ee8a185443f4d96d101ddb2c66b38c83d712adb81aba5d2e791617fe8ccdd4eb40e0334d71b0fa97e0c20abde1aeceffe944a0a891f3491a86d4040b07042804aa9b40477469003c3d74c12b626f6c22f36a359a984afa210a3cc4dc0830e7581997ad5a442548bb7e06407ab2b8cf93bf2776498c4941dbb24a54ccddb5e4d0e799ef9064c0ff428b1d8516c9d79305b8788f9b0044ab59fb93f63cb6e6367c02cff0e5ec10cd50de61db684daf113aa17f7d19286005147bb283656c0fd5526a9bfd2ecdc5b2d976392d4186b96ecac118f5a47007c592c5801e3528b1eff5bc8332c6fe08b9502ff7cf7ab7f61e417772fa355225f26cb0db012b1ffd36dfd60d1a563e8f298c38ee1c9fa2295e1d39eddc00a73a9ff62b1e457820623ab2fdf2c56fc46197be47c6a68955077b8ecd69c4df0813d058ec4cea042cda41641e5b2791d0a214591b044a722dae2d2bae5402b42b0f6b81c32c4ec4bd25cdb448bf3703d3516a3f0f517ac8c6e116676a9bb0eab57e046a58e372e965acfbb9030a275662b57ccbd1d401168d91d8490c51bdd8f16fe79a20149c39bd2ce8bd564f9090b22639ed148c6a6126bbf402fa7b57cf37d40b8adda568b8a6d5c9b8283486d57bfdce239693bbcaca3fde146a82f77f2863ac6e3d48046a62bd222b7b3a4d25b986f6ee238db58834fdca98f4bc4f0fa30d02f83cefd1ebd2addc0dd8fae52e3e1d93538dfa930b720918a8ae0001ac192aeab753ed5885374193bc394b384a49d30e61e089dd2b4a045e86eb4d2e9e8efd00bb00579cbf3958a99066a7ed74fdc79feb9ce8af1ba016b735bdf938c6473a9765ac78e6ac6d8efa68e6e0a492f2d4a5ed66ac91e56d315de7e7a5cd283658b6fa5f5317ff65db3d68788d12bed1556a22a41d80c4c1e74672f38cf03362afb183c217663753d907dc06be8c08a7d72cb636534e3f0b6c379e82fedcc0b781932758d09bddee4c1e9beb660d26725543c126aaf516f1f06937e3a7d215c613cfbc2adafe84f49a4ec0f7c89906199efc576877a7d564412e1ccae78d1d1825d9a581d49f4b5d227d1df34628277bf50abf96d67797c485361129e4847c04074d96a2786719dbee967373564fcc0ddf98725332940bb7aaa3f59773710b923cd1ad3d8c35a0529e38bc7ca3c3d7bfa445ac31394d58bfd52e56bde7709b1823d04dcacb1821c5fa08ab61cea55a893d42b1b444840576cc82573e9a82a95e2af7d904f7200449b85ab118d539e80ecbeaae25df490e7acde44164e5c1d85f8e4515362fe29fe55cb57c6165dbdd51d7220458953db2d6b554a06575af063907560357e8c4b4fa9ef91606a99bf2a8a376a3a811e49dce4bcf03308bec7410150098569574c1f38958d3597e8dd0a3e87cc973134d3bf8b48e865f06949f97332cdd6aaca2ebb4dd82288421706986e903b6b210a06ec2145599c627b5187318cf1f0ad9aa50fa795f50a24e078cd6694e2789cd6a0515</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <categories>
-      
-      <category>学习</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>学习</tag>
-      
-      <tag>计划</tag>
-      
-      <tag>寒假</tag>
-      
-      <tag>期末</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>2025 的第一篇博客</title>
     <link href="/p/8b7e/"/>
     <url>/p/8b7e/</url>
@@ -437,31 +377,6 @@
       <tag>冬月</tag>
       
       <tag>小记</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>构想Cpp-Code新变革</title>
-    <link href="/p/f205/"/>
-    <url>/p/f205/</url>
-    
-    <content type="html"><![CDATA[<p>这几天捣鼓 Github Actions 成功实现了博客天气更新。</p><p>具体的来说就是，先写好一个 Python 爬虫爬取 MSN 天气并保存（其实是保存在 Github Actions 的服务器上）。</p><p>然后用 Actions 提交这个数据文件到仓库。</p><p>因为 Hexo 本地提交渲染到仓库上会覆盖，我就用了另一个仓库。</p><p>然后因为没有跨域限制。就可以用 JavaScript Ajax 来请求获取了。</p><hr><p>后面突然想到能不能直接用 Python 跑个服务器，结果网上都没有我这种奇葩想法，我就去问 AI。</p><p>结果是可以的，不过要用内网穿透。</p><p>有机会实现静态网站动态化。</p><p>但是也暴露出一个问题，我一直想在博客技术上捣鼓，却忘记了创作优质的博客。</p><hr><p>还记得 Cpp-Code 吗？我把一些课件资料上传到仓库，现在还是在用本地的 Python 迭代目录生成。</p><p>但是有了 Github Actions 后有可能实现只需要提交文件到仓库，然后 Actions 自动渲染页面。</p><p>好好设计一下还是可行的。</p><p>2024.10.2</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>科技</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>构想</tag>
       
     </tags>
     
@@ -824,9 +739,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -853,9 +768,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -882,9 +797,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -911,9 +826,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -940,9 +855,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -969,9 +884,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -998,9 +913,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -1027,9 +942,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -1056,9 +971,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -1085,9 +1000,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
@@ -1114,9 +1029,9 @@
     
     <tags>
       
-      <tag>心路</tag>
-      
       <tag>补档</tag>
+      
+      <tag>心路</tag>
       
       <tag>Winter</tag>
       
