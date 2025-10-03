@@ -7,7 +7,7 @@ function entrance()
 
     // swal("Hello world!");
 
-     document.title = document.title + ' | 卡戎树笔记🍃'
+     document.title = document.title + ' | Stage Ⅵ'
     console.log('Custom Javascript: Entrance Loaded Successfully.')
 
     // $.ajax({
