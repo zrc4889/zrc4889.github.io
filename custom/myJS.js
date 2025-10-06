@@ -3,12 +3,17 @@
 
 function entrance()
 {
+    document.title = document.title + ' | Stage Ⅵ'
+    console.log('Custom Javascript: Entrance Loaded Successfully.')
+
+    siteStatus()
+    badge()
+    
+    
     // 暂未拆分
 
     // swal("Hello world!");
 
-     document.title = document.title + ' | Stage Ⅵ'
-    console.log('Custom Javascript: Entrance Loaded Successfully.')
 
     // $.ajax({
     //     type: 'get',
@@ -21,8 +26,6 @@ function entrance()
     // }) 
 
     // skin()
-    // siteStatus()
-    badge()
     // essay()
     // getCountTime()
     // dynamicTest()
@@ -32,174 +35,6 @@ function entrance()
     // domName.style.backgroundColor = '#aaa'
 }
 
-// function 
-
-function postsStatus()
-{
-
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: '/info.json',
-        success: function(data)
-        {
-            // published
-
-            var pub = data[0]['next']
-            console.log(pub)
-
-            for (let key in pub)
-            {
-                var str = pub[key]['name']
-                var d = document.getElementById('next')
-                if (d != undefined)
-                {
-                    var p = document.createElement('p')
-                    p.innerHTML = str
-                    d.appendChild(p)
-                }
-            }
-
-        }
-    })
-}
-
-function dynamicTest()
-{
-    
-    $.ajax({
-        type: 'get',
-        url: 'https://zrc4889.github.io/DynamicBlog/test.txt',
-        success: function(data)
-        {
-            console.log(data)
-            // var d = document.getElementById('weather')
-            var p = document.createElement('li')
-            p.innerHTML = data
-            p.className = 'nav-item'
-            // d.appendChild(p)
-
-            var n = document.getElementsByClassName('navbar-nav')[0]
-
-            // n.appendChild(p) 暂时下线该功能
-        }
-    })
-}
-
-function getCountTime() {
-      const now = +new Date()
-      const time = '2024-07-14'
-      const after = +new Date(time)
-      const sec = (after - now) / 1000
-      const d = parseInt(sec / 60 / 60 / 24) 
-    //   document.querySelector('.title span').innerHTML = '元旦'   //修改标题处
-    //   document.querySelector('#days').innerHTML = d
-    //   document.querySelector('#goal').innerHTML = time
-}
-
-function redirect()
-{
-    var urlParams = new URLSearchParams(window.location.search);
-    var params = {};
-
-    for (var key of urlParams.keys()) {
-        params[key] = urlParams.get(key);
-    }
-    
-    var x = params['redirect'];
-
-    // ajax
-    $.ajax({
-        type: 'get',
-        url: '/redirect.json',
-        success: function(data)
-        {
-            console.log(data[x]['link'])   
-        }
-    })
-    
-}
-
-function skin()
-{
-    var t = document.getElementsByClassName('index-card')[0];
-    if (t != undefined)
-        t.style['background-image'] = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')';
-    // 成功
-}
-
-function notice()
-{
-    console.log('Notice')
-
-    var d = document.createElement("div")
-    d.classList = 'note note-info'
-    var text = document.createTextNode("Water")
-    d.appendChild(text)
-
-    var c = document.getElementsByClassName("container")[2]
-    c.insertBefore(d, c.childNodes[0]);
-}
-
-function siteStatus()
-{
-    console.log('Custom Javascript: Module Site Status Loaded Successfully.')
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: 'https://zrc4889.github.io/status.json?=' + Math.random(),
-        success: function(data)
-        {
-            var t = data[0]['last_update'].toString()
-
-            console.log(t)
-
-            var year = t.substring(0, 4)
-            var month = t.substring(4, 6)
-            var day = t.substring(6, 8)
-            var hour = t.substring(8, 10)
-            var minute = t.substring(10, 12)
-            var second = t.substring(12, 14)
-
-            var p = document.createElement('p')
-            p.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
-
-            var d = document.getElementById('status')
-            if (d != undefined)
-                d.appendChild(p)
-
-            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
-        }
-    }) 
-}
-
-function time()
-{
-    console.log('Custom Javascript: Module Time Loaded Successfully.')
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: 'https://zrc4889.github.io/status.json',
-        success: function(data)
-        {
-            var t = data[0]['last_update'].toString()
-
-            // console.log(t)
-
-            var year = t.substring(0, 4)
-            var month = t.substring(4, 6)
-            var day = t.substring(6, 8)
-            var hour = t.substring(8, 10)
-            var minute = t.substring(10, 12)
-            var second = t.substring(12, 14)
-
-            // var d = document.getElementById('status')
-            // d.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
-
-            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
-        }
-    }) 
-}
 
 function badge()
 {
@@ -360,6 +195,177 @@ function badge()
 
     // 插入新元素
     title.appendChild(badge);
+}
+
+
+function siteStatus()
+{
+    console.log('Custom Javascript: Module Site Status Loaded Successfully.')
+    $.ajax({
+        type: 'get',
+        datatype: 'json',
+        url: 'https://zrc4889.github.io/status.json?=' + Math.random(),
+        success: function(data)
+        {
+            var t = data[0]['last_update'].toString()
+
+            console.log(t)
+
+            var year = t.substring(0, 4)
+            var month = t.substring(4, 6)
+            var day = t.substring(6, 8)
+            var hour = t.substring(8, 10)
+            var minute = t.substring(10, 12)
+            var second = t.substring(12, 14)
+
+            var p = document.createElement('p')
+            p.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 '
+
+            var d = document.getElementById('status')
+            if (d != undefined)
+                d.appendChild(p)
+
+            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+        }
+    }) 
+}
+
+
+// function 
+
+function postsStatus()
+{
+
+    $.ajax({
+        type: 'get',
+        datatype: 'json',
+        url: '/info.json',
+        success: function(data)
+        {
+            // published
+
+            var pub = data[0]['next']
+            console.log(pub)
+
+            for (let key in pub)
+            {
+                var str = pub[key]['name']
+                var d = document.getElementById('next')
+                if (d != undefined)
+                {
+                    var p = document.createElement('p')
+                    p.innerHTML = str
+                    d.appendChild(p)
+                }
+            }
+
+        }
+    })
+}
+
+function dynamicTest()
+{
+    
+    $.ajax({
+        type: 'get',
+        url: 'https://zrc4889.github.io/DynamicBlog/test.txt',
+        success: function(data)
+        {
+            console.log(data)
+            // var d = document.getElementById('weather')
+            var p = document.createElement('li')
+            p.innerHTML = data
+            p.className = 'nav-item'
+            // d.appendChild(p)
+
+            var n = document.getElementsByClassName('navbar-nav')[0]
+
+            // n.appendChild(p) 暂时下线该功能
+        }
+    })
+}
+
+function getCountTime() {
+      const now = +new Date()
+      const time = '2024-07-14'
+      const after = +new Date(time)
+      const sec = (after - now) / 1000
+      const d = parseInt(sec / 60 / 60 / 24) 
+    //   document.querySelector('.title span').innerHTML = '元旦'   //修改标题处
+    //   document.querySelector('#days').innerHTML = d
+    //   document.querySelector('#goal').innerHTML = time
+}
+
+function redirect()
+{
+    var urlParams = new URLSearchParams(window.location.search);
+    var params = {};
+
+    for (var key of urlParams.keys()) {
+        params[key] = urlParams.get(key);
+    }
+    
+    var x = params['redirect'];
+
+    // ajax
+    $.ajax({
+        type: 'get',
+        url: '/redirect.json',
+        success: function(data)
+        {
+            console.log(data[x]['link'])   
+        }
+    })
+    
+}
+
+function skin()
+{
+    var t = document.getElementsByClassName('index-card')[0];
+    if (t != undefined)
+        t.style['background-image'] = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')';
+    // 成功
+}
+
+function notice()
+{
+    console.log('Notice')
+
+    var d = document.createElement("div")
+    d.classList = 'note note-info'
+    var text = document.createTextNode("Water")
+    d.appendChild(text)
+
+    var c = document.getElementsByClassName("container")[2]
+    c.insertBefore(d, c.childNodes[0]);
+}
+
+function time()
+{
+    console.log('Custom Javascript: Module Time Loaded Successfully.')
+    $.ajax({
+        type: 'get',
+        datatype: 'json',
+        url: 'https://zrc4889.github.io/status.json',
+        success: function(data)
+        {
+            var t = data[0]['last_update'].toString()
+
+            // console.log(t)
+
+            var year = t.substring(0, 4)
+            var month = t.substring(4, 6)
+            var day = t.substring(6, 8)
+            var hour = t.substring(8, 10)
+            var minute = t.substring(10, 12)
+            var second = t.substring(12, 14)
+
+            // var d = document.getElementById('status')
+            // d.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
+
+            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+        }
+    }) 
 }
 
 function essay()
