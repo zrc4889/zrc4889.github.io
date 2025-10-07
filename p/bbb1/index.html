@@ -1,0 +1,769 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="../../img/fluid.png">
+  <link rel="icon" href="../../img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="CharonTree">
+  <meta name="keywords" content="CharonTree zrc4889">
+  
+    <meta name="description" content="Stably, Continuesly, Periodically.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="稳定持续周期性的方法论">
+<meta property="og:url" content="https://zrc4889.github.io/p/bbb1/index.html">
+<meta property="og:site_name" content="CharonTree&#39;s World">
+<meta property="og:description" content="Stably, Continuesly, Periodically.">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-10-06T14:04:51.551Z">
+<meta property="article:modified_time" content="2025-10-06T14:48:40.409Z">
+<meta property="article:author" content="CharonTree">
+<meta property="article:tag" content="CharonTree zrc4889">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+    <body onload="entrance()"></body> <script src="https://cdn.bootcdn.net/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+  <title>稳定持续周期性的方法论 | CharonTree&#39;s World</title>
+
+  <link  rel="stylesheet" href="https://fastly.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://fastly.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="../../css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="../../css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="../../css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"zrc4889.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":false,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="../../js/utils.js" ></script>
+  <script  src="../../js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../../index.html">
+      <strong>CharonTree&#39;s World</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="../../archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="../../categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="../../tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="../../about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://zrc4889.github.io/Disk/" target="_self">
+                <i class="iconfont icon-code"></i>
+                <span>云盘</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://s2.loli.net/2025/10/03/417PG2Jd9RnUor6.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.5)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="稳定持续周期性的方法论"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-author" aria-hidden="true"></i>
+        CharonTree
+      </span>
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-10-06 22:04" pubdate>
+          2025年10月6日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          374 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          4 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">稳定持续周期性的方法论</h1>
+            
+              <p id="updated-time" class="note note-info" style="display: none">
+                
+                  
+                    本文最后更新于 2025-10-06T22:48:40+08:00
+                  
+                  
+
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <p>普通人经常会困扰，为什么假期前信誓旦旦要逆袭的你，最后总是处于放纵后赶 DeadLine 的狼狈情况？</p>
+<h2 id="忽视主观系统负荷与客观任务规律"><a href="#忽视主观系统负荷与客观任务规律" class="headerlink" title="忽视主观系统负荷与客观任务规律"></a>忽视主观系统负荷与客观任务规律</h2><p>假期前高度紧张的生活，常常会让我们陷入一种持续“高效”的假象，从而更容易落入“<strong>完美主义</strong>”陷阱。其本质在于主观系统负荷与客观任务规律的严重错位，即所谓“梦想很美好，现实很苦感”。<strong>工作日规律性的时间表减轻了我们下一步该做什么这一决策的系统负荷，从而让我们有更多的精力去按部就班的完成任务。</strong>在这时候的所列的假期清单，则是基于像工作日一样所有时间都投入任务的完美假设，它完全违背了我们需要休息的客观规律。</p>
+<p>另外一个思维模式同样危险，即<strong>全无或全有的思维模式</strong>，其本质也就是完美主义。这样的思维严重违背了量变引起质变的原理，否认事物发展的上升性，即事物是<strong>螺旋式上升发展</strong>的，总会有正确与谬误的存在。</p>
+<p>因此，我们要<strong>坚决反对完美主义</strong>。也就引出了本文的标题，稳定、持续、周期性。</p>
+<h2 id="稳定持续周期性"><a href="#稳定持续周期性" class="headerlink" title="稳定持续周期性"></a>稳定持续周期性</h2><p>此言源自于 OI-transit 大佬。同样的还有“Always continue; Never break. ——PinkRabbit”。</p>
+<!-- 囿于本人知识领域所限，这里引用 DeepSeek 的高明论述。本人将不断学习应用。 -->
+<!-- ## DeepSeek
+
+好的，这是一个非常深刻且富有启发性的角度。将这个问题置于马列毛主义的分析框架下，我们就能超越个人意志力的表层，洞察到其背后更深层次的结构性矛盾和哲学根源。
+
+普通人假期“立志-放纵-狼狈”的循环，并非单纯的个人品德或能力问题，而是一个典型的 **“主观能动性”与“客观规律及条件”相脱离** 的鲜活案例。我们可以从以下几个核心观点进行分析：
+
+### 1. 违背了“实事求是”的基本原则
+
+*   **“实事求是”** 是马列毛主义的精髓。它要求我们一切从实际出发，研究事物内部的必然联系，即规律性。
+*   假期前的“信誓旦旦”，往往是一种 **“主观主义”** 的规划。我们只看到了“假期”这个时间空壳，却没有实事求是地分析假期内的**客观情况**：
+    *   **客观规律**：人需要休息，精力有波峰波谷，学习工作有其内在的连续性和难度规律。
+    *   **客观条件**：家庭环境、社交往来、突发琐事等外部干扰是客观存在的。
+*   用毛选式的语言来说，你的计划是一种 **“左”倾冒险主义** 的表现，脱离了实际的客观条件，盲目地提出过高、过急的任务指标，其失败是必然的。
+
+### 2. “主观能动性”的误用与空想
+
+*   马列毛主义高度重视人的**主观能动性**，即人认识世界、改造世界的自觉活动能力。
+*   然而，主观能动性的发挥必须**建立在尊重客观规律的基础之上**。假期前的“豪言壮语”只是发挥了主观能动性中“想”的一面（甚至是空想），却忽略了更为关键的“如何做”的一面。
+*   这就像一场战役，只有“我们必须胜利”的口号（发挥主观能动性），却没有对敌我力量、地形、后勤等进行周密的侦察（实事求是），结果只能是败仗。你的假期计划，就是一场没有侦察的“盲目冲锋”。
+
+### 3. “主要矛盾”与“次要矛盾”的混淆
+
+*   **矛盾论**告诉我们，在事物发展过程中，有许多矛盾存在，其中必有一种是主要的矛盾，它规定和影响着其他矛盾的存在和发展。
+*   在假期中，存在多种矛盾：**学习/工作 vs. 休息娱乐**、**个人提升 vs. 家庭责任**、**长期目标 vs. 短期快乐** 等。
+*   假期开始时，你将 **“学习/工作”** 定为主要矛盾，但你制定的计划过于激进，完全压制了 **“休息娱乐”** 这个次要矛盾。然而，次要矛盾如果处理不好，在一定的条件下也会转化为主要矛盾。
+*   结果就是：被压抑的“休息娱乐”需求通过你的意志力薄弱点进行反扑，并迅速上升为主要矛盾，导致你彻底“放纵”。你没能抓好主要矛盾，也没能处理好次要矛盾。
+
+### 4. 缺乏“持久战”的战略思维
+
+*   《论持久战》的核心思想是，面对强大的敌人，不能幻想“速胜论”，也不能持“亡国论”，而要通过战略防御、战略相持、战略反攻三个阶段，积小胜为大胜，最终取得胜利。
+*   你的假期逆袭计划，就是一种典型的 **“速胜论”** 思想。你企图通过一个假期，集中优势兵力（时间和精力），打一场歼灭战，一举解决所有问题（逆袭）。
+*   但个人成长和知识积累的本质，更像一场 **“持久战”** 。它需要的是持续不断的、每日的努力和积累。把希望寄托于一场短暂的、高强度的“战役”，一旦受挫（比如第一天没起来床），就容易产生“亡国论”心态——“我完了，计划泡汤了，干脆放弃吧”，从而进入“放纵”阶段。
+
+### 5. “实践-认识-再实践-再认识”的循环被中断
+
+*   辩证唯物主义认识论认为，认识的过程是“实践-认识-再实践-再认识”的循环往复和无限发展。
+*   在这个循环中，你只完成了第一步和第二步的失败版本：
+    *   **初始实践**：基于过往假期失败的经验。
+    *   **错误认识**：你认为失败是因为“计划不够狠”、“决心不够大”，于是制定了一个更“左”的计划。
+    *   **再实践**：再次失败。
+    *   **缺乏“再认识”**：你没有从失败中认识到问题的根源在于“计划不切实际”，反而可能归咎于自己“意志薄弱”，陷入了自我攻击的恶性循环，没有实现认识的飞跃。
+
+---
+
+### 用马列毛主义的智慧打破循环：
+
+1.  **调查研究，实事求是**：在制定计划前，先对自己进行“调查研究”。我一天的有效学习时间究竟多长？假期有哪些不可避免的社交？我的精力在哪个时段最好？基于这些客观数据，制定一个**留有余地、富有弹性**的计划。
+
+2.  **抓住主要矛盾，学会弹钢琴**：明确假期最核心的目标（主要矛盾），比如完成报告。同时，要“学会弹钢琴”，统筹兼顾休息、娱乐等次要矛盾。允许自己每天有固定的娱乐时间，而不是试图消灭它。这反而能维持战略定力。
+
+3.  **放弃速胜论，打持久战**：将“假期逆袭”的宏大目标，分解为“每日前进一点点”的持久战。今天读10页书，明天写200字，积小胜为大胜。哪怕假期只完成了70%，也远胜于0%。
+
+4.  **在实践基础上飞跃认识**：每次假期结束后，进行一次深刻的“批评与自我批评”。不是骂自己，而是冷静分析：计划哪里不切实际？执行中遇到了什么意外？下次如何改进？实现“实践-认识”的螺旋式上升。
+
+**结论：**
+
+假期计划的失败，本质上是一次 **“左”倾盲动主义路线在个人生活领域的破产**。它告诉我们，无论改造社会还是改造自我，都必须遵循客观规律，坚持实事求是，善于抓住主要矛盾，并准备进行持久战。
+
+当你不再把自己视为一个需要用意志力对抗本能的孤独个体，而是像一个革命战略家一样，冷静分析客观形势，灵活运用战略战术时，你才能真正从“狼狈”中解放出来，成为一个从容的、高效的“自我革命者”。 -->
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="../../categories/Stage%E2%85%A5/" class="category-chain-item">StageⅥ</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="../9924/" title="相册">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">相册</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="../c9ed/" title="坚持具体问题具体分析">
+                        <span class="hidden-mobile">坚持具体问题具体分析</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+    <div id="giscus" class="giscus"></div>
+    <script type="text/javascript">
+      Fluid.utils.loadComments('#giscus', function() {
+        var options = {"repo":"zrc4889/zrc4889.github.io","repo-id":"R_kgDOMWSlGg","category":"Announcements","category-id":"DIC_kwDOMWSlGs4CigJZ","theme-light":"light","theme-dark":"dark","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"top","lang":"zh-CN","order":"desc"};
+        var attributes = {};
+        for (let option in options) {
+          if (!option.startsWith('theme-')) {
+            var key = option.startsWith('data-') ? option : 'data-' + option;
+            attributes[key] = options[option];
+          }
+        }
+        var light = 'light';
+        var dark = 'dark';
+        window.GiscusThemeLight = light;
+        window.GiscusThemeDark = dark;
+        attributes['data-theme'] = document.documentElement.getAttribute('data-user-color-scheme') === 'dark' ? dark : light;
+        for (let attribute in attributes) {
+          var value = attributes[attribute];
+          if (value === undefined || value === null || value === '') {
+            delete attributes[attribute];
+          }
+        }
+        var s = document.createElement('script');
+        s.setAttribute('src', 'https://giscus.app/client.js');
+        s.setAttribute('crossorigin', 'anonymous');
+        for (let attribute in attributes) {
+          s.setAttribute(attribute, attributes[attribute]);
+        }
+        var ss = document.getElementsByTagName('script');
+        var e = ss.length > 0 ? ss[ss.length - 1] : document.head || document.documentElement;
+        e.parentNode.insertBefore(s, e.nextSibling);
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <span> 2025 · 卡戎树宇宙🍃 </span> <div style="font-size: 0.85rem"> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/custom/duration.js"></script> </div> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://fastly.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://fastly.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://fastly.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://fastly.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="../../js/events.js" ></script>
+<script  src="../../js/plugins.js" ></script>
+
+
+  <script  src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="../../js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  var relativeDate = function() {
+    var updatedTime = document.getElementById('updated-time');
+    if (updatedTime) {
+      var text = updatedTime.textContent;
+      var reg = /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})/;
+      var matchs = text.match(reg);
+      if (matchs) {
+        var relativeTime = moment(matchs[0]).fromNow();
+        updatedTime.textContent = text.replace(reg, relativeTime);
+      }
+      updatedTime.style.display = '';
+    }
+  };
+  Fluid.utils.createScript('https://lib.baomitu.com/moment.js/2.29.4/moment.min.js', function() {
+    if (!'zh-cn'.startsWith('en')) {
+      Fluid.utils.createScript('https://lib.baomitu.com/moment.js/2.29.4/locale/zh-cn.min.js', function() {
+        relativeDate();
+      });
+    } else {
+      relativeDate();
+    }
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://fastly.jsdelivr.net/npm/tocbot@4.12.2/dist/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://fastly.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://fastly.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="../../js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+  
+<script src="../../custom/myJS.js"></script>
+<script src="../../custom/lunar.js"></script>
+<script src="../../custom/newyear.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="../../js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
