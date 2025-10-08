@@ -83,7 +83,7 @@ function badge()
         badge.innerHTML = " · TheNextTree🌳";
     }
 
-    if (month == 4 && month == 9)
+    if (month == 4)
     {
         badge.style.color = "rgba(255, 255, 0, 0.7)"
         badge.innerHTML = " · 空山新雨后";
@@ -94,13 +94,6 @@ function badge()
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
         badge.innerHTML = " · 🛠 劳动最光荣！";
-    }
-
-    if (month == 5 && date == 4)
-        // 劳动节
-    {
-        badge.style.color = "rgba(255, 0, 0, 0.7)"
-        badge.innerHTML = " · 五四新青年！";
     }
 
     if (month == 5 && date >= 24 && date <= 31)
@@ -117,16 +110,10 @@ function badge()
         badge.innerHTML = " · " + (year - 1949) + " 华诞";
     }
 
-    if ((month == 10 && date >= 24) || (month == 11) || (month == 12 && date <= 19))
+    if ((month == 10 && date >= 24) || (month == 11) || (month == 12))
     {
         badge.style.color = "rgba(153,255,255,0.7)"
         badge.innerHTML = " · 冬日之心❄️"
-    }
-
-    if ((month == 12 && date >= 20) || (month == 1 || month == 2))
-    {
-        badge.style.color = "rgba(153,255,255,0.7)"
-        badge.innerHTML = " · 岁寒山雪行❄️"
     }
 
     if (Lmonth == 12)
@@ -146,7 +133,6 @@ function badge()
 
     if (Lmonth == 1 && Ldate <= 7)
         // 春节
-        // 生肖 todo
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
         badge.innerHTML = " · 新年新气象";
@@ -173,11 +159,11 @@ function badge()
     }
 
     
-    if (year == 2024 && month == 9 && date == 30)
-    {
-        badge.innerHTML = " · 重访日";
-        badge.style.color = "rgba(255, 0, 0, 0.7)"
-    }
+    // if (year == 2024 && month == 9 && date == 30)
+    // {
+    //     badge.innerHTML = " · 重访日";
+    //     badge.style.color = "rgba(255, 0, 0, 0.7)"
+    // }
 
     // // 公历跨年限定
 
