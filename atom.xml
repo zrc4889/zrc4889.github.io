@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CharonTree&#39;s World</title>
+  
+  <subtitle>欢迎回家。</subtitle>
+  <link href="https://zrc4889.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zrc4889.github.io/"/>
+  <updated>2025-10-12T06:10:09.364Z</updated>
+  <id>https://zrc4889.github.io/</id>
+  
+  <author>
+    <name>CharonTree</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://zrc4889.github.io/p/0/"/>
+    <id>https://zrc4889.github.io/p/0/</id>
+    <published>2025-10-12T05:26:53.504Z</published>
+    <updated>2025-10-12T06:10:09.364Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>StageⅥ 路标</title>
+    <link href="https://zrc4889.github.io/p/695b/"/>
+    <id>https://zrc4889.github.io/p/695b/</id>
+    <published>2025-10-08T03:45:47.977Z</published>
+    <updated>2025-10-11T15:14:50.140Z</updated>
+    
+    
+    <summary type="html">StageⅥ 理论</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>坚持进度完成与学习深度的统一</title>
+    <link href="https://zrc4889.github.io/p/94f0/"/>
+    <id>https://zrc4889.github.io/p/94f0/</id>
+    <published>2025-10-08T03:45:13.986Z</published>
+    <updated>2025-10-11T15:14:58.572Z</updated>
+    
+    
+    <summary type="html">暂无。</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>语文课学习外国小说是否有用</title>
+    <link href="https://zrc4889.github.io/p/5471/"/>
+    <id>https://zrc4889.github.io/p/5471/</id>
+    <published>2025-10-08T02:09:21.798Z</published>
+    <updated>2025-10-11T14:57:23.122Z</updated>
+    
+    
+    <summary type="html">聚焦课内层与自主层的初探。</summary>
+    
+    
+    
+    <category term="StageⅥ" scheme="https://zrc4889.github.io/categories/Stage%E2%85%A5/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>近期图片回忆</title>
+    <link href="https://zrc4889.github.io/p/9924/"/>
+    <id>https://zrc4889.github.io/p/9924/</id>
+    <published>2025-10-07T09:30:19.380Z</published>
+    <updated>2025-10-07T09:45:45.561Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;精选图片。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
