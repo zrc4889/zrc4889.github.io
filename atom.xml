@@ -6,7 +6,7 @@
   <link href="https://zrc4889.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrc4889.github.io/"/>
-  <updated>2025-10-11T15:14:50.140Z</updated>
+  <updated>2025-10-07T09:45:45.561Z</updated>
   <id>https://zrc4889.github.io/</id>
   
   <author>
@@ -15,53 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>StageⅥ 路标</title>
-    <link href="https://zrc4889.github.io/p/695b/"/>
-    <id>https://zrc4889.github.io/p/695b/</id>
-    <published>2025-10-08T03:45:47.977Z</published>
-    <updated>2025-10-11T15:14:50.140Z</updated>
-    
-    
-    <summary type="html">StageⅥ 理论</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>对卡戎树宏观的认识与设计</title>
-    <link href="https://zrc4889.github.io/p/94f0/"/>
-    <id>https://zrc4889.github.io/p/94f0/</id>
-    <published>2025-10-08T03:45:13.986Z</published>
-    <updated>2025-10-18T06:52:34.320Z</updated>
-    
-    
-    <summary type="html">暂无。</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>语文课学习外国小说是否有用</title>
-    <link href="https://zrc4889.github.io/p/5471/"/>
-    <id>https://zrc4889.github.io/p/5471/</id>
-    <published>2025-10-08T02:09:21.798Z</published>
-    <updated>2025-10-11T14:57:23.122Z</updated>
-    
-    
-    <summary type="html">聚焦课内层与自主层的初探。</summary>
-    
-    
-    
-    <category term="StageⅥ" scheme="https://zrc4889.github.io/categories/Stage%E2%85%A5/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>近期图片回忆</title>
@@ -79,18 +32,69 @@
   </entry>
   
   <entry>
-    <title>稳定持续周期性的方法论</title>
-    <link href="https://zrc4889.github.io/p/bbb1/"/>
-    <id>https://zrc4889.github.io/p/bbb1/</id>
-    <published>2025-10-06T14:04:51.551Z</published>
-    <updated>2025-10-11T14:56:57.578Z</updated>
+    <title>乙巳年节日安排</title>
+    <link href="https://zrc4889.github.io/p/413d/"/>
+    <id>https://zrc4889.github.io/p/413d/</id>
+    <published>2025-02-02T18:37:00.000Z</published>
+    <updated>2025-10-06T05:56:19.393Z</updated>
     
     
-    <summary type="html">三层论与征途一目标的补充。</summary>
+    <summary type="html">&lt;p&gt;这里是乙巳年节日安排。&lt;/p&gt;</summary>
     
     
     
-    <category term="StageⅥ" scheme="https://zrc4889.github.io/categories/Stage%E2%85%A5/"/>
+    <category term="岁寒山雪行" scheme="https://zrc4889.github.io/categories/%E5%B2%81%E5%AF%92%E5%B1%B1%E9%9B%AA%E8%A1%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2025 年 1 月回顾</title>
+    <link href="https://zrc4889.github.io/p/958f/"/>
+    <id>https://zrc4889.github.io/p/958f/</id>
+    <published>2025-01-31T15:32:25.000Z</published>
+    <updated>2025-10-06T05:54:18.350Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt; 2025年是21世纪的1/4了。下面我简要回顾一下一月份的活动。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="岁寒山雪行" scheme="https://zrc4889.github.io/categories/%E5%B2%81%E5%AF%92%E5%B1%B1%E9%9B%AA%E8%A1%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>除夕游 · 迎乙巳</title>
+    <link href="https://zrc4889.github.io/p/57a7/"/>
+    <id>https://zrc4889.github.io/p/57a7/</id>
+    <published>2025-01-28T15:59:59.000Z</published>
+    <updated>2025-10-06T05:54:14.671Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天中午其实早上以为。早饭当午饭吃了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="岁寒山雪行" scheme="https://zrc4889.github.io/categories/%E5%B2%81%E5%AF%92%E5%B1%B1%E9%9B%AA%E8%A1%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>闲聊</title>
+    <link href="https://zrc4889.github.io/p/9f25/"/>
+    <id>https://zrc4889.github.io/p/9f25/</id>
+    <published>2025-01-26T06:26:18.000Z</published>
+    <updated>2025-10-06T05:55:02.315Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天已经是寒假的，不知道多少天了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="岁寒山雪行" scheme="https://zrc4889.github.io/categories/%E5%B2%81%E5%AF%92%E5%B1%B1%E9%9B%AA%E8%A1%8C/"/>
     
     
   </entry>
