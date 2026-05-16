@@ -1,38 +1,10 @@
-// const { current } = require("hexo/dist/plugins/helper/is")
-
-
 function entrance()
 {
-    document.title = document.title + ' | Stage Ⅵ'
+    document.title = document.title
     console.log('Custom Javascript: Entrance Loaded Successfully.')
 
     siteStatus()
     badge()
-    
-    
-    // 暂未拆分
-
-    // swal("Hello world!");
-
-
-    // $.ajax({
-    //     type: 'get',
-    //     datatype: 'json',
-    //     url: '/status.json',
-    //     success: function(data)
-    //     {
-
-    //     }
-    // }) 
-
-    // skin()
-    // essay()
-    // getCountTime()
-    // dynamicTest()
-    // postsStatus()
-
-    //var domName = document.querySelector('#domName');
-    // domName.style.backgroundColor = '#aaa'
 }
 
 
@@ -57,11 +29,6 @@ function badge()
 
     var badge = document.createElement("strong");
     
-    // todo.. 生肖
-
-
-    // 季节
-
     if (month >= 3 && month <= 5)
         badge.innerHTML = " · 春";
     
@@ -88,13 +55,6 @@ function badge()
         badge.style.color = "rgba(255, 255, 0, 0.7)"
         badge.innerHTML = " · 空山新雨后";
     }   
-
-    if (month == 5 && date <= 3)
-        // 劳动节
-    {
-        badge.style.color = "rgba(255, 0, 0, 0.7)"
-        badge.innerHTML = " · 🛠 劳动最光荣！";
-    }
 
     if (month == 5 && date >= 24 && date <= 31)
         // 生日
@@ -135,7 +95,7 @@ function badge()
         // 春节
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
-        badge.innerHTML = " · 新年新气象";
+        badge.innerHTML = " · 新年快乐";
     }
 
     if (Lmonth == 1 && date == 15)
@@ -151,22 +111,6 @@ function badge()
         badge.innerHTML = " · 清明";
     }
 
-    if (Lmonth == 8 && Ldate == 15)
-        // 中秋
-    {
-        badge.style.color = "rgba(255, 255, 0, 0.7)"
-        badge.innerHTML = " · 中秋🌕月圆";
-    }
-
-    
-    // if (year == 2024 && month == 9 && date == 30)
-    // {
-    //     badge.innerHTML = " · 重访日";
-    //     badge.style.color = "rgba(255, 0, 0, 0.7)"
-    // }
-
-    // // 公历跨年限定
-
     if (month == 12 && date >= 28)
     {
         badge.style.color = "rgba(255, 0, 0, 0.7)"
@@ -179,230 +123,101 @@ function badge()
         badge.innerHTML = " · Hello " + year + "!";
     }
 
-    // 插入新元素
     title.appendChild(badge);
 }
 
-
-function siteStatus()
-{
-    console.log('Custom Javascript: Module Site Status Loaded Successfully.')
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: 'https://zrc4889.github.io/status.json?=' + Math.random(),
-        success: function(data)
-        {
-            var t = data[0]['last_update'].toString()
-
-            console.log(t)
-
-            var year = t.substring(0, 4)
-            var month = t.substring(4, 6)
-            var day = t.substring(6, 8)
-            var hour = t.substring(8, 10)
-            var minute = t.substring(10, 12)
-            var second = t.substring(12, 14)
-
-            var p = document.createElement('p')
-            p.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 '
-
-            var d = document.getElementById('status')
-            if (d != undefined)
-                d.appendChild(p)
-
-            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
-        }
-    }) 
-}
-
-
-// function 
-
-function postsStatus()
-{
-
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: '/info.json',
-        success: function(data)
-        {
-            // published
-
-            var pub = data[0]['next']
-            console.log(pub)
-
-            for (let key in pub)
-            {
-                var str = pub[key]['name']
-                var d = document.getElementById('next')
-                if (d != undefined)
-                {
-                    var p = document.createElement('p')
-                    p.innerHTML = str
-                    d.appendChild(p)
-                }
-            }
-
-        }
-    })
-}
-
-function dynamicTest()
-{
+function siteStatus() {
+    'use strict';
     
-    $.ajax({
-        type: 'get',
-        url: 'https://zrc4889.github.io/DynamicBlog/test.txt',
-        success: function(data)
-        {
-            console.log(data)
-            // var d = document.getElementById('weather')
-            var p = document.createElement('li')
-            p.innerHTML = data
-            p.className = 'nav-item'
-            // d.appendChild(p)
-
-            var n = document.getElementsByClassName('navbar-nav')[0]
-
-            // n.appendChild(p) 暂时下线该功能
-        }
-    })
-}
-
-function getCountTime() {
-      const now = +new Date()
-      const time = '2024-07-14'
-      const after = +new Date(time)
-      const sec = (after - now) / 1000
-      const d = parseInt(sec / 60 / 60 / 24) 
-    //   document.querySelector('.title span').innerHTML = '元旦'   //修改标题处
-    //   document.querySelector('#days').innerHTML = d
-    //   document.querySelector('#goal').innerHTML = time
-}
-
-function redirect()
-{
-    var urlParams = new URLSearchParams(window.location.search);
-    var params = {};
-
-    for (var key of urlParams.keys()) {
-        params[key] = urlParams.get(key);
+    // 检查 jQuery 是否存在
+    if (typeof $ === 'undefined') {
+        console.error('Custom Javascript: jQuery is not loaded.');
+        return;
     }
     
-    var x = params['redirect'];
-
-    // ajax
-    $.ajax({
-        type: 'get',
-        url: '/redirect.json',
-        success: function(data)
-        {
-            console.log(data[x]['link'])   
-        }
-    })
+    console.log('Custom Javascript: Module Site Status Loaded Successfully.');
     
-}
-
-function skin()
-{
-    var t = document.getElementsByClassName('index-card')[0];
-    if (t != undefined)
-        t.style['background-image'] = 'url(\'https://s2.loli.net/2024/09/22/Meju5i8X3nVwOEf.png\')';
-    // 成功
-}
-
-function notice()
-{
-    console.log('Notice')
-
-    var d = document.createElement("div")
-    d.classList = 'note note-info'
-    var text = document.createTextNode("Water")
-    d.appendChild(text)
-
-    var c = document.getElementsByClassName("container")[2]
-    c.insertBefore(d, c.childNodes[0]);
-}
-
-function time()
-{
-    console.log('Custom Javascript: Module Time Loaded Successfully.')
     $.ajax({
         type: 'get',
-        datatype: 'json',
-        url: 'https://zrc4889.github.io/status.json',
-        success: function(data)
-        {
-            var t = data[0]['last_update'].toString()
-
-            // console.log(t)
-
-            var year = t.substring(0, 4)
-            var month = t.substring(4, 6)
-            var day = t.substring(6, 8)
-            var hour = t.substring(8, 10)
-            var minute = t.substring(10, 12)
-            var second = t.substring(12, 14)
-
-            // var d = document.getElementById('status')
-            // d.innerHTML = '最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。'
-
-            // console.log('最后更新于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
-        }
-    }) 
-}
-
-function essay()
-{
-    // Get Json
-    console.log('Custom Javascript: Module Essay Loaded Successfully.')
-
-    $.ajax({
-        type: 'get',
-        datatype: 'json',
-        url: '/essay.json',
-        success: function(data)
-        {
-            // console.log(data)
-
-            var say = data[0]
-            // var author = say['author']
-            var list = say['essay_list']
-
-            for (var i = 0; i < list.length; i ++)
-            {
-
-                // var a = document.createElement("strong")
-                // if (list[i].author == undefined)
-                //     a.innerHTML = author
-                // else
-                //     a.innerHTML = list[i].author
-                
-                var p = document.createElement("p")
-                p.innerHTML = list[i].content
-
-                var t = document.createElement("sup")
-                var tmp = list[i].date
-                var tmp2 = tmp.substring(0, 10)
-                t.innerHTML = tmp2
-
-                var h = document.createElement("hr")
-
-                var e = document.createElement("div")
-
-                // e.appendChild(a)
-                e.appendChild(p)
-                e.appendChild(t)
-                e.appendChild(h)
-                
-                if (document.getElementById('essay') != undefined)
-                    document.getElementById('essay').appendChild(e)
-                
+        dataType: 'json',
+        url: 'https://zrc4889.github.io/status.json?_t=' + Date.now(),
+        success: function(data) {
+            // 验证数据是否为数组
+            if (!Array.isArray(data) || data.length === 0) {
+                console.warn('Custom Javascript: Invalid or empty data received.');
+                return;
             }
-
-            // console.log(list[1].author)
+            
+            // 遍历数组，使用标准的数组长度控制循环
+            for (let i = 0; i < data.length; i++) {
+                const item = data[i];
+                
+                // 安全检查：确保 item 存在且有 UpdateDate 属性
+                if (!item || !item.UpdateDate) {
+                    console.warn(`Custom Javascript: Item ${i} missing UpdateDate, skipping.`);
+                    continue;
+                }
+                
+                const t = item.UpdateDate.toString();
+                
+                // 验证字符串长度是否为 14 位（YYYYMMDDHHMMSS）
+                if (t.length !== 14 || !/^\d+$/.test(t)) {
+                    console.warn(`Custom Javascript: Invalid UpdateDate format "${t}" at index ${i}, skipping.`);
+                    continue;
+                }
+                
+                // 解析日期时间
+                const year = t.substring(0, 4);
+                const month = t.substring(4, 6);
+                const day = t.substring(6, 8);
+                const hour = t.substring(8, 10);
+                const minute = t.substring(10, 12);
+                const second = t.substring(12, 14);
+                
+                console.log(`第 ${i + 1} 次提交记录于 ${year} 年 ${month} 月 ${day} 日 ${hour} 时 ${minute} 分 ${second} 秒。`);
+            }
+        },
+        error: function(xhr, status, error) {
+            console.error('Custom Javascript: Failed to fetch site status.', {
+                status: status,
+                error: error,
+                url: this.url
+            });
         }
-    }) 
+    });
 }
+
+
+// function siteStatus()
+// {
+//     console.log('Custom Javascript: Module Site Status Loaded Successfully.')
+//     $.ajax({
+//         type: 'get',
+//         datatype: 'json',
+//         url: 'https://zrc4889.github.io/status.json?=' + Math.random(),
+//         success: function(data)
+//         {
+//             var t = data[0]['UpdateDate'].toString()
+
+//             for (var i = 0; t != undefined; i ++)
+//             {
+                
+//                 console.log('Custom Javascript: Module Site Status Loaded Successfully.')
+            
+//                 t = data[i]['UpdateDate'].toString()
+
+//                 console.log(t)
+
+//                 var year = t.substring(0, 4)
+//                 var month = t.substring(4, 6)
+//                 var day = t.substring(6, 8)
+//                 var hour = t.substring(8, 10)
+//                 var minute = t.substring(10, 12)
+//                 var second = t.substring(12, 14)
+
+//                 console.log('第 ' + i +' 次提交记录于 ' + year + ' 年 ' + month + ' 月 ' + day + ' 日' + ' ' + hour + ' 时 ' + minute + ' 分 ' + second + ' 秒。')
+            
+//             }   
+//         }
+//     }) 
+// }
