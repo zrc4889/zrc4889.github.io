@@ -125,18 +125,17 @@ function badge()
 
     title.appendChild(badge);
 }
-
 function siteStatus() {
     'use strict';
-    
-    // 检查 jQuery 是否存在
+
+    // 检查 jQuery 是否存在（若你希望完全摆脱 jQuery，可使用 fetch 版本，见后文）
     if (typeof $ === 'undefined') {
-        console.error('Custom Javascript: jQuery is not loaded.');
+        console.error('Custom Javascript: jQuery is not loaded. Please load jQuery or use fetch version.');
         return;
     }
-    
+
     console.log('Custom Javascript: Module Site Status Loaded Successfully.');
-    
+
     $.ajax({
         type: 'get',
         dataType: 'json',
@@ -144,38 +143,44 @@ function siteStatus() {
         success: function(data) {
             // 验证数据是否为数组
             if (!Array.isArray(data) || data.length === 0) {
-                console.warn('Custom Javascript: Invalid or empty data received.');
+                console.warn('Custom Javascript: Invalid or empty data received. Expected array of status records.');
                 return;
             }
-            
-            // 遍历数组，使用标准的数组长度控制循环
+
+            console.log(`=== 网站更新记录（共 ${data.length} 条）===`);
+
             for (let i = 0; i < data.length; i++) {
-                const item = data[i];
-                
-                // 安全检查：确保 item 存在且有 UpdateDate 属性
-                if (!item || !item.UpdateDate) {
-                    console.warn(`Custom Javascript: Item ${i} missing UpdateDate, skipping.`);
+                const record = data[i];
+
+                // 检查必要字段是否存在
+                if (!record || !record.date || !record.version || !record.description) {
+                    console.warn(`第 ${i + 1} 条记录缺少必要字段 (version/date/description)，已跳过。`, record);
                     continue;
                 }
-                
-                const t = item.UpdateDate.toString();
-                
-                // 验证字符串长度是否为 14 位（YYYYMMDDHHMMSS）
-                if (t.length !== 14 || !/^\d+$/.test(t)) {
-                    console.warn(`Custom Javascript: Invalid UpdateDate format "${t}" at index ${i}, skipping.`);
+
+                const dateStr = record.date.toString();
+                // 验证日期格式：14位数字 YYYYMMDDHHMMSS
+                if (dateStr.length !== 14 || !/^\d+$/.test(dateStr)) {
+                    console.warn(`第 ${i + 1} 条记录的日期格式无效: "${dateStr}"，已跳过。`);
                     continue;
                 }
-                
+
                 // 解析日期时间
-                const year = t.substring(0, 4);
-                const month = t.substring(4, 6);
-                const day = t.substring(6, 8);
-                const hour = t.substring(8, 10);
-                const minute = t.substring(10, 12);
-                const second = t.substring(12, 14);
-                
-                console.log(`第 ${i + 1} 次提交记录于 ${year} 年 ${month} 月 ${day} 日 ${hour} 时 ${minute} 分 ${second} 秒。`);
+                const year = dateStr.substring(0, 4);
+                const month = dateStr.substring(4, 6);
+                const day = dateStr.substring(6, 8);
+                const hour = dateStr.substring(8, 10);
+                const minute = dateStr.substring(10, 12);
+                const second = dateStr.substring(12, 14);
+
+                // 格式化输出
+                console.log(
+                    `[版本 ${record.version}] ${year}-${month}-${day} ${hour}:${minute}:${second}\n` +
+                    `  描述：${record.description}`
+                );
             }
+
+            console.log(`=== 以上是全部 ${data.length} 条记录 ===`);
         },
         error: function(xhr, status, error) {
             console.error('Custom Javascript: Failed to fetch site status.', {
@@ -183,10 +188,11 @@ function siteStatus() {
                 error: error,
                 url: this.url
             });
+            // 可选：在页面显示友好的错误提示
+            // $('#status-message').text('状态信息加载失败，请稍后重试。');
         }
     });
 }
-
 
 // function siteStatus()
 // {
