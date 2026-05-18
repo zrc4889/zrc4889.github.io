@@ -6,7 +6,7 @@
   <link href="https://zrc4889.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrc4889.github.io/"/>
-  <updated>2026-05-17T06:47:57.799Z</updated>
+  <updated>2026-05-17T08:28:47.330Z</updated>
   <id>https://zrc4889.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>仍往不测之既知</title>
+    <link href="https://zrc4889.github.io/p/9145/"/>
+    <id>https://zrc4889.github.io/p/9145/</id>
+    <published>2025-11-08T03:53:37.000Z</published>
+    <updated>2026-05-17T08:28:47.330Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天是 2025 年 11 月 8 日。吃下流感特效药，我稍微舒服了一点。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="StageⅥ" scheme="https://zrc4889.github.io/categories/Stage%E2%85%A5/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>探访忘却的时间宇宙</title>
@@ -80,23 +97,6 @@
     
     
     <category term="冬日之心Ⅱ" scheme="https://zrc4889.github.io/categories/%E5%86%AC%E6%97%A5%E4%B9%8B%E5%BF%83%E2%85%A1/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>THINK</title>
-    <link href="https://zrc4889.github.io/p/2d82/"/>
-    <id>https://zrc4889.github.io/p/2d82/</id>
-    <published>2024-08-01T08:57:31.496Z</published>
-    <updated>2026-05-17T06:47:35.964Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;本文&lt;sup id=&quot;fnref:19&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:19&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top hint--rounded&quot; aria-label=&quot;本文自发布于此以来。2024年12月31日重新修订并添加注释。&quot;&gt;[19]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;收录了原洛谷博客 THINK 专栏的部分和谐后博文。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="旧梦酣甜" scheme="https://zrc4889.github.io/categories/%E6%97%A7%E6%A2%A6%E9%85%A3%E7%94%9C/"/>
     
     
   </entry>
